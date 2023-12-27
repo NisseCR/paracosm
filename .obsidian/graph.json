@@ -8,28 +8,63 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#settlement  ",
+      "query": "tag:#session tag:#AAO  ",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 8605262
       }
     },
     {
       "query": "tag:#pc  ",
       "color": {
         "a": 1,
-        "rgb": 7848957
+        "rgb": 6469881
+      }
+    },
+    {
+      "query": "tag:#pc",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "tag:#god tag:#divine  ",
+      "color": {
+        "a": 1,
+        "rgb": 14666077
+      }
+    },
+    {
+      "query": "tag:#settlement  ",
+      "color": {
+        "a": 1,
+        "rgb": 15283509
+      }
+    },
+    {
+      "query": "tag:#landmark  ",
+      "color": {
+        "a": 1,
+        "rgb": 15283509
+      }
+    },
+    {
+      "query": "tag:#region  ",
+      "color": {
+        "a": 1,
+        "rgb": 15283509
       }
     },
     {
       "query": "tag:#npc  ",
       "color": {
         "a": 1,
-        "rgb": 11392604
+        "rgb": 6469881
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1,
@@ -39,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7057738815107816,
+  "scale": 0.41452030108178306,
   "close": true
 }

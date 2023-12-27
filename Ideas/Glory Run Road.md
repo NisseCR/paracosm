@@ -1,6 +1,5 @@
 ---
 aliases: 
 tags:
-  - npc
-  - divine
+  - road
 ---

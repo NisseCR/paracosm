@@ -172,8 +172,8 @@ As Lorn spawns in the [[Prime Material]], the butterflies in the [[Bottled Paria
 
 She will drop the bottle and attempt to flee.
 
+The ashes body of [[Lorn]] will walk through the portal before crumbling onto the ground. From his hand, the [[Oblivion Stone]] will drop.
 ### Arrival of [[Mynark]]
-
 With [[Mynark]]'s arrival, the possibly dead [[Leoric Lynn|Leoric]] might turn undead and join the [[Savalir Rot]].
 
 # Retrospective
