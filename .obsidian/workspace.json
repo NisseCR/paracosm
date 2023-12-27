@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "88cad544380b5a60",
+        "id": "16af045f92509561",
         "type": "tabs",
         "children": [
           {
-            "id": "91d653bb733c9498",
+            "id": "3f696af6766e5dff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
+                "file": "Ideas/The Rites of Ascension.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
+                "file": "Ideas/The Rites of Ascension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
+                "file": "Ideas/The Rites of Ascension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md"
+                "file": "Ideas/The Rites of Ascension.md"
               }
             }
           }
@@ -145,41 +145,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91d653bb733c9498",
+  "active": "3f696af6766e5dff",
   "lastOpenFiles": [
-    "TTRPG Stories/Lore/History of Exandria/The Founding.md",
+    "a/worlds/clmpajyuyzk4e0842gl2s7otx/clmpzw2x70025033cu2jzcaro.md",
+    "Ideas/The Rites of Ascension.md",
     "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
-    "TTRPG Stories/Lore/Myths & Legends/Prime Deities.md",
-    "TTRPG Stories/Lore/Myths & Legends/Primordials.md",
+    "a/worlds/clmpajyuyzk4e0842gl2s7otx/clmq0zrg3008r033cylzufxhf.md",
+    "a/worlds/clmpajyuyzk4e0842gl2s7otx",
+    "a/worlds",
+    "a",
+    "External/Attachments/Rites of Ascension.jpg",
     "TTRPG Stories/Lore/Magic/Arcane Magic.md",
     "TTRPG Stories/Lore/Magic/Divine Magic.md",
     "TTRPG Stories/Lore/Magic/Primal Magic.md",
+    "TTRPG Stories/Lore/Myths & Legends/Prime Deities.md",
+    "TTRPG Stories/Lore/Myths & Legends/Primordials.md",
     "TTRPG Stories/Lore/Myths & Legends/Founders.md",
-    "TTRPG Stories/Atlas/Outer Planes/Abyss/Abyss.md",
-    "TTRPG Stories/Lore/Ancestries/Archons.md",
+    "TTRPG Stories/Lore/Myths & Legends/Dragons Metallic.md",
+    "TTRPG Stories/Lore/Myths & Legends/Children of Creation.md",
+    "TTRPG Stories/Lore/History of Exandria/The Founding.md",
+    "TTRPG Stories/Lore/History of Exandria/The Calamity.md",
+    "TTRPG Stories/Lore/History of Exandria/The Age of Arcanum.md",
     "TTRPG Stories/Lore/Ancestries/Devils.md",
     "TTRPG Stories/Lore/Ancestries/Demons.md",
-    "TTRPG Stories/Lore/Myths & Legends/Children of Creation.md",
-    "TTRPG Stories/Lore/Myths & Legends/Dragons Metallic.md",
+    "TTRPG Stories/Lore/Ancestries/Archons.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Arev Zanzar.md",
+    "TTRPG Stories/Campaigns/Tales of the Divine Conundrum/Plots",
+    "TTRPG Stories/Campaigns/Tales of the Divine Conundrum/Session Notes",
+    "TTRPG Stories/Campaigns/Tales of the Divine Conundrum/Player Characters",
+    "README.md",
+    "External/Attachments/Children of Creation.jpg",
+    "External/Attachments/Age of Arcanum.jpg",
+    "TTRPG Stories/Lore/History of Exandria/Timeline of Exandria.md",
+    "TTRPG Stories/Lore/Timeline.md",
+    "External/Attachments/Prime Deities and the Betrayer Gods.jpg",
+    "External/Attachments/Pasted image 20231227163132.jpg",
+    "TTRPG Stories/Atlas/Prime/Exandria/Issylra/Vasselheim.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Issylra",
+    "TTRPG Stories/Atlas/Outer Planes/Abyss/Abyss.md",
     "TTRPG Stories/Lore/Ancestries",
     "TTRPG Stories/Atlas/Outer Planes/Abyss",
     "Ideas/World Soul.md",
     "TTRPG Stories/Lore/Magic",
-    "TTRPG Stories/Lore/Myths & Legends",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Arev Zanzar.md",
-    "TTRPG Stories/Lore/Life",
     "External/Attachments/Titans.jpeg",
-    "External/Attachments",
-    "Ideas/Test.md",
-    "External/Plugins",
-    "External",
-    "Ideas",
-    "TTRPG Stories/Lore/History of Exandria",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Skye.md",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Richard Morningwood.md",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/eve.md",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Baern.md",
-    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Geography.md",
-    "Welcome.md"
+    "Ideas/Test.md"
   ]
 }

@@ -1,7 +1,6 @@
 ---
-aliases:
-  - Divine Magics
+aliases: 
 tags:
   - magic
-  - divinity
+  - divine
 ---
