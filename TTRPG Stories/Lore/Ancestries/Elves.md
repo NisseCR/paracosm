@@ -1,5 +1,7 @@
 ---
-aliases: 
+aliases:
+  - elven
+  - Elf
 tags:
   - "#ancestry"
 ---

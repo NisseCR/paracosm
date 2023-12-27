@@ -1,5 +1,7 @@
 ---
-aliases: 
+aliases:
+  - dwarven
+  - Dwarf
 tags:
   - "#ancestry"
 ---

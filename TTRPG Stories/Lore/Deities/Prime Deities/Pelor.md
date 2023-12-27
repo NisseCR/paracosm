@@ -6,7 +6,7 @@ tags:
   - god
 ---
 ![[Pelor E.png]]
-Pelor rules over sun and summer, his vigil encircling the ages as the keeper of time. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and most common folk, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, the Dawn Father is often the patron of paladins and rangers who follow a similar creed. He is also known for his defeat of [[The Chained Oblivion]] and is revered by those who hunt aberrations.
+Pelor rules over sun and summer, his vigil encircling the ages as the keeper of time. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and most common folk, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, the Dawn Father is often the patron of paladins and rangers who follow a similar creed. He is also known for his defeat of [[Tharizdun]] and is revered by those who hunt aberrations.
 
 Pelor is often found within the [[Fortress of the Sun]], a shining, golden citadel that brings vibrant life to the limitless orchards of the Blessed Fields of [[Elysium]].
 ## Depiction

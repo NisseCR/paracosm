@@ -11,7 +11,7 @@ The devil god of the Hells is the master of tyranny and domination. His words ar
 
 Asmodeus lords over his fiendish hordes from within his fortress of Nalsheem, nestled in the depths of [[Nessus]], the ninth and deepest of the [[Nine Hells]].
 ## Depiction
-A twisted image of the celestial blood that once bore him, the Lord of the Nine Hells is revealed in many tomes and murals as a handsome humanoid with deep, red skin and long, black hair. Two curling horns rise from his brow, and his lips bear an eternal, knowing grin.
+A twisted image of the celestial blood that once bore him, the Lord of [[the Nine Hells]] is revealed in many tomes and murals as a handsome humanoid with deep, red skin and long, black hair. Two curling horns rise from his brow, and his lips bear an eternal, knowing grin.
 ## Enemies
 Asmodeus's enemies are numerous, even among the [[Betrayer Gods]], many of whom only follow the archdevil for fear of his immense power. His archnemesis is [[Avandra]], the Change Bringer, whose mischief and cunning has vexed him throughout the aeons. It was she who defeated him in [[The Calamity]] by tricking his fiendish armies into attacking one another. The Devil Lord's greatest triumph during the Calamity was fooling and betraying [[Raei|The Everlight]] and slaughtering all her followers in one fell stroke—an act that has united the followers of Raei and Avandra in a bond of unbreakable fellowship ever since.
 ## Commandments

@@ -6,7 +6,7 @@ tags:
   - god
 ---
 ![[Ioun E.png]]
-Revered by seers, sages, and teachers of all walks of life, Ioun guided the growth of civilisation throughout [[The Age of Arcanum]] like sunlight guides the branches of a tree. Grievously wounded by [[The Chained Oblivion]] during [[The Calamity]], her followers are now hunted by agents of her ancient foes as she recovers. Her devout now worship in private, spreading knowledge, philosophy, and lore anonymously through traceless channels.
+Revered by seers, sages, and teachers of all walks of life, Ioun guided the growth of civilisation throughout [[The Age of Arcanum]] like sunlight guides the branches of a tree. Grievously wounded by [[Tharizdun]] during [[The Calamity]], her followers are now hunted by agents of her ancient foes as she recovers. Her devout now worship in private, spreading knowledge, philosophy, and lore anonymously through traceless channels.
 
 Ioun sits among the infinite library that fills the hidden realm of the [[Endless Athenaeum]], her celestial servants cataloguing all known things as she inspires those who pray for her insight and guidance.
 ## Depiction

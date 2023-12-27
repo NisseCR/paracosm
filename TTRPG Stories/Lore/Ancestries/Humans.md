@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - Human
 tags:
   - "#ancestry"
 ---

@@ -6,7 +6,7 @@ tags:
   - god
 ---
 ![[Moradin E.png]]
-Moradin is worshiped by smiths, artisans, and miners alike, granting inspiration in exchange for respect and prayer. He shaped the mountains from the chaos of [[The Founding]], and stands as the patron protector of home and family. The devotion to the All-Hammer is strongest in dwarven communities, and many temples to Moradin mark the centre of a mighty dwarven stronghold.
+Moradin is worshiped by smiths, artisans, and miners alike, granting inspiration in exchange for respect and prayer. He shaped the mountains from the chaos of [[The Founding]], and stands as the patron protector of home and family. The devotion to the All-Hammer is strongest in [[Dwarves|dwarven]] communities, and many temples to Moradin mark the centre of a mighty dwarven stronghold.
 
 Moradin lords over the soul forges within the massive tunnelled mansion of [[Erackinor]], deep beneath the slopes of [[Solonia]] on the plane of [[Mount Celestia|Celestia]].
 ## Depiction

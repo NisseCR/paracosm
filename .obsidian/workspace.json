@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "46b92d1eb625432d",
+        "id": "13d6e74218c68e85",
         "type": "tabs",
         "children": [
           {
-            "id": "f5705c2c13a0529e",
+            "id": "56544657eda0ee2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
+                "file": "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
+                "file": "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
+                "file": "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md"
+                "file": "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 1.md"
               }
             }
           }
@@ -145,53 +145,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5705c2c13a0529e",
+  "active": "56544657eda0ee2c",
   "lastOpenFiles": [
-    "TTRPG Stories/Lore/Deities/Betrayer Gods/Asmodeus.md",
-    "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
+    "Ideas/Savalir Rot.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 1.md",
+    "TTRPG Stories/Lore/NPC's/Leoric Lynn.md",
+    "Ideas/Leoric.md",
+    "Ideas/Soulgate.md",
+    "TTRPG Stories/Lore/Languages/Thieves Cant.md",
+    "TTRPG Stories/Lore/Languages",
+    "TTRPG Stories/Lore/Languages.md",
     "TTRPG Stories/Lore/Myths & Legends/Spirits.md",
-    "TTRPG Stories/Atlas/Outer Planes/Nine Hells/Nessus.md",
-    "TTRPG Stories/Lore/Cosmology/Astral Plane.md",
-    "TTRPG Stories/Lore/Cosmology/Nine Hells.md",
-    "TTRPG Stories/Atlas/Outer Planes/Nine Hells/Nalsheem.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Shadycreek Run.md",
+    "TTRPG Stories/Lore/Factions/Trebain Family.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Kamordah.md",
+    "TTRPG Stories/Lore/NPC's/Archibald.md",
+    "TTRPG Stories/Lore/NPC's/Astryn.md",
+    "TTRPG Stories/Lore/NPC's/Halas Lutagran.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Richard.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Arev.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Baern.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/eve.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Skye.md",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Zael.md",
+    "TTRPG Stories/Lore/Factions/Righteous Brand.md",
+    "TTRPG Stories/Lore/Factions/Dwendalian Empire.md",
+    "TTRPG Stories/Lore/NPC's/King Bertrand Dwendal.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Dunrock Mountains.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas/Ashkeeper Peaks.md",
+    "Templates/Session Notes.md",
+    "TTRPG Stories/Lore/Artefacts",
+    "External/Attachments/Tharizdun E.png",
+    "TTRPG Stories/Atlas/Outer Planes/Abyss",
+    "External/Attachments/Lolth E.png",
+    "External/Attachments/Gruumsh E.png",
+    "TTRPG Stories/Lore/NPC's",
+    "TTRPG Stories/Atlas/Prime/Exandria/Tal'Dorei",
+    "TTRPG Stories/Atlas/Outer Planes/Acheron",
+    "External/Attachments/Bane E.png",
     "TTRPG Stories/Atlas/Outer Planes/Nine Hells",
     "External/Attachments/Asmodeus E.png",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Sehanine.md",
-    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Pearlbow Wilderness.md",
-    "TTRPG Stories/Lore/Cosmology/Arborea.md",
-    "Ideas/Castim Nelpharos.md",
     "External/Attachments/Sehanine E.png",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Raven Queen.md",
-    "TTRPG Stories/Lore/Calendar/Holy Days/Night of Ascension.md",
-    "TTRPG Stories/Lore/Calendar/Holy Days/Spirit's Eve.md",
-    "TTRPG Stories/Lore/Factions/Kryn Dynasty.md",
-    "TTRPG Stories/Lore/Cosmology/Shadowfell.md",
-    "TTRPG Stories/Atlas/Inner Planes/Shadowfell/Letherna.md",
     "External/Attachments/Raven E.png",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Raei.md",
-    "TTRPG Stories/Atlas/Outer Planes/Elysium/Island of Renewal.md",
     "External/Attachments/Raei.jpg",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Avandra.md",
     "External/Attachments/Raei E.png",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Pelor.md",
-    "TTRPG Stories/Lore/Calendar/Holy Days/Highsummer.md",
-    "TTRPG Stories/Atlas/Outer Planes/Elysium/Fortress of the Sun.md",
     "TTRPG Stories/Atlas/Outer Planes/Elysium",
-    "TTRPG Stories/Lore/Cosmology/Elysium.md",
     "External/Attachments/Pelor E.png",
-    "Templates/NPC.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Moradin.md",
     "TTRPG Stories/Atlas/Outer Planes/Mount Celestia/Solonia",
-    "TTRPG Stories/Atlas/Outer Planes/Mount Celestia",
-    "External/Attachments/Moradin E.png",
-    "TTRPG Stories/Atlas/Outer Planes/Arborea",
-    "External/Attachments/Melora E.png",
-    "TTRPG Stories/Atlas/Outer Planes/Ysgard",
-    "External/Attachments/Kord E.png",
-    "External/Attachments/Ioun E.png",
-    "TTRPG Stories/Atlas/Astral",
-    "TTRPG Stories/Lore/Factions",
-    "Templates",
-    "TTRPG Stories/Lore/Calendar/Holy Days"
+    "TTRPG Stories/Atlas/Outer Planes/Mount Celestia"
   ]
 }

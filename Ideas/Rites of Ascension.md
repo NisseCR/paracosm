@@ -4,6 +4,7 @@ aliases:
   - Matron's Ritual
 tags:
   - "#primordial"
+  - divine
 ---
 ![[Rites of Ascension.jpg]]
 

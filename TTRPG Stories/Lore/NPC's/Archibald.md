@@ -1,0 +1,6 @@
+---
+aliases:
+  - Archibald
+tags:
+  - npc
+---

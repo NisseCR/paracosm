@@ -1,0 +1,6 @@
+---
+aliases: 
+tags:
+  - "#primordial"
+  - legend
+---
