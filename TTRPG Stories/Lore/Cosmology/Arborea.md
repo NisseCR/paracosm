@@ -1,0 +1,6 @@
+---
+aliases:
+  - Beastlands
+tags:
+  - realm
+---

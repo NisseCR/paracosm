@@ -12,7 +12,7 @@ Kord dwells among the roving settlements and battlefields within the rugged and 
 ## Depiction
 Within his temples, Kord is shown as a quintessential warrior, often nude with a beard and short, curled hair. As the epitome of muscle and strength, most art depicts the Storm Lord in a stance of dominance, and perhaps wrestling a terrible beast.
 ## Holy Day
-Kord's holy day is the [[Day of Challenging]], which is celebrated on the seventh day of the second month. The Day of Challenging is one of the most raucous holidays in [[Port Damali]], and thousands of spectators attend the annual Godsbrawl held in the Temple of Kord to root for their favoured deity's champion, particularly the chosen champions of the Storm Lord and the All-Hammer.
+Kord's holy day is the [[Day of Challenging]], which is celebrated on the seventh day of the second month. The Day of Challenging is one of the most raucous holidays in [[Port Damali]], and thousands of spectators attend the annual Godsbrawl held in the Temple of Kord to root for their favoured deity's champion, particularly the chosen champions of the Storm Lord and [[Moradin|the All-Hammer]].
 ## Commandments
 - Bravery above all. There is no glory in cowardice.
 - Strength is the path to greatness, but greatness is the responsible use of strength.

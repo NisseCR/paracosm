@@ -1,0 +1,1 @@
+Sickness meant for not-[[spirits]]. Symptoms are green irises.

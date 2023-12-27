@@ -1,0 +1,6 @@
+---
+aliases:
+  - Hells
+tags:
+  - realm
+---

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Celestia
+  - Blessed Fields
 tags:
   - "#realm"
 ---

@@ -1,6 +1,6 @@
 ---
-aliases:
-  - Celestia
+aliases: 
 tags:
   - "#realm"
 ---
+![[Raei.jpg]]

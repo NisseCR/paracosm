@@ -8,7 +8,7 @@ tags:
 ![[Erathis E.png]]
 The inspiration behind many great inventions, the creation of vast cities, and law and order within society, Erathis claims dominion over civilization. Judges and rulers pay respect at her temples, which are central structures in many cities across Exandria. Peace and order through structure and law guides the will of her devout followers. The Law Bearer has a tempestuous romance with [[Melora]] the Wild Mother, a furious love that is tempered only when civilization and nature are in balance.
 
-Erathis resides within the glorious divine metropolis of [[Hestavar]], the Bright City. This glowing oasis coasts through the [[The Astral Plane]], as the Law Bearer watches over the denizens bathed in the endless daytime that illuminates the busy streets.
+Erathis resides within the glorious divine metropolis of [[Hestavar]], the Bright City. This glowing oasis coasts through the [[Astral Plane]], as the Law Bearer watches over the denizens bathed in the endless daytime that illuminates the busy streets.
 ## Depiction
 Erathis is shown in most texts and statues as a hooded, armoured woman sitting atop a throne of pillars. Her face is generally obscured or depicted without expression, giving her presence an impartial yet imposing nature.
 ## Holy Day

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1a10ea464da12c3a",
+        "id": "46b92d1eb625432d",
         "type": "tabs",
         "children": [
           {
-            "id": "4a7d126de6addec1",
+            "id": "f5705c2c13a0529e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Prime Deities/Kord.md",
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:timeline",
+                "query": "mount ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Prime Deities/Kord.md",
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Prime Deities/Kord.md",
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTRPG Stories/Lore/Deities/Prime Deities/Kord.md"
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md"
               }
             }
           }
@@ -145,53 +145,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a7d126de6addec1",
+  "active": "f5705c2c13a0529e",
   "lastOpenFiles": [
-    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Menagerie Coast/Port Damali.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Kord.md",
-    "TTRPG Stories/Lore/Calendar/Holy Days/Day of Challenging.md",
-    "TTRPG Stories/Lore/Cosmology/Ysgard.md",
-    "TTRPG Stories/Lore/Cosmology/Abyss.md",
-    "TTRPG Stories/Lore/Cosmology/Outer Planes.md",
-    "TTRPG Stories/Lore/Cosmology/Mount Celestia.md",
-    "TTRPG Stories/Lore/Cosmology/Inner Planes.md",
-    "TTRPG Stories/Lore/Cosmology/Endless Athenaeum.md",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Asmodeus.md",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Bane.md",
+    "TTRPG Stories/Lore/Myths & Legends/Spirits.md",
+    "TTRPG Stories/Atlas/Outer Planes/Nine Hells/Nessus.md",
+    "TTRPG Stories/Lore/Cosmology/Astral Plane.md",
+    "TTRPG Stories/Lore/Cosmology/Nine Hells.md",
+    "TTRPG Stories/Atlas/Outer Planes/Nine Hells/Nalsheem.md",
+    "TTRPG Stories/Atlas/Outer Planes/Nine Hells",
+    "External/Attachments/Asmodeus E.png",
+    "TTRPG Stories/Lore/Deities/Prime Deities/Sehanine.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Pearlbow Wilderness.md",
+    "TTRPG Stories/Lore/Cosmology/Arborea.md",
+    "Ideas/Castim Nelpharos.md",
+    "External/Attachments/Sehanine E.png",
+    "TTRPG Stories/Lore/Deities/Prime Deities/Raven Queen.md",
+    "TTRPG Stories/Lore/Calendar/Holy Days/Night of Ascension.md",
+    "TTRPG Stories/Lore/Calendar/Holy Days/Spirit's Eve.md",
+    "TTRPG Stories/Lore/Factions/Kryn Dynasty.md",
+    "TTRPG Stories/Lore/Cosmology/Shadowfell.md",
+    "TTRPG Stories/Atlas/Inner Planes/Shadowfell/Letherna.md",
+    "External/Attachments/Raven E.png",
+    "TTRPG Stories/Lore/Deities/Prime Deities/Raei.md",
+    "TTRPG Stories/Atlas/Outer Planes/Elysium/Island of Renewal.md",
+    "External/Attachments/Raei.jpg",
+    "TTRPG Stories/Lore/Deities/Prime Deities/Avandra.md",
+    "External/Attachments/Raei E.png",
+    "TTRPG Stories/Lore/Deities/Prime Deities/Pelor.md",
+    "TTRPG Stories/Lore/Calendar/Holy Days/Highsummer.md",
+    "TTRPG Stories/Atlas/Outer Planes/Elysium/Fortress of the Sun.md",
+    "TTRPG Stories/Atlas/Outer Planes/Elysium",
+    "TTRPG Stories/Lore/Cosmology/Elysium.md",
+    "External/Attachments/Pelor E.png",
+    "Templates/NPC.md",
+    "TTRPG Stories/Lore/Deities/Prime Deities/Moradin.md",
+    "TTRPG Stories/Atlas/Outer Planes/Mount Celestia/Solonia",
+    "TTRPG Stories/Atlas/Outer Planes/Mount Celestia",
+    "External/Attachments/Moradin E.png",
+    "TTRPG Stories/Atlas/Outer Planes/Arborea",
+    "External/Attachments/Melora E.png",
     "TTRPG Stories/Atlas/Outer Planes/Ysgard",
     "External/Attachments/Kord E.png",
-    "Ideas/Rites of Ascension.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Raven Queen.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Erathis.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Ioun.md",
-    "TTRPG Stories/Lore/Factions/Cobalt Soul.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Melora.md",
-    "TTRPG Stories/Lore/Deities/Betrayer Gods/The Chained Oblivion.md",
-    "TTRPG Stories/Lore/History of Exandria/The Age of Arcanum.md",
     "External/Attachments/Ioun E.png",
-    "TTRPG Stories/Lore/Calendar/Holy Days/Civilisation's Day.md",
-    "TTRPG Stories/Atlas/Astral/Hestavar.md",
-    "TTRPG Stories/Lore/Cosmology/The Astral Plane.md",
     "TTRPG Stories/Atlas/Astral",
-    "External/Attachments/Erathis E.png",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Corellon.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Avandra.md",
-    "TTRPG Stories/Lore/Deities/Prime Deities/Bahamut.md",
-    "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Bysaes Tyl.md",
-    "Templates/Settlement.md",
-    "Ideas/Dwendalian Empire.md",
     "TTRPG Stories/Lore/Factions",
-    "External/Attachments/Corellon E.png",
-    "External/Attachments/Bahamut E.png",
     "Templates",
-    "TTRPG Stories/Lore/Calendar/Holy Days",
-    "TTRPG Stories/Lore/Calendar",
-    "TTRPG Stories/Lore/Cosmology",
-    "External/Attachments/Avandra E.png",
-    "TTRPG Stories/Lore/Deities/Betrayer Gods",
-    "TTRPG Stories/Lore/Deities/Prime Deities",
-    "TTRPG Stories/Lore/Planes of Existence",
-    "External/Attachments/Rites of Ascension.jpg",
-    "External/Attachments/Children of Creation.jpg",
-    "External/Attachments/Age of Arcanum.jpg",
-    "External/Attachments/Prime Deities and the Betrayer Gods.jpg"
+    "TTRPG Stories/Lore/Calendar/Holy Days"
   ]
 }
