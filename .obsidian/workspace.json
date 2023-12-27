@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TTRPG Stories/Lore/History of Exandria/The Founding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcdba3c32f8dc5ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTRPG Stories/Lore/History of Exandria/The Founding.md",
+                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,11 +85,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTRPG Stories/Lore/History of Exandria/The Founding.md",
+                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTRPG Stories/Lore/History of Exandria/The Founding.md",
+                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTRPG Stories/Lore/History of Exandria/The Founding.md"
+                "file": "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md"
               }
             }
           }
@@ -158,10 +145,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcdba3c32f8dc5ea",
+  "active": "91d653bb733c9498",
   "lastOpenFiles": [
-    "TTRPG Stories/Lore/Life/Primordials.md",
     "TTRPG Stories/Lore/History of Exandria/The Founding.md",
+    "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
+    "TTRPG Stories/Lore/Myths & Legends/Prime Deities.md",
+    "TTRPG Stories/Lore/Myths & Legends/Primordials.md",
+    "TTRPG Stories/Lore/Magic/Arcane Magic.md",
+    "TTRPG Stories/Lore/Magic/Divine Magic.md",
+    "TTRPG Stories/Lore/Magic/Primal Magic.md",
+    "TTRPG Stories/Lore/Myths & Legends/Founders.md",
+    "TTRPG Stories/Atlas/Outer Planes/Abyss/Abyss.md",
+    "TTRPG Stories/Lore/Ancestries/Archons.md",
+    "TTRPG Stories/Lore/Ancestries/Devils.md",
+    "TTRPG Stories/Lore/Ancestries/Demons.md",
+    "TTRPG Stories/Lore/Myths & Legends/Children of Creation.md",
+    "TTRPG Stories/Lore/Myths & Legends/Dragons Metallic.md",
+    "TTRPG Stories/Lore/Ancestries",
+    "TTRPG Stories/Atlas/Outer Planes/Abyss",
+    "Ideas/World Soul.md",
+    "TTRPG Stories/Lore/Magic",
+    "TTRPG Stories/Lore/Myths & Legends",
+    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Arev Zanzar.md",
     "TTRPG Stories/Lore/Life",
     "External/Attachments/Titans.jpeg",
     "External/Attachments",
@@ -171,13 +176,8 @@
     "Ideas",
     "TTRPG Stories/Lore/History of Exandria",
     "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Skye.md",
-    "TTRPG Stories/Lore/Deities",
-    "TTRPG Stories/Lore",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Plots",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes",
     "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Richard Morningwood.md",
     "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/eve.md",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Arev Zanzar.md",
     "TTRPG Stories/Campaigns/An Author's Oblivion/Player Characters/Baern.md",
     "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Geography.md",
     "Welcome.md"
