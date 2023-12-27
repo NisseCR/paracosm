@@ -1,0 +1,6 @@
+---
+aliases:
+  - Midsummer
+tags:
+  - "#event"
+---
