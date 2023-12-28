@@ -11,20 +11,20 @@
             "id": "fc294b1e417160dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "1a511b86f50c14b7",
+            "id": "c8d056f057342ba9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Stories/Lore/Deities/Prime Deities/Bahamut.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,53 +161,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a511b86f50c14b7",
+  "active": "fc294b1e417160dd",
   "lastOpenFiles": [
     "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
+    "Stories/Atlas/Outer Planes/Bytopia/Bytopia.md",
+    "Stories/Atlas/Outer Planes/Arcadia/Arcadia.md",
+    "Stories/Atlas/Outer Planes/Bytopia",
+    "Stories/Atlas/Outer Planes/Arcadia",
+    "Stories/Lore/Myths & Legends/Jazirian.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Untitled.md",
     "Ideas/Silver Sea.md",
-    "Ideas/Great Wheel Cosmology.md",
-    "External/Attachments/Endless Mountain.jpg",
-    "Stories/Atlas/Outer Planes/Nine Hells/The Nine Hells.md",
-    "Stories/Atlas/Outer Planes/Ysgard",
-    "Templates/Session Notes.md",
-    "Stories/Atlas/Outer Planes/Carceri",
-    "Stories/Lore/History of Exandria/The Founding.md",
-    "Ideas/Nine Hells.md",
-    "Stories/Lore/NPC's/Astryn.md",
-    "Stories/Lore/NPC's/Aeon.md",
-    "Stories/Atlas/Inner Planes/Feywild/Plenty-titled Wastes.md",
+    "Ideas/Soulgate.md",
     "Stories/Lore/History of Exandria/The Age of Arcanum.md",
+    "Stories/Lore/NPC's/Vecna the Whispered One.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Uroboros.md",
+    "Stories/Lore/Deities/Prime Deities/Bahamut.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Chronias.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Jovar.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Venya.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Mertion.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Solania.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Mercuria.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Lunia.md",
+    "External/Attachments/Snow View.jpg",
+    "External/Attachments/Journey.jpg",
+    "Stories/Lore/Ancestries/Warden Archons.md",
+    "Stories/Lore/Ancestries/Archons.md",
+    "Stories/Lore/Ancestries/Chromatic Dragons.md",
+    "Stories/Lore/Ancestries/Tome Archons.md",
+    "Stories/Lore/Ancestries/Orcs.md",
+    "Stories/Lore/Ancestries/Hound Archons.md",
+    "Stories/Lore/Ancestries/Lantern Archons.md",
+    "External/Attachments/Endless Mountain.jpg",
+    "Stories/Atlas/Outer Planes/Ysgard",
+    "Stories/Atlas/Outer Planes/Carceri",
     "External/Attachments/Aeon 2.jpg",
-    "Stories/Lore/Ancestries/Draugh.md",
-    "Stories/Lore/NPC's/Maple.md",
     "External/Attachments/Weary traveler.jpg",
     "External/Attachments/Wanderer.jpg",
-    "Templates/NPC.md",
     "External/Attachments/arcanist.jpg",
     "External/Attachments/Astryn Full.jpg",
-    "Ideas/Rites of Ascension.md",
-    "Stories/Lore/Deities/Prime Deities/Raven Queen.md",
-    "Stories/Lore/Deities/Betrayer Gods/Vecna.md",
-    "Stories/Lore/Deities/Betrayer Gods/Zehir.md",
-    "Stories/Atlas/Astral/Towers of Night.md",
-    "Stories/Atlas/Astral/Astral Plane.md",
     "External/Attachments/Zehir E.png",
-    "Stories/Lore/Magic/Necromancy.md",
-    "Stories/Lore/Magic/Divine Magic.md",
-    "Stories/Lore/Magic/Arcane Magic.md",
     "External/Attachments/Vecna E.png",
-    "Stories/Lore/Deities/Betrayer Gods/Torog.md",
-    "Stories/Atlas/Prime/Exandria/Underdark/Underdark.md",
     "Stories/Atlas/Prime/Exandria/Underdark",
-    "TTRPG Stories/Campaigns/Tales of the Divine Conundrum/Session Notes/Session 69.md",
     "Stories/Campaigns/Tales of the Divine Conundrum/Session Notes",
-    "External/Attachments/Torog E.png",
-    "External/Attachments/Tiamat E.png",
     "Stories/Lore/Languages",
     "Stories/Lore/Artefacts",
     "Stories/Atlas/Outer Planes/Abyss",
-    "Stories/Lore/NPC's",
-    "Stories/Atlas/Prime/Exandria/Tal'Dorei",
-    "Stories/Atlas/Outer Planes/Acheron"
+    "Stories/Lore/NPC's"
   ]
 }
