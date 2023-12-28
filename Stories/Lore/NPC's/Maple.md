@@ -2,11 +2,9 @@
 aliases: 
 tags:
   - npc
+  - spirit
 ---
-![[arcanist.jpg]]
-
->[!quote]
->_Lorem ipsum._
+![[Weary traveler.jpg]]
 
 Lorem ipsum
 

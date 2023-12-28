@@ -6,4 +6,4 @@ tags:
   - divine
 ---
 
-Sickness meant for not-[[spirits]]. Symptoms are green irises.
+Sickness meant for not-[[Spirits]]. Symptoms are green irises.

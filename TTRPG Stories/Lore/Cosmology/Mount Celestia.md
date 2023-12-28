@@ -1,6 +1,0 @@
----
-aliases:
-  - Celestia
-tags:
-  - "#realm"
----
