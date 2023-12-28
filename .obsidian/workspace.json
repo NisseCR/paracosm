@@ -11,8 +11,12 @@
             "id": "ac14ba859770441b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Tiamat.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2ea7ae1570150b2e",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Tiamat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Tiamat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,16 +124,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Tiamat.md"
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -142,6 +147,11 @@
   },
   "active": "ac14ba859770441b",
   "lastOpenFiles": [
+    "TTRPG Stories/Atlas/Outer Planes/Nine Hells/Avernus.md",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Tiamat.md",
+    "TTRPG Stories/Lore/Ancestries/Chromatic Dragons.md",
+    "External/Attachments/Tiamat E.png",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Tharizdun.md",
     "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 2.md",
     "Ideas/Glory Run Road.md",
     "TTRPG Stories/Lore/NPC's/Vespin Chloras.md",
@@ -164,10 +174,6 @@
     "TTRPG Stories/Lore/NPC's/Archibald.md",
     "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
     "Ideas/2023-12-28.md",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 4.md",
-    "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 3.md",
-    "Templates/Ancestry.md",
-    "Templates/Artefact.md",
     "TTRPG Stories/Lore/Languages",
     "TTRPG Stories/Lore/Artefacts",
     "External/Attachments/Tharizdun E.png",
@@ -185,7 +191,6 @@
     "External/Attachments/Raei.jpg",
     "External/Attachments/Raei E.png",
     "TTRPG Stories/Atlas/Outer Planes/Elysium",
-    "External/Attachments/Pelor E.png",
     "TTRPG Stories/Atlas/Outer Planes/Mount Celestia/Solonia",
     "TTRPG Stories/Atlas/Outer Planes/Mount Celestia"
   ]
