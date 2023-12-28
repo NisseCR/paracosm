@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b4b56502c956f307",
+        "id": "1cc960c46ff65386",
         "type": "tabs",
         "children": [
           {
-            "id": "ac14ba859770441b",
+            "id": "228fe4c9fcaaaf0c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Vecna.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "329dcf1b1044d64c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Zehir.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mount ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Zehir.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Zehir.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TTRPG Stories/Lore/Deities/Betrayer Gods/Zehir.md"
+              }
             }
           }
         ]
@@ -137,8 +158,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac14ba859770441b",
+  "active": "329dcf1b1044d64c",
   "lastOpenFiles": [
+    "TTRPG Stories/Atlas/Astral/Towers of Night.md",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Zehir.md",
+    "TTRPG Stories/Lore/Cosmology/Astral Plane.md",
+    "External/Attachments/Zehir E.png",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Vecna.md",
+    "TTRPG Stories/Lore/Magic/Necromancy.md",
+    "TTRPG Stories/Lore/Magic/Divine Magic.md",
+    "TTRPG Stories/Lore/Magic/Arcane Magic.md",
+    "External/Attachments/Vecna E.png",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Torog.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Underdark/Underdark.md",
+    "TTRPG Stories/Atlas/Prime/Exandria/Underdark",
+    "TTRPG Stories/Campaigns/Tales of the Divine Conundrum/Session Notes/Session 69.md",
+    "TTRPG Stories/Campaigns/Tales of the Divine Conundrum/Session Notes",
+    "TTRPG Stories/Lore/Cosmology/Far Realm.md",
+    "TTRPG Stories/Lore/Cosmology/Carceri.md",
+    "External/Attachments/Torog E.png",
+    "TTRPG Stories/Lore/Deities/Betrayer Gods/Tiamat.md",
+    "TTRPG Stories/Lore/Deities/Prime Deities/Kord.md",
     "TTRPG Stories/Lore/History of Exandria/The Calamity.md",
     "Ideas/Divergence.md",
     "TTRPG Stories/Lore/Cosmology/Prime Material.md",
@@ -146,26 +186,12 @@
     "TTRPG Stories/Lore/Myths & Legends/Betrayer Gods.md",
     "TTRPG Stories/Atlas/Prime/Exandria/Wildemount/Wildemount.md",
     "TTRPG Stories/Lore/History of Exandria/The Age of Arcanum.md",
-    "TTRPG Stories/Lore/Deities/Betrayer Gods/Tiamat.md",
     "TTRPG Stories/Atlas/Outer Planes/Nine Hells/Avernus.md",
     "TTRPG Stories/Lore/Ancestries/Chromatic Dragons.md",
     "External/Attachments/Tiamat E.png",
     "TTRPG Stories/Lore/Deities/Betrayer Gods/Tharizdun.md",
     "TTRPG Stories/Campaigns/An Author's Oblivion/Session Notes/Session 2.md",
     "Ideas/Glory Run Road.md",
-    "TTRPG Stories/Lore/NPC's/Vespin Chloras.md",
-    "TTRPG Stories/Lore/NPC's/Vecna the Whispered One.md",
-    "TTRPG Stories/Lore/NPC's/Valnyr.md",
-    "TTRPG Stories/Lore/NPC's/Thanatos.md",
-    "TTRPG Stories/Lore/NPC's/Sorn.md",
-    "TTRPG Stories/Lore/NPC's/Mynark.md",
-    "TTRPG Stories/Lore/NPC's/Miriel.md",
-    "TTRPG Stories/Lore/NPC's/Maya.md",
-    "TTRPG Stories/Lore/NPC's/Maple.md",
-    "TTRPG Stories/Lore/NPC's/Malifera.md",
-    "TTRPG Stories/Lore/NPC's/Lorn.md",
-    "TTRPG Stories/Lore/NPC's/Leoric Lynn.md",
-    "TTRPG Stories/Lore/NPC's/King Imathan Talviel.md",
     "TTRPG Stories/Lore/Languages",
     "TTRPG Stories/Lore/Artefacts",
     "External/Attachments/Tharizdun E.png",
@@ -179,11 +205,6 @@
     "TTRPG Stories/Atlas/Outer Planes/Nine Hells",
     "External/Attachments/Asmodeus E.png",
     "External/Attachments/Sehanine E.png",
-    "External/Attachments/Raven E.png",
-    "External/Attachments/Raei.jpg",
-    "External/Attachments/Raei E.png",
-    "TTRPG Stories/Atlas/Outer Planes/Elysium",
-    "TTRPG Stories/Atlas/Outer Planes/Mount Celestia/Solonia",
-    "TTRPG Stories/Atlas/Outer Planes/Mount Celestia"
+    "TTRPG Stories/Atlas/Outer Planes/Elysium"
   ]
 }
