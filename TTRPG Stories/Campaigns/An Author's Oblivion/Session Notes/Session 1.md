@@ -22,7 +22,7 @@ Find out what is happening with his eye (and it's visions).
 ---
 #### [[Baern]]
 ***Background***
-Baern has been wandering Wildemount together with his newfound friends.
+Baern has been wandering [[Wildemount]] together with his newfound friends.
 
 ***Motivation***
 Drink and fight.
@@ -83,7 +83,7 @@ The players will be able to loot the [[Oblivion Stone]] from [[Lorn]]'s body, as
 >
 >Ebon feathers battling against the rushing air,  it dives through the clouds until eventually beneath it - is revealed... the land of Wildemount.
 
-Describe the land of Wildemount:
+Describe the land of [[Wildemount]]:
 - The snow covered mountains of the [[Ashkeeper Peaks]] bisect the land in two.
 - To the east, lie the desert plains of [[Xhorhas]]. A dry and barren wasteland scarred by [[The Calamity]], an ancient war between gods.
 - Here, lingering abominations and spawns of the  [[Betrayer Gods]] wander the world still - unknowing what to do with their masters now banished.

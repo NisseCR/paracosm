@@ -1,0 +1,6 @@
+---
+aliases:
+  - Wynandir
+tags:
+  - continent
+---
