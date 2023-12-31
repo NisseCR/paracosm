@@ -11,7 +11,7 @@
       "query": "tag:#session tag:#AAO  ",
       "color": {
         "a": 1,
-        "rgb": 8605262
+        "rgb": 15168712
       }
     },
     {
@@ -64,7 +64,7 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1,
@@ -74,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.32445714017561705,
+  "scale": 0.366734333590056,
   "close": true
 }

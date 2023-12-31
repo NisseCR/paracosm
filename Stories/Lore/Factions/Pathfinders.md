@@ -1,0 +1,6 @@
+---
+aliases:
+  - Pathfinder
+tags:
+  - faction
+---

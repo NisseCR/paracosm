@@ -44,6 +44,8 @@ Lastly, [[Jazirian]] resides in [[Uroboros]] on the 4th layer of [[Solania]] as 
 Those who teleport to Celestia with [[Arcane Magic]] will find themselves in the realm of [[Lunia]] at first. Throughout history, there have been no records of mages being able to magically teleport towards higher layers, as is forbidden by the [[Tome Archons]] that rule over each realm. By the law of the realm, one can only climb the mountain by foot.
 
 Traversing the waters of the [[Silver Sea]] in [[Lunia]] may sometimes present planar gateways towards the neighbouring realms of [[Bytopia]] and [[Arcadia]], though these landmarks are hard to spot.
+## Journey
+
 
 
 

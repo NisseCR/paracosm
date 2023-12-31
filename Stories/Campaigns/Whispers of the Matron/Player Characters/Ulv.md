@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Best Friend
+  - Ulv Havenfell
 tags:
   - pc
-  - TotDC
+  - WotM
 ---

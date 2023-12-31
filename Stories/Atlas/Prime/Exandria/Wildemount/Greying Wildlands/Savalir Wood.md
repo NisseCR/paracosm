@@ -1,6 +1,6 @@
 ---
 aliases: 
 tags:
-  - pc
-  - TotDC
+  - region
+  - forest
 ---

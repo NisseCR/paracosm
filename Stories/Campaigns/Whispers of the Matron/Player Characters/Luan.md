@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Best Friend
+  - Luan Laith
 tags:
   - pc
-  - TotDC
+  - WotM
 ---
