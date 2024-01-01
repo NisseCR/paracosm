@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "85e2d6fdd5f690e1",
+        "id": "d80c2f714dd00250",
         "type": "tabs",
         "children": [
           {
-            "id": "0052627dc1fa20b9",
+            "id": "39e46c77d9e993b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2ea7ae1570150b2e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md"
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md"
               }
             }
           }
@@ -133,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,14 +147,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0052627dc1fa20b9",
+  "active": "39e46c77d9e993b2",
   "lastOpenFiles": [
+    "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 1.md",
+    "Stories/Lore/History of Exandria/The Calamity.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 2.md",
+    "Stories/Lore/Factions/Pathfinders.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Glynneath's Fate.md",
+    "External/Attachments/Burned Glynneath.jpg",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
+    "Stories/Lore/NPC's/Toru.md",
+    "Stories/Lore/NPC's/Wind.md",
+    "Stories/Lore/NPC's/Vespin Chloras.md",
+    "External/Attachments/Wind.jpg",
+    "Stories/Lore/NPC's/Mineko.md",
+    "External/Attachments/Mineko Origami.jpg",
+    "External/Attachments/Mineko.jpg",
+    "Stories/Lore/NPC's/Hilda.md",
+    "External/Attachments/Toru.jpg",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Quzhou.md",
+    "External/Attachments/Hilda.jpg",
+    "Stories/Lore/NPC's/Halas Lutagran.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Glynneath.md",
     "Ideas/Silver Sea.md",
     "External/Attachments/arcanist.jpg",
-    "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
-    "Stories/Lore/Factions/Pathfinders.md",
-    "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
-    "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
     "Stories/Atlas/Outer Planes/Mount Celestia/Lunia.md",
     "Stories/Atlas/Outer Planes/Mount Celestia/Mertion.md",
     "Stories/Atlas/Outer Planes/Mount Celestia/Chronias.md",
@@ -162,21 +182,9 @@
     "Stories/Campaigns/Whispers of the Matron/Player Characters/Luan.md",
     "Stories/Campaigns/Whispers of the Matron/Player Characters/Geb.md",
     "Stories/Campaigns/Whispers of the Matron/Player Characters/Gav.md",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters/Faelin.md",
-    "Stories/Campaigns/Tales of the Divine Conundrum/Player Characters/Sitara.md",
     "Stories/Campaigns/Whispers of the Matron/Player Characters",
     "Stories/Campaigns/Whispers of the Matron",
-    "Stories/Campaigns/Tales of the Divine Conundrum/Player Characters/Raife.md",
-    "Stories/Campaigns/Tales of the Divine Conundrum/Player Characters/Elkos.md",
-    "Stories/Campaigns/Tales of the Divine Conundrum/Player Characters/Aalam.md",
-    "Stories/Campaigns/Tales of the Divine Conundrum/Player Characters/Eight.md",
     "External/Attachments/Wanderlost.jpg",
-    "Stories/Lore/NPC's/Nebeus.md",
-    "Stories/Lore/Ancestries/Sword Archons.md",
-    "Stories/Campaigns/An Author's Oblivion/Session Notes/Forges of Creation.md",
-    "Stories/Lore/NPC's/Thanatos.md",
-    "Stories/Campaigns/An Author's Oblivion/Player Characters/Baern.md",
-    "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 1.md",
     "Stories/Atlas/Prime/Exandria/Wildemount/Greying Wildlands",
     "Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas",
     "Stories/Atlas/Prime/Exandria/Wildemount/Menagerie Coast",
@@ -186,12 +194,6 @@
     "Stories/Atlas/Prime/Exandria/Issylra",
     "Stories/Atlas/Prime/Exandria/Tal'Dorei",
     "External/Attachments/Zehir E.png",
-    "External/Attachments/Weary traveler.jpg",
-    "External/Attachments/Wanderer.jpg",
-    "External/Attachments/Vecna E.png",
-    "External/Attachments/Torog E.png",
-    "External/Attachments/Snow View.jpg",
-    "External/Attachments/Journey.jpg",
-    "External/Attachments/Endless Mountain.jpg"
+    "External/Attachments/Weary traveler.jpg"
   ]
 }

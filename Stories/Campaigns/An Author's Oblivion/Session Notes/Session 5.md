@@ -73,6 +73,10 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 - [[Malifera]]
 - [[Maple]]
 - [[Nebeus]]
+- [[Mineko]]
+- [[Hilda]]
+- [[Toru]]
+- [[Wind]]
 ## Items & Rewards
 - item 1
 - item2
@@ -87,12 +91,22 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 
 >[!quote]
 >Landing in the [[Aurum Fields]]:
->- 
-
-
+>- Skies of golden and silver light.
+>- Light radiates from the top, through the clouds, and ebbs and flows in brightness throughout the day.
+>- Sun shower rain.
+>- Moradin earthquakes.
+>- Lifeforms within the fields.
 
 Lorem ipsum
-### Scene2
+### [[Glynneath]]
+
+>[!quote]
+>Lorem ipsum
+
+Lorem ipsum
+
+- [ ] Time seems so infinite when you're young. A month is an age, a year is a lifetime.
+### Gate of [[Quzhou]]
 
 >[!quote]
 >Lorem ipsum
