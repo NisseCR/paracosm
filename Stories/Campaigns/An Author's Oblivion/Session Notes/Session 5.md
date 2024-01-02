@@ -3,7 +3,7 @@ tags:
   - session
   - AAO
 ---
-k# Resources
+# Resources
 ## Ideas
 [[Wind]] has climbed the mountain. She will be important later on in the campaign, as the party will eventually have to climb the mountain (during higher levels).
 
@@ -104,6 +104,19 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 ## Items & Rewards
 - item 1
 - item2
+## TODO
+- [ ] Nebues foreshadowing
+- [ ] Malifera vault
+- [ ] Malifera sickness
+- [ ] Glynneath village
+- [ ] Toru job
+- [ ] Toru conversation
+	- [ ] Wind
+	- [ ] Forge of Creation, path of valour
+- [ ] Forge of Creation entrance
+- [ ] Forge of Creation dungeon
+	- [ ] Refugees
+	- [ ] Elemental trolley problem
 
 ## Scenes & Locations
 ### [[Aurum Fields]]
@@ -115,11 +128,6 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 >- [Windy Countryside](https://www.youtube.com/watch?v=MfiDTOst3L4)
 
 >[!quote]
->- 
-
-
-
->[!quote]
 >Landing in the [[Aurum Fields]]:
 >- Skies of golden and silver light.
 >- Light radiates from the top, through the clouds, and ebbs and flows in brightness throughout the day.
@@ -127,7 +135,16 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 >- Moradin earthquakes.
 >- Lifeforms within the fields.
 
-Lorem ipsum
+The party finds themselves amongst the high-grass of the [[Aurum Fields]]. The grass reaches their knees, hence it is easy to overlook the vegetation and inspect the distant surroundings.
+As soon as the party teleports, [[Malifera]] will collapse to her knees as her strength falters. At the same time, [[Nebeus]]' image will apparate behind the party and form a distance. Lastly, the moving trail of a [[Lantern Archons|Lantern Archon]] will meander through the grass, approaching them.
+#### [[Malifera]]'s sickness
+...
+#### Apparition of [[Nebeus]]
+...
+#### Arrival of a [[Lantern Archons|Lantern Archon]]
+...
+#### Meeting [[Mineko]]
+...
 ### [[Glynneath]]
 
 >[!quote]
@@ -136,11 +153,15 @@ Lorem ipsum
 Lorem ipsum
 
 - [ ] Time seems so infinite when you're young. A month is an age, a year is a lifetime.
+#### Meeting [[Toru]]
+...
 ### Gate of [[Quzhou]]
 
 >[!quote]
 >Lorem ipsum
 
+Lorem ipsum
+### [[Forge of Creation]]
 Lorem ipsum
 # Retrospective
 Lorem ipsum

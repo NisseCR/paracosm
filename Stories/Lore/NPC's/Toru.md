@@ -25,7 +25,7 @@ Lorem ipsum
 ## Relations
 Lorem ipsum
 ## Goals
-Lorem ipsum
+- [ ] everyday job
 ## Roleplay
 ***Voice***
 - Lorem ipsum

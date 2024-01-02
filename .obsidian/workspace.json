@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec2ae1f803721f79",
+        "id": "4ed793e4af971c6f",
         "type": "tabs",
         "children": [
           {
-            "id": "918b06a3738d2005",
+            "id": "fafbffd9d9488c0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c4c04cc94e366e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mineko",
+                "query": "session 5",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,8 +99,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
-                "collapseAll": false,
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md"
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -145,10 +160,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "918b06a3738d2005",
+  "active": "6c4c04cc94e366e3",
   "lastOpenFiles": [
-    "Stories/Campaigns/An Author's Oblivion/Session Notes/Glynneath's Fate.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Crucible of Creation.md",
+    "Stories/Lore/NPC's/Malifera.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
+    "Stories/Lore/NPC's/Toru.md",
+    "Stories/Lore/NPC's/Mineko.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Glynneath's Fate.md",
     "Stories/Campaigns/An Author's Oblivion/Player Characters/eve.md",
     "Stories/Lore/Artefacts/Bells of Livia Storm.md",
     "Stories/Campaigns/An Author's Oblivion/Player Characters/Baern.md",
@@ -159,9 +179,7 @@
     "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Rexxentrum.md",
     "Templates/PC.md",
     "Templates/NPC.md",
-    "Stories/Lore/NPC's/Mineko.md",
     "Stories/Lore/NPC's/Wind.md",
-    "Stories/Lore/NPC's/Toru.md",
     "Stories/Lore/Ancestries/Half-Elves.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Forges of Creation.md",
     "Stories/Atlas/Prime/Exandria/Wildemount/Greying Wildlands/Savalir Wood.md",
@@ -171,9 +189,6 @@
     "Stories/Lore/Factions/Pathfinders.md",
     "Stories/Lore/Deities/Prime Deities/Bahamut.md",
     "Stories/Lore/NPC's/Nebeus.md",
-    "Stories/Lore/NPC's/Hilda.md",
-    "Stories/Lore/Ancestries/Sword Archons.md",
-    "Stories/Lore/Ancestries/Lantern Archons.md",
     "Stories/Campaigns/Whispers of the Matron/Player Characters",
     "External/Attachments/Wind.jpg",
     "External/Attachments/Wanderlost.jpg",
