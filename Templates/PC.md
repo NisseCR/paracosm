@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - npc
+  - pc
 ---
 ![[arcanist.jpg]]
 
@@ -27,10 +27,7 @@ Lorem ipsum
 Lorem ipsum
 ## Goals
 Lorem ipsum
-## Roleplay
-***Voice***
+## Plot ideas
 - Lorem ipsum
-
-***Manners***
 - Lorem ipsum
 

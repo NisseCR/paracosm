@@ -3,13 +3,17 @@ tags:
   - session
   - AAO
 ---
-# Resources
+k# Resources
 ## Ideas
 [[Wind]] has climbed the mountain. She will be important later on in the campaign, as the party will eventually have to climb the mountain (during higher levels).
 
 [[Mineko]] wishes to also ascend, to follow the footsteps of her mother.
 
 [[Toru]] doesn't allow [[Mineko]] to ascend, for he knows that almost all fail the trial of [[Solania]] and get eternally trapped in [[Uroboros]].
+
+---
+
+[[Nebeus]] trails the party from the get-go, his golden image visible in the edges of our party's periphery.
 
 ---
 [[Mineko]] tells the party that her dead knows of a way to get back to the [[Prime Material]]. But she will only introduce them to him if the party also helps her ascend the mountain. She wishes to reach [[Mercuria]] and beyond.

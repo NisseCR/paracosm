@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7a39e69f80db567d",
+        "id": "ec2ae1f803721f79",
         "type": "tabs",
         "children": [
           {
-            "id": "953bfef21c9f62cd",
+            "id": "918b06a3738d2005",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "560b4c373399b604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stories/Lore/NPC's/Mineko.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec982748de1e8b50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stories/Lore/NPC's/Wind.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1435fb3b459b28ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stories/Lore/NPC's/Toru.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mineko",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stories/Lore/NPC's/Mineko.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stories/Lore/NPC's/Mineko.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stories/Lore/NPC's/Mineko.md"
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md"
               }
             }
           }
@@ -182,26 +145,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "560b4c373399b604",
+  "active": "918b06a3738d2005",
   "lastOpenFiles": [
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Glynneath's Fate.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+    "Stories/Campaigns/An Author's Oblivion/Player Characters/eve.md",
+    "Stories/Lore/Artefacts/Bells of Livia Storm.md",
+    "Stories/Campaigns/An Author's Oblivion/Player Characters/Baern.md",
+    "Stories/Campaigns/An Author's Oblivion/Player Characters/Arev.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas/Everness.md",
+    "Stories/Atlas/Prime/Exandria/Tal'Dorei/Kraghammer.md",
+    "Stories/Lore/Factions/The Myriad.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Rexxentrum.md",
+    "Templates/PC.md",
+    "Templates/NPC.md",
     "Stories/Lore/NPC's/Mineko.md",
-    "Stories/Lore/Factions/Pathfinders.md",
     "Stories/Lore/NPC's/Wind.md",
     "Stories/Lore/NPC's/Toru.md",
+    "Stories/Lore/Ancestries/Half-Elves.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Forges of Creation.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Greying Wildlands/Savalir Wood.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Greying Wildlands",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Quzhou.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Glynneath.md",
+    "Stories/Lore/Factions/Pathfinders.md",
     "Stories/Lore/Deities/Prime Deities/Bahamut.md",
     "Stories/Lore/NPC's/Nebeus.md",
     "Stories/Lore/NPC's/Hilda.md",
     "Stories/Lore/Ancestries/Sword Archons.md",
     "Stories/Lore/Ancestries/Lantern Archons.md",
-    "Stories/Lore/Ancestries/Hound Archons.md",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters/Ulv.md",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters/Luan.md",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters/Geb.md",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters/Gav.md",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters/Faelin.md",
     "Stories/Campaigns/Whispers of the Matron/Player Characters",
-    "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
     "External/Attachments/Wind.jpg",
     "External/Attachments/Wanderlost.jpg",
     "External/Attachments/Toru.jpg",
@@ -209,26 +182,16 @@
     "External/Attachments/Mineko Origami.jpg",
     "External/Attachments/Hilda.jpg",
     "External/Attachments/Burned Glynneath.jpg",
-    "Stories/Campaigns/An Author's Oblivion/Session Notes/Crucible of Creation.md",
-    "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
     "Stories/Campaigns/Whispers of the Matron/Session Notes",
     "Stories/Campaigns/Whispers of the Matron",
     "External/Attachments/ironforge 2 1.jpg",
     "External/Attachments/ironforge 2.jpg",
-    "Stories/Lore/NPC's/Astryn.md",
-    "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
-    "Stories/Atlas/Outer Planes/Bytopia/Bytopia.md",
-    "Stories/Atlas/Outer Planes/Arcadia/Arcadia.md",
     "Stories/Atlas/Outer Planes/Bytopia",
     "Stories/Atlas/Outer Planes/Arcadia",
-    "Stories/Lore/Myths & Legends/Jazirian.md",
-    "Stories/Atlas/Outer Planes/Mount Celestia/Untitled.md",
-    "Ideas/Silver Sea.md",
     "External/Attachments/Snow View.jpg",
     "Stories/Atlas/Outer Planes/Ysgard",
     "Stories/Atlas/Outer Planes/Carceri",
     "Stories/Atlas/Prime/Exandria/Underdark",
-    "Stories/Campaigns/Tales of the Divine Conundrum/Session Notes",
-    "Stories/Lore/Languages"
+    "Stories/Campaigns/Tales of the Divine Conundrum/Session Notes"
   ]
 }
