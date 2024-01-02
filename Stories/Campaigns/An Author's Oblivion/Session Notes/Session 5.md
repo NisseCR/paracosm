@@ -30,7 +30,7 @@ Plea from [[Toru]]
 >It's been hard on Mineko, to live a life without [[Wind]]. She believes that her mother ascended the mountain, and she desperately wishes to follow her footsteps in an attempt to find her. 
 >But I cannot let her. The journey of a pilgrim is not meant for a child. Most if not all pilgrims fail to even reach the 5th heaven of [[Mount Celestia|Celestia]], let alone make it to the radiating top of the 7th heaven  [[Chronias]].
 >
->I do not wish my child to face such a cruel fate, even with the promise of seeing [[Wind]] once more. There's no point in chasing ghosts.
+>I do not wish my child to face such a cruel fate, even with the promise of seeing [[Wind]] once more. There's no merit to be found in chasing ghosts.
 >
 >So we choose to stay, to reminisce and cherish the moments we've had. To anchor ourselves to the place where it all began, and where it will end. Our home.
 >
