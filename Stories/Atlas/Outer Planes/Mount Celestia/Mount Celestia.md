@@ -71,6 +71,7 @@ The variants are:
 - [x] Path variants.
 - [x] Forms of self-improvement.
 - [ ] Trials on each layer.
+- [ ] Shrines of each path.
 
 
 

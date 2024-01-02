@@ -4,17 +4,8 @@ tags:
   - AAO
 ---
 # Resources
-## Checklist
-
->[!Ideas/scenes]-
->- [ ] idea1
->- [ ] idea2
-
->[!Todo]-
->- [ ] item1
->- [ ] item2
-
-
+## Ideas
+Lorem ipsum
 ## Character Review
 #### Character1
 ***Background***

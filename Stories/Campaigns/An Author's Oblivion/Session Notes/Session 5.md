@@ -4,15 +4,37 @@ tags:
   - AAO
 ---
 # Resources
-## Checklist
+## Ideas
+[[Wind]] has climbed the mountain. She will be important later on in the campaign, as the party will eventually have to climb the mountain (during higher levels).
 
->[!Ideas/scenes]-
->- [ ] Forge of Creation dungeon
+[[Mineko]] wishes to also ascend, to follow the footsteps of her mother.
 
->[!Todo]-
->- [ ] item1
->- [ ] item2
+[[Toru]] doesn't allow [[Mineko]] to ascend, for he knows that almost all fail the trial of [[Solania]] and get eternally trapped in [[Uroboros]].
 
+---
+[[Mineko]] tells the party that her dead knows of a way to get back to the [[Prime Material]]. But she will only introduce them to him if the party also helps her ascend the mountain. She wishes to reach [[Mercuria]] and beyond.
+
+Plea from [[Toru]]
+>[!quote]
+>My lovely child [[Mineko]] has the heart of a hero, it is filled to the brim with courage and curiosity. I adore it, for her mother was exactly the same. [[Wind]] was her name. It suited her, the wind always seemed to listen to her in ways I was unable to understand. [[Wind]] was a great pathfinder, one of the best. I'm thankful that [[Mineko]] has had such a great teacher.
+>
+>I still remember her returning to our home each day. And each day she was strikingly beautiful, carrying a basket of [[Lantern Archons]] under her arm, her pathfinder gear dirty from all the playful chasing in the [[Aurum Fields]].
+>She would often stand still in the doorway. The wind would blow through her sky-blue hair, dancing with the streaks of viridian and purple that rounded her ears. In those moments of stillness, she would close her eyes, clutch her hands together and let the light of Celestia fall upon her skin. She would just... _feel_ the moment. As if it would be her last.
+>
+>Until one day it was... her last moment. _Our_ last moment. 
+>
+>She never returned. I prayed to the gods of this realm to tell me where she was, but none answered. We didn't see her ever since.
+>
+>- _Mineko playfully skips outside, seen through the windows of the homestead_
+>
+>It's been hard on Mineko, to live a life without [[Wind]]. She believes that her mother ascended the mountain, and she desperately wishes to follow her footsteps in an attempt to find her. 
+>But I cannot let her. The journey of a pilgrim is not meant for a child. Most if not all pilgrims fail to even reach the 5th heaven of [[Mount Celestia|Celestia]], let alone make it to the radiating top of the 7th heaven  [[Chronias]].
+>
+>I do not wish my child to face such a cruel fate, even with the promise of seeing [[Wind]] once more. There's no point in chasing ghosts.
+>
+>So we choose to stay, to reminisce and cherish the moments we've had. To anchor ourselves to the place where it all began, and where it will end. Our home.
+>
+>Even without [[Wind]], this home is my everything. If it were to burn to the ground, I will burn down with it...
 
 ## Character Review
 #### [[Arev]]
@@ -61,8 +83,6 @@ Damaged some stuff in [[Malifera]]'s abode. Also saw another set of words being 
 
 ***Motivation***
 Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion Stone]].
-
-
 # Story
 
 ## Recap
@@ -80,6 +100,7 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 ## Items & Rewards
 - item 1
 - item2
+
 ## Scenes & Locations
 ### [[Aurum Fields]]
 ![[Wanderlost.jpg]]
@@ -87,7 +108,12 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 >[!info]
 >Music:
 >- Aurum Fields
->- [Windy Countryside](https://www.youtube.com/watch?v=MfiDTOst3L4&t=2171s)
+>- [Windy Countryside](https://www.youtube.com/watch?v=MfiDTOst3L4)
+
+>[!quote]
+>- 
+
+
 
 >[!quote]
 >Landing in the [[Aurum Fields]]:

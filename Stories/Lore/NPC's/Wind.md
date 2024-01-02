@@ -2,6 +2,7 @@
 aliases: 
 tags:
   - npc
+  - pathfinder
 ---
 ![[Wind.jpg]]
 

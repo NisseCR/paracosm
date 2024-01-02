@@ -22,8 +22,6 @@ Her silver-white hair is braided to the side, caressing a light-green scarf that
 Gold, silver and bronze. Astryn is a memorable person. Although appearing as a young-adult, she is a well filled with wisdom, questions, and analogies. Regardless of whether she peaks the truth, her vast perspective is to be admired.
 ## Background
 [[Aeon]] gave life to Astryn, as well as blessing her with her three spirit titles - The Philosopher, The Artist, (placeholder).
-
-
 ## Relations
 Astryn has closely befriended her black mare [[Maple]], who is one of the few who she fully trusts. 
 
