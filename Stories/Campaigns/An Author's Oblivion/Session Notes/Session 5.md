@@ -119,6 +119,21 @@ Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]
 
 >[!quote]
 >Landing in the [[Aurum Fields]]:
+>Just now you were surrounded by the wooden walls of [[Malifera]]'s abode. Right as the plane shift spell was invoked - [[Mynark|The Pariah]] still standing in the doorway - the walls eventually closed in on you, before dissipating completely.
+>
+>For but a moment you found yourself drifting through the Astral sea, the connective tissue holding all the realms together. Both the heavens, and the hells. Chaos and order.
+>
+>But the Astral is not meant for mere mortals, and soon you found yourselves _somewhere else_...
+>
+>---
+>
+>
+
+
+
+
+
+
 >- Skies of golden and silver light.
 >- Light radiates from the top, through the clouds, and ebbs and flows in brightness throughout the day.
 >- Sun shower rain.

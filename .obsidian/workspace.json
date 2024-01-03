@@ -11,8 +11,12 @@
             "id": "125cbf4d992bbfe2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md"
+              }
             }
           }
         ],
@@ -140,7 +148,10 @@
   },
   "active": "125cbf4d992bbfe2",
   "lastOpenFiles": [
+    "Templates/Artefact.md",
+    "Templates/NPC.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+    "Stories/Lore/Artefacts/Ghost Lantern.md",
     "Stories/Lore/Artefacts/Wavebreaker.md",
     "External/Attachments/Wavebreaker.png",
     "Stories/Lore/Artefacts/Remorhaz Cloak.md",
@@ -157,7 +168,6 @@
     "Stories/Lore/Artefacts/Inferno Engine.md",
     "Stories/Lore/Artefacts/Hunter's Cup.md",
     "Stories/Lore/Artefacts/H'rethi Cloak of Shielding.md",
-    "Stories/Lore/Artefacts/Ghost Lantern.md",
     "Stories/Lore/Artefacts/Death Locket.md",
     "Stories/Lore/Artefacts/Cloak of Smoke and Cinder.md",
     "Stories/Lore/Artefacts/Bottled Pariah.md",
@@ -168,7 +178,6 @@
     "External/Attachments/Inferno Engine.png",
     "External/Attachments/Death Locket.png",
     "External/Attachments/Pack Leader Helm.png",
-    "Templates/Artefact.md",
     "External/Attachments/Metallurgist's Grip.png",
     "Stories/Lore/Artefacts/Oblivion Stone.md",
     "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md",

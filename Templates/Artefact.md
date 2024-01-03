@@ -3,7 +3,7 @@ aliases:
 tags:
   - artefact
 ---
-![[Ghost Lantern.jpg]]
+![[Cloak of Smoke and Cinder.png]]
 >[!info]
 >_Wondrous item, very rare (requires **attunement**)_
 ## Description
