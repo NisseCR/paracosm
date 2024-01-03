@@ -1,4 +1,6 @@
 ---
 tags:
   - legend
+aliases:
+  - Primordial
 ---

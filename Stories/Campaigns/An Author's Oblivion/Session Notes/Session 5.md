@@ -77,8 +77,23 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 - [[Toru]]
 - [[Wind]]
 ## Items & Rewards
-- item 1
-- item2
+Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]'s vault or from [[Toru]]'s [[Pathfinders|Pathfinder]] equipment.
+- [[Cloak of Smoke and Cinder]]
+- [[Death Locket]]
+- [[Ghost Lantern]]
+- [[H'rethi Cloak of Shielding]]
+- [[Hunter's Cup]]
+- [[Inferno Engine]]
+- [[Metallurgist's Grip]]
+- [[Necromancer's Guff]]
+- [[Pack Leader Helm]]
+- [[Remorhaz Cloak]]
+- [[Ring of Dagger Ice]]
+- [[Scroll of Necrosis]]
+- [[Shamisen of the Changing Wind]]
+- [[Stoneseed Amber]]
+- [[Unstoppable Heart]]
+- [[Wavebreaker]] (from [[Malifera]])
 ## TODO
 - [ ] Nebues foreshadowing
 - [ ] Malifera vault
