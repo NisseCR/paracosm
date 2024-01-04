@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ea87ea0ad35140e5",
+        "id": "c456e1d98c15f853",
         "type": "tabs",
         "children": [
           {
-            "id": "2aee79a3aad6353b",
+            "id": "92331bccc7dd87e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "readme",
+                "query": "arte",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
-                "collapseAll": false,
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md"
+                "file": "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md"
               }
             }
           }
@@ -145,53 +145,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2aee79a3aad6353b",
+  "active": "92331bccc7dd87e8",
   "lastOpenFiles": [
-    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Crispvale Thicket.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
-    "Stories/Lore/Artefacts/Wavebreaker.md",
-    "Stories/Lore/Artefacts/Unstoppable Heart.md",
-    "Stories/Lore/Artefacts/Stoneseed Amber.md",
-    "Stories/Lore/Artefacts/Shamisen of the Changing Wind.md",
-    "Stories/Lore/Artefacts/Scroll of Necrosis.md",
-    "Stories/Lore/Artefacts/Ring of Dagger Ice.md",
-    "Stories/Lore/Artefacts/Remorhaz Cloak.md",
-    "Stories/Lore/Artefacts/Pack Leader Helm.md",
-    "Stories/Lore/Artefacts/Necromancer's Guff.md",
-    "Stories/Lore/Artefacts/Metallurgist's Grip.md",
-    "Stories/Lore/Artefacts/Inferno Engine.md",
-    "Stories/Lore/Artefacts/Hunter's Cup.md",
-    "Stories/Lore/Artefacts/H'rethi Cloak of Shielding.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Glynneath's Fate.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Forges of Creation.md",
+    "Stories/Lore/Factions/Ironheart Clan.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Crucible of Creation.md",
+    "Stories/Lore/Factions/Spirit Hunters.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md",
+    "Stories/Campaigns/An Author's Oblivion/Player Characters/eve.md",
+    "Stories/Campaigns/An Author's Oblivion/Player Characters/Baern.md",
+    "Stories/Lore/History of Exandria/The Age of Arcanum.md",
+    "Stories/Lore/NPC's/Nebeus.md",
+    "Stories/Lore/NPC's/Wind.md",
+    "Stories/Lore/NPC's/Mineko.md",
+    "Stories/Lore/Languages/Auran.md",
+    "Stories/Atlas/Outer Planes/Mount Celestia/Glynneath.md",
+    "Ideas/[Wavebreaker.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas/Kranakesh Vaults.md",
+    "Stories/Atlas/Outer Planes/Hades/Hades.md",
+    "Stories/Atlas/Outer Planes/Hades",
+    "External/Attachments/Nebeus 1.jpg",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Crispvale Thicket.md",
+    "External/Attachments/Nebeus.jpg",
+    "Templates/Artefact.md",
+    "Templates/NPC.md",
     "Stories/Lore/Artefacts/Ghost Lantern.md",
-    "Stories/Lore/Artefacts/Death Locket.md",
-    "Stories/Lore/Artefacts/Cloak of Smoke and Cinder.md",
+    "Stories/Lore/Artefacts/Wavebreaker.md",
     "External/Attachments/Wavebreaker.png",
-    "External/Attachments/Unstoppable Heart.png",
-    "External/Attachments/The Oblivion Stone.jpg",
-    "External/Attachments/Stoneseed Amber.png",
-    "External/Attachments/Shamisen-of-the-Changing-Winds_Transparent_Background.png",
-    "External/Attachments/Scroll of Necrosis.png",
-    "External/Attachments/Ring of Dagger Ice.png",
+    "Stories/Lore/Artefacts/Remorhaz Cloak.md",
     "External/Attachments/Remorhaz Cloak.png",
-    "External/Attachments/Pack Leader Helm.png",
+    "Stories/Lore/Artefacts/Ring of Dagger Ice.md",
+    "External/Attachments/Ring of Dagger Ice.png",
+    "Stories/Lore/Artefacts/Pack Leader Helm.md",
+    "External/Attachments/Cloak of Smoke and Cinder.png",
+    "External/Attachments/Unstoppable Heart.png",
     "External/Attachments/Necromancer's Guff.png",
-    "README.md",
-    "Templates/PC.md",
-    "Stories/Lore/Factions/The Myriad.md",
-    "Stories/Lore/Artefacts/Bells of Livia Storm.md",
-    "Stories/Lore/Ancestries/Half-Elves.md",
-    "Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas/Everness.md",
-    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Rexxentrum.md",
-    "Stories/Atlas/Prime/Exandria/Tal'Dorei/Kraghammer.md",
-    "Stories/Campaigns/Whispers of the Matron/Session Notes",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters",
-    "Stories/Campaigns/Whispers of the Matron",
+    "External/Attachments/Inferno Engine.png",
+    "External/Attachments/Death Locket.png",
     "Stories/Atlas/Prime/Exandria/Wildemount/Greying Wildlands",
-    "Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas",
-    "Stories/Atlas/Prime/Exandria/Wildemount/Menagerie Coast",
-    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire",
-    "Stories/Atlas/Prime/Exandria/Wildemount",
-    "Stories/Atlas/Prime/Exandria/Underdark",
-    "Stories/Atlas/Prime/Exandria/Issylra"
+    "Stories/Campaigns/Whispers of the Matron/Player Characters",
+    "Stories/Campaigns/Whispers of the Matron/Session Notes",
+    "Stories/Campaigns/Whispers of the Matron",
+    "Stories/Atlas/Outer Planes/Bytopia",
+    "Stories/Atlas/Outer Planes/Arcadia",
+    "Stories/Atlas/Outer Planes/Ysgard",
+    "Stories/Atlas/Outer Planes/Carceri",
+    "Stories/Atlas/Prime/Exandria/Underdark"
   ]
 }

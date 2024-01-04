@@ -28,6 +28,6 @@ Lorem ipsum
 ## Goals
 Lorem ipsum
 ## Plot ideas
-- Lorem ipsum
-- Lorem ipsum
+- Why do you tell stories?
+- Us storytellers get to leave a place better than we found it, twofold.
 

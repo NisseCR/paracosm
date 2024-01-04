@@ -85,6 +85,7 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 - [[Hilda]]
 - [[Toru]]
 - [[Wind]]
+- [[Maple]]
 ## Items & Rewards
 Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]'s vault or from [[Toru]]'s [[Pathfinders|Pathfinder]] equipment.
 - [[Cloak of Smoke and Cinder]]
@@ -104,9 +105,9 @@ Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]
 - [[Unstoppable Heart]]
 - [[Wavebreaker]] (from [[Malifera]])
 ## TODO
-- [ ] Nebues foreshadowing
-- [ ] Malifera vault
-- [ ] Malifera sickness
+- [x] Nebues foreshadowing
+- [x] Malifera vault
+- [x] Malifera sickness
 - [ ] Glynneath village
 - [ ] Toru job
 - [ ] Toru conversation
@@ -128,7 +129,7 @@ Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]
 
 >[!quote]
 >_Landing in the [[Aurum Fields]]:_
->Just now you were surrounded by the wooden walls of [[Malifera]]'s abode. Right as the plane shift spell was invoked - [[Mynark|The Pariah]] still standing in the doorway - the walls eventually closed in on you, before dissipating completely.
+>Just now you were surrounded by the wooden walls of [[Malifera]]'s abode. Right as her plane shift spell was invoked - [[Mynark|The Pariah]] still standing in the doorway - the walls eventually closed in on you, before dissipating completely.
 >
 >For but a moment you found yourself drifting through the Astral sea, the connective tissue holding all the realms together. Both the heavens, and the hells. Chaos and order.
 >
@@ -145,67 +146,101 @@ Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]
 >
 >Thus here you stand, having narrowly escaped some dangerous three-titled entity. You take a breath, but also a breather from all the peril and tribulations that have happened over the last night. The attack on the [[Crossroads Inn]], the chase through the [[Crispvale Thicket]] and the dealings with [[Malifera]] back in the world of Exandria.
 >
->In the presence of heavenly forces, it hits you - just how quickly your lives have changed... for better or worse.
+>In the presence of heavenly forces, it hits you - just how quickly your lives have changed... for better or worse. Time will have to tell.
 >
 >---
 >
 >[[Arev]], never before has a vision been granted to you whilst awake. Moreover, it was vivid - as if you were there in the moment. 
->As your friends settle themselves shortly after the teleportation spell, you can't stop yourself from thinking about what you saw. Three names, engraved in a stone statue of a tree. A door barely held shut, and [[Mynark|The Pariah]] closing in on you whilst swarms of butterflies swept by.
+>As your friends settle themselves shortly after the teleportation spell, you can't stop yourself from thinking about what you saw. Three names, engraved in a stone statue of a tree. A door barely held shut, and [[Mynark|The Pariah]] closing in on you whilst swarms of butterflies swept by. The images still linger within the mind.
 >
 >[[Baern]], [[Thanatos|The Pilgrim]] is alive - he is bound to you by death and name. You have so many questions swirling through your mind. How is he alive? Why does he need you? What does he want?
->According to him, your newfound friends would be safe, as long as you abided his commands. You've done so for now, but is this truly a path your willing to take? Time will tell.
+>According to him, your newfound friends would be safe, as long as you abided his commands. You've done so for now, but is this truly a path your willing to take? And if not, what path will you take?
 >
->[[eve]], whilst some of your friends choose to reminisce, you can't help but feel a surge of panic flow through you - not because of the past, but due to where you stand... _here_ and _now_.
+>[[eve]], whilst some of your friends choose to reminisce, you can't help but feel a surge of panic flow through you - not because of the past, not because of memories re-emerging, but due to where you stand... _here_ and _now_.
 >[[Mount Celestia]], a realm you've heard so many stories about. Heck, you have told plentiful stories about this place as well. But to actually be here, it almost frightens you. It begs the question: is the struggle of adventure worth the promise of a story to tell?
 >
 >[[Richard]], a smile creeps up on your face, for the otherworldly invigorates you. Lands that few dare to traverse is where _you_ thrive. To venture into the unknown and claim that which has yet to be claimed - this is what you live for.
->But it is not the reason for the sudden joy that stirs within. No, for that is fuelled by the presence of daylight. You've come to realise that [[Malifera]] has a promise to fulfil.
+>But it is not the reason for the sudden joy that stirs within. No, for that is fuelled by the prospect of daylight. You've come to realise that [[Malifera]] has a promise to fulfil.
 >
 >[[Skye]], you take in the beauty of your surroundings. Although the endless golden fields are vastly different from the lush jungles of your [[Elves|elven]] homeland, you still find yourself holding your breath in awe.
 >Some would think the ranger part of you - the outlander - causes you to admire nature in the way you do, but there is far more to it than meets the eye.
 >Your fingers caress the engraved name of Elysia on your longbow. A thought enters the mind: "_If only she could be here to see this._"
 >
->And finally, [[Zael]]. From questioning to whether divinity even exists, to finding yourself being stranded in one of their heavens. The last 24-hours have certainly showed you facets of this world you presumed to be absurd. Moreover, you have that tantalizing feeling of being at the crux of something greater.
+>And finally, [[Zael]]. From questioning to whether divinity even exists, to finding yourself being stranded in one of their heavens. The last 24-hours have certainly showed you facets of this world you previously presumed to be absurd. Moreover, you have that tantalizing feeling of being at the crux of something greater.
 >Perpetual night, undead rising from the afterlife, spirits chasing you, and that strange figure walking through the portal and dying in front of your eyes. Is this beyond you?
 >Your hand reaches for the [[Oblivion Stone]], still hidden within bag. It thrums and feels warmer to the touch, as it has aforetime.
 >At your feet, engraved within the dirt and only visible to your eyes, are the words: "_Bring me home._"
-
-
+>
+>Welcome to [[Mount Celestia]]!
 
 The party finds themselves amongst the high-grass of the [[Aurum Fields]]. The grass reaches their knees, hence it is easy to overlook the vegetation and inspect the distant surroundings.
 As soon as the party teleports, [[Malifera]] will collapse to her knees as her strength falters. At the same time, [[Nebeus]]' image will apparate behind the party and form a distance. Lastly, the moving trail of a [[Lantern Archons|Lantern Archon]] will meander through the grass, approaching them.
 #### [[Malifera]]'s sickness
-Although [[Malifera]] is a lawful creature, she is profoundly evil in her very nature. Due to this, the goodness of the realm is weighing her down.
+Although [[Malifera]] is a lawful creature, she is profoundly evil in her very nature. Due to this, the goodness of the realm is weighing her down. Her size will diminish, and her skins will slowly emit dust. She coughs up blood, whilst this happens she tries to ritually heal herself, but the chaotic magic is not allowed within Celestia.
+
+This forces the party (or [[Richard]] in particular) to make a choice. Enter the vault but have her be reborn in [[Hades]], or help her stay close to you at the promise of many rewards and/or boons.
 #### [[Malifera]]'s vault
-...
+Her vault is a pocket dimension, and is specifically a [[Kranakesh Vaults|Kranakesh Vault]]. If [[Richard]] wishes to choose a relic, she will lure him into choosing [[Wavebreaker]]. She is eager to see whether [[Richard]] can attune to the item, since it will only allows [[Spirits]] to bind to the weapon.
 #### Apparition of [[Nebeus]]
-...
+A golden distant image of [[Nebeus]] will appear within the [[Aurum Fields]]. If one chooses to approach, they will say the following before vanishing:
+
+>[!quote]
+>_"The goodness of law within your heart is in stark contrast with what your heart desires. You care for the few, but you must take care of the many. Hereupon I will judge your path."_
 #### Arrival of a [[Lantern Archons|Lantern Archon]]
-...
+Grass will jitter and break in unnatural ways behind the party. A [[Lantern Archons|Lantern Archon]] is approaching, and it is very curious as to who our heroes are and what they are doing. The [[Archons|Archon]] is in the form of a ethereal butterfly attached with a ribbon-like tail, almost like a kite. It is spectral and blue.
+The the party gives chase, it will fly towards the tree under which [[Mineko]] is hiding.
 #### Meeting [[Mineko]]
-...
+[[Mineko]] is currently on lookout for approaching [[Archons]], and might be able to see the party approaching.
+She won't be shy to introduce herself, and is eager to know about the party's whereabouts. Conversation with her might include the following topics:
+- She is a [[Pathfinders|Pathfinder]], the best of her age (14 years old).
+- She lives in [[Glynneath]], which is one night's rest away from the edges of the [[Aurum Fields]] (current location).
+- She wants to know what our heroes came here to do. Can she help? Are they also ascending the mountain?
+- Her father [[Toru]] might be able to help them reach [[Quzhou]], or know a path to [[Mercuria]].
+- It is odd that no [[Lantern Archons]] have been coming to the realm.
+
+>[!info]
+>Whilst all of this is happening, the [[Oblivion Stone]] will write words in the bark of the cherry blossom tree: _"Find the planar bridges of Mercuria."_
+
+Either way, [[Mineko]] is far too interested to let our heroes go. She will ask to accompany them, for as long as their paths align.
 #### Long rest in the [[Aurum Fields]]
-- [ ] Sorn raven guardians eerily trying to steal [[Oblivion Stone]].
+During a cosy night campfire, [[Mineko]] will ask about their stories. She might also reveal a bit about her own, without mentioning the loss of [[Wind]] - which is far too recent.
+
+Keeping night's watch might reveal the following:
+- [[Sorn]]'s raven guardian will eerily try to steal the [[Oblivion Stone]] from [[Zael]]'s pockets when no one is watching. If caught, it will run away at an incredible pace towards the darkness of night.
+- Damaged [[Maple]] enters the fray.
+- Light from a Shrine of Renunciation.
 ### [[Glynneath]]
 
 >[!quote]
->Lorem ipsum
+>_Features of [[Glynneath]]:_
+>- A small village of about a dozen or so well-built homesteads.
+>- No walls, watchtowers or the like.
+>- Absence of doors, people feel safe within the realm of lawful goodness.
+>- Thatched rooftops and windowsills decorated with flowers bouquets.
+>- No elderly, though some people do tend to have grey or white hair.
+>- Archway marks entrance of town.
+
 
 Lorem ipsum
 
 - [ ] Time seems so infinite when you're young. A month is an age, a year is a lifetime.
 #### Meeting [[Toru]]
+>[!info]
+>Don't forget to mention the oddity of the missing dwarves.
+
 [[Mineko]] tells the party that her dead knows of a way to get back to the [[Prime Material]]. But she will only introduce them to him if the party also helps her ascend the mountain. She wishes to reach [[Mercuria]] and beyond.
+
+[[Mineko]] will listen in on the conversation where [[Toru]] explains the paths to [[Mercuria]]. He will notice, and usher her away. He is suspicious that she might've made some kind of deal with the party, hence he will inform them about [[Wind]] and the prospect of [[Mineko]] climbing the mountain.
 
 Plea from [[Toru]]:
 
 >[!quote]
 >My lovely child [[Mineko]] has the heart of a hero, it is filled to the brim with courage and curiosity. I adore it, for her mother was exactly the same. [[Wind]] was her name. It suited her, the wind always seemed to listen to her in ways I was unable to understand. [[Wind]] was a great pathfinder, one of the best. I'm thankful that [[Mineko]] has had such a great teacher.
 >
->I still remember her returning to our home each day. And each day she was strikingly beautiful, carrying a basket of [[Lantern Archons]] under her arm, her pathfinder gear dirty from all the playful chasing in the [[Aurum Fields]].
+>I still remember her returning to our home each day. And each day she was strikingly beautiful, newly found [[Lantern Archons]] swirling around her, her pathfinder gear dirty from all the chasing in the [[Aurum Fields]].
 >She would often stand still in the doorway. The wind would blow through her sky-blue hair, dancing with the streaks of viridian and purple that rounded her ears. In those moments of stillness, she would close her eyes, clutch her hands together and let the light of Celestia fall upon her skin. She would just... _feel_ the moment. As if it would be her last.
 >
->Until one day it was... her last moment. _Our_ last moment. 
+>Until one day it was... her last moment.
 >
 >She never returned. I prayed to the gods of this realm to tell me where she was, but none answered. We didn't see her ever since.
 >
@@ -221,7 +256,7 @@ Plea from [[Toru]]:
 >Even without [[Wind]], this home is my everything. If it were to burn to the ground, I will burn down with it...
 ### Gate of [[Quzhou]]
 Lorem ipsum
-### [[Forge of Creation]]
-Lorem ipsum
+### Following the Path of Valour
+Dungeon-crawl through the [[Forge of Creation]].
 # Retrospective
 Lorem ipsum

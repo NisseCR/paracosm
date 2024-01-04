@@ -31,6 +31,5 @@ Lorem ipsum
 ## Goals
 Lorem ipsum
 ## Plot ideas
-- Lorem ipsum
-- Lorem ipsum
+- Chained to his past, not [[Thanatos|The Pilgrim]].
 

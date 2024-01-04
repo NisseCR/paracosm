@@ -22,7 +22,7 @@ Lorem ipsum
 - Lorem ipsum
 - Lorem ipsum
 ## Background
-Lorem ipsum
+Speaks [[Auran]].
 ## Relations
 Mother of [[Mineko]] and partner of [[Toru]].
 ## Goals
