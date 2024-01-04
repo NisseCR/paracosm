@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15a43f847a303964",
+        "id": "ea87ea0ad35140e5",
         "type": "tabs",
         "children": [
           {
-            "id": "125cbf4d992bbfe2",
+            "id": "2aee79a3aad6353b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arte",
+                "query": "readme",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
               "type": "backlink",
               "state": {
                 "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
@@ -129,8 +129,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,53 +145,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "125cbf4d992bbfe2",
+  "active": "2aee79a3aad6353b",
   "lastOpenFiles": [
-    "Templates/Artefact.md",
-    "Templates/NPC.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Crispvale Thicket.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
-    "Stories/Lore/Artefacts/Ghost Lantern.md",
     "Stories/Lore/Artefacts/Wavebreaker.md",
-    "External/Attachments/Wavebreaker.png",
-    "Stories/Lore/Artefacts/Remorhaz Cloak.md",
-    "External/Attachments/Remorhaz Cloak.png",
-    "Stories/Lore/Artefacts/Ring of Dagger Ice.md",
-    "External/Attachments/Ring of Dagger Ice.png",
-    "Stories/Lore/Artefacts/Pack Leader Helm.md",
-    "Stories/Lore/Artefacts/Scroll of Necrosis.md",
-    "Stories/Lore/Artefacts/Shamisen of the Changing Wind.md",
-    "Stories/Lore/Artefacts/Stoneseed Amber.md",
     "Stories/Lore/Artefacts/Unstoppable Heart.md",
+    "Stories/Lore/Artefacts/Stoneseed Amber.md",
+    "Stories/Lore/Artefacts/Shamisen of the Changing Wind.md",
+    "Stories/Lore/Artefacts/Scroll of Necrosis.md",
+    "Stories/Lore/Artefacts/Ring of Dagger Ice.md",
+    "Stories/Lore/Artefacts/Remorhaz Cloak.md",
+    "Stories/Lore/Artefacts/Pack Leader Helm.md",
     "Stories/Lore/Artefacts/Necromancer's Guff.md",
     "Stories/Lore/Artefacts/Metallurgist's Grip.md",
     "Stories/Lore/Artefacts/Inferno Engine.md",
     "Stories/Lore/Artefacts/Hunter's Cup.md",
     "Stories/Lore/Artefacts/H'rethi Cloak of Shielding.md",
+    "Stories/Lore/Artefacts/Ghost Lantern.md",
     "Stories/Lore/Artefacts/Death Locket.md",
     "Stories/Lore/Artefacts/Cloak of Smoke and Cinder.md",
-    "Stories/Lore/Artefacts/Bottled Pariah.md",
-    "Stories/Lore/Artefacts/Bells of Livia Storm.md",
-    "External/Attachments/Cloak of Smoke and Cinder.png",
+    "External/Attachments/Wavebreaker.png",
     "External/Attachments/Unstoppable Heart.png",
-    "External/Attachments/Necromancer's Guff.png",
-    "External/Attachments/Inferno Engine.png",
-    "External/Attachments/Death Locket.png",
+    "External/Attachments/The Oblivion Stone.jpg",
+    "External/Attachments/Stoneseed Amber.png",
+    "External/Attachments/Shamisen-of-the-Changing-Winds_Transparent_Background.png",
+    "External/Attachments/Scroll of Necrosis.png",
+    "External/Attachments/Ring of Dagger Ice.png",
+    "External/Attachments/Remorhaz Cloak.png",
     "External/Attachments/Pack Leader Helm.png",
-    "External/Attachments/Metallurgist's Grip.png",
-    "Stories/Lore/Artefacts/Oblivion Stone.md",
-    "Stories/Atlas/Outer Planes/Mount Celestia/Forge of Creation.md",
-    "Stories/Atlas/Outer Planes/Mount Celestia/Aurum Fields.md",
-    "Stories/Lore/Myths & Legends/Primordials.md",
-    "Stories/Lore/NPC's/Aeon.md",
-    "Stories/Atlas/Prime/Exandria/Wildemount/Greying Wildlands",
-    "Stories/Campaigns/Whispers of the Matron/Player Characters",
+    "External/Attachments/Necromancer's Guff.png",
+    "README.md",
+    "Templates/PC.md",
+    "Stories/Lore/Factions/The Myriad.md",
+    "Stories/Lore/Artefacts/Bells of Livia Storm.md",
+    "Stories/Lore/Ancestries/Half-Elves.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas/Everness.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Rexxentrum.md",
+    "Stories/Atlas/Prime/Exandria/Tal'Dorei/Kraghammer.md",
     "Stories/Campaigns/Whispers of the Matron/Session Notes",
+    "Stories/Campaigns/Whispers of the Matron/Player Characters",
     "Stories/Campaigns/Whispers of the Matron",
-    "Stories/Atlas/Outer Planes/Bytopia",
-    "Stories/Atlas/Outer Planes/Arcadia",
-    "Stories/Atlas/Outer Planes/Ysgard",
-    "Stories/Atlas/Outer Planes/Carceri",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Greying Wildlands",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Xhorhas",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Menagerie Coast",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire",
+    "Stories/Atlas/Prime/Exandria/Wildemount",
     "Stories/Atlas/Prime/Exandria/Underdark",
-    "Stories/Campaigns/Tales of the Divine Conundrum/Session Notes"
+    "Stories/Atlas/Prime/Exandria/Issylra"
   ]
 }

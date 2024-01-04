@@ -67,7 +67,16 @@ Self-improvement in [[Mount Celestia]]. Also find out more about the [[Oblivion 
 ## Recap
 
 >[!quote]
->Lorem ipsum
+>- Woke up in [[Malifera]]'s abode, only to realise it was still night.
+>- [[Malifera]] began to question you after realising [[Maple]] was in her garden. She seemed to know [[Astryn]], claiming that she claimed [[Astryn]]'s true name.
+>- Asked whether you knew [[Valnyr|The Heartbound]], [[Astryn|The Philosopher]], or [[Mynark|The Pariah]].
+>- [[Arev]] gained a vision at the mention of [[Mynark|The Pariah]].
+>- [[Baern]] met the [[Thanatos|The Pilgrim]].
+>- Butterflies began swarming the magical dome. [[Malifera]] wasn't to worried, but you were.
+>- [[Skye]] and [[eve]] helped [[Malifera]] find a scroll of plane shift, also coming to find strange creatures being held captive in the attic.
+>- [[Zael]] ventured towards the basement and gathered some potions.
+>- [[Mynark|The Pariah]] seeped through the dome and manifested in the garden. They asked for the [[Oblivion Stone]].
+>- [[Malifera]] invoked the scroll of plane shift.
 ## NPCs
 - [[Malifera]]
 - [[Maple]]
@@ -118,31 +127,56 @@ Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]
 >- [Windy Countryside](https://www.youtube.com/watch?v=MfiDTOst3L4)
 
 >[!quote]
->Landing in the [[Aurum Fields]]:
+>_Landing in the [[Aurum Fields]]:_
 >Just now you were surrounded by the wooden walls of [[Malifera]]'s abode. Right as the plane shift spell was invoked - [[Mynark|The Pariah]] still standing in the doorway - the walls eventually closed in on you, before dissipating completely.
 >
 >For but a moment you found yourself drifting through the Astral sea, the connective tissue holding all the realms together. Both the heavens, and the hells. Chaos and order.
 >
->But the Astral is not meant for mere mortals, and soon you found yourselves _somewhere else_...
+>But the Astral is not meant for mere mortals, and soon you found yourselves _somewhere else_ entirely...
 >
 >---
 >
+>As eyes adjust to the light of day, your feet gracefully land in the dirt. A gentle wind blows that creates mesmerising patterns in the enormous all-surrounding fields of mellow coloured grass. The blades dance back and forth and stretch to the horizons of this realm. The occasional rock outcropping and cherry blossom tree dot the landscape, giving it character. 
 >
+>Golden leaves flutter just above ground, some get caught within your hair as a sudden gust rushes past. The gust brings with it a sweet smell of morning dew enriched with a tangy scent of pinewood.
+>
+>Although the grass fields seem endless, there is one clear destination ahead. Reaching for the golden and silver skies above, you see the base of a titan-sized mountain - so large, even the gods themselves must've climbed their way upward towards the heavens.
+>It is only now that you realise there is not sun to be found in this realm. Instead, through the clouds and mist cloaking the skies, you see the silhouette - the promise - of a radiating mountain top.
+>
+>Thus here you stand, having narrowly escaped some dangerous three-titled entity. You take a breath, but also a breather from all the peril and tribulations that have happened over the last night. The attack on the [[Crossroads Inn]], the chase through the [[Crispvale Thicket]] and the dealings with [[Malifera]] back in the world of Exandria.
+>
+>In the presence of heavenly forces, it hits you - just how quickly your lives have changed... for better or worse.
+>
+>---
+>
+>[[Arev]], never before has a vision been granted to you whilst awake. Moreover, it was vivid - as if you were there in the moment. 
+>As your friends settle themselves shortly after the teleportation spell, you can't stop yourself from thinking about what you saw. Three names, engraved in a stone statue of a tree. A door barely held shut, and [[Mynark|The Pariah]] closing in on you whilst swarms of butterflies swept by.
+>
+>[[Baern]], [[Thanatos|The Pilgrim]] is alive - he is bound to you by death and name. You have so many questions swirling through your mind. How is he alive? Why does he need you? What does he want?
+>According to him, your newfound friends would be safe, as long as you abided his commands. You've done so for now, but is this truly a path your willing to take? Time will tell.
+>
+>[[eve]], whilst some of your friends choose to reminisce, you can't help but feel a surge of panic flow through you - not because of the past, but due to where you stand... _here_ and _now_.
+>[[Mount Celestia]], a realm you've heard so many stories about. Heck, you have told plentiful stories about this place as well. But to actually be here, it almost frightens you. It begs the question: is the struggle of adventure worth the promise of a story to tell?
+>
+>[[Richard]], a smile creeps up on your face, for the otherworldly invigorates you. Lands that few dare to traverse is where _you_ thrive. To venture into the unknown and claim that which has yet to be claimed - this is what you live for.
+>But it is not the reason for the sudden joy that stirs within. No, for that is fuelled by the presence of daylight. You've come to realise that [[Malifera]] has a promise to fulfil.
+>
+>[[Skye]], you take in the beauty of your surroundings. Although the endless golden fields are vastly different from the lush jungles of your [[Elves|elven]] homeland, you still find yourself holding your breath in awe.
+>Some would think the ranger part of you - the outlander - causes you to admire nature in the way you do, but there is far more to it than meets the eye.
+>Your fingers caress the engraved name of Elysia on your longbow. A thought enters the mind: "_If only she could be here to see this._"
+>
+>And finally, [[Zael]]. From questioning to whether divinity even exists, to finding yourself being stranded in one of their heavens. The last 24-hours have certainly showed you facets of this world you presumed to be absurd. Moreover, you have that tantalizing feeling of being at the crux of something greater.
+>Perpetual night, undead rising from the afterlife, spirits chasing you, and that strange figure walking through the portal and dying in front of your eyes. Is this beyond you?
+>Your hand reaches for the [[Oblivion Stone]], still hidden within bag. It thrums and feels warmer to the touch, as it has aforetime.
+>At your feet, engraved within the dirt and only visible to your eyes, are the words: "_Bring me home._"
 
 
-
-
-
-
->- Skies of golden and silver light.
->- Light radiates from the top, through the clouds, and ebbs and flows in brightness throughout the day.
->- Sun shower rain.
->- Moradin earthquakes.
->- Lifeforms within the fields.
 
 The party finds themselves amongst the high-grass of the [[Aurum Fields]]. The grass reaches their knees, hence it is easy to overlook the vegetation and inspect the distant surroundings.
 As soon as the party teleports, [[Malifera]] will collapse to her knees as her strength falters. At the same time, [[Nebeus]]' image will apparate behind the party and form a distance. Lastly, the moving trail of a [[Lantern Archons|Lantern Archon]] will meander through the grass, approaching them.
 #### [[Malifera]]'s sickness
+Although [[Malifera]] is a lawful creature, she is profoundly evil in her very nature. Due to this, the goodness of the realm is weighing her down.
+#### [[Malifera]]'s vault
 ...
 #### Apparition of [[Nebeus]]
 ...
@@ -150,6 +184,8 @@ As soon as the party teleports, [[Malifera]] will collapse to her knees as her s
 ...
 #### Meeting [[Mineko]]
 ...
+#### Long rest in the [[Aurum Fields]]
+- [ ] Sorn raven guardians eerily trying to steal [[Oblivion Stone]].
 ### [[Glynneath]]
 
 >[!quote]
@@ -184,10 +220,6 @@ Plea from [[Toru]]:
 >
 >Even without [[Wind]], this home is my everything. If it were to burn to the ground, I will burn down with it...
 ### Gate of [[Quzhou]]
-
->[!quote]
->Lorem ipsum
-
 Lorem ipsum
 ### [[Forge of Creation]]
 Lorem ipsum

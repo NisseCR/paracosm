@@ -94,7 +94,7 @@ Describe the land of [[Wildemount]]:
 >[!quote]
 >Though grandiose and mighty, the raven finds these places far from fateful. More often than not, the most interesting of stories are born in the hidden creeks and corners of the world. A gem yet to be found. A treasure yet to be mapped.
 >
->And hence, the raven drifts down towards the Crispvale Thicket, a small forest near the foot of a mountain. Snow gently caresses the tundra landscape of the north, escaping the roaring thunder that bellows from the heavens. The occasional flash of lightning illuminates the otherwise darkened evening, revealing numerous clustered pine trees, huddling together to withstand the cold.
+>And hence, the raven drifts down towards the [[Crispvale Thicket]], a small forest near the foot of a mountain. Snow gently caresses the tundra landscape of the north, escaping the roaring thunder that bellows from the heavens. The occasional flash of lightning illuminates the otherwise darkened evening, revealing numerous clustered pine trees, huddling together to withstand the cold.
 >
 >Under their canopy, we get to see glimpses of pebble-covered roads - long worn out -  that meander their way through the wilderness. Unguided, they provide a means of a journey towards a destination of once choosing.
 >
