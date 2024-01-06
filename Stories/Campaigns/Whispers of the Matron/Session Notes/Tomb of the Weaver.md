@@ -3,35 +3,6 @@ tags:
   - session
   - WotM
 ---
-# Resources
-## Checklist
-
->[!Ideas/scenes]-
->- [ ] idea1
->- [ ] idea2
-
->[!Todo]-
->- [ ] item1
->- [ ] item2
-
-
-## Character Review
-#### Character1
-***Background***
-Lorem ipsum
-
-***Motivation***
-Lorem ipsum
-
----
-#### Character1
-***Background***
-Lorem ipsum
-
-***Motivation***
-Lorem ipsum
-
-
 # Story
 
 ## Recap
@@ -39,18 +10,23 @@ Lorem ipsum
 >[!quote]
 >Lorem ipsum
 ## NPCs
-- npc1
-- npc2
+- [[Sting]]
+- [[Darius|General Darius]]
 ## Items & Rewards
 - item 1
 - item2
 ## Scenes & Locations
-### Scene1
+### Sewers of [[Nogvurot]]
+With the release of [[The Weaver]], the tomb under the tower of [[Shadar]] sustained so much force damage, the entire structure sank to the ground. Due to this, the underground tunnels of [[Nogvurot]] sit at an angle. Fresh water flows through the sewers in the opposite direction, towards the enormous earth fissures that separate the sewers from [[Shadar]].
 
 >[!quote]
->Lorem ipsum
+>...
 
-Lorem ipsum
+---
+
+#### 
+
+
 ### Scene2
 
 >[!quote]

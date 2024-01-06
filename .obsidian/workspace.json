@@ -11,8 +11,12 @@
             "id": "e42d341bae9feff9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md"
+              }
             }
           }
         ]
@@ -140,6 +147,14 @@
   },
   "active": "e42d341bae9feff9",
   "lastOpenFiles": [
+    "Stories/Lore/NPC's/Darius.md",
+    "Stories/Lore/NPC's/Sting.md",
+    "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Shadar.md",
+    "Stories/Lore/NPC's/The Weaver.md",
+    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Nogvurot.md",
+    "Stories/Lore/Artefacts/Ghost Lantern.md",
+    "Stories/Lore/Artefacts/Shamisen of the Changing Wind.md",
     "Stories/Lore/NPC's/Mineko.md",
     "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
@@ -150,7 +165,6 @@
     "Stories/Lore/Artefacts/Wavebreaker.md",
     "Stories/Lore/Artefacts/Unstoppable Heart.md",
     "Stories/Lore/Artefacts/Stoneseed Amber.md",
-    "Stories/Lore/Artefacts/Shamisen of the Changing Wind.md",
     "Stories/Lore/Artefacts/Scroll of Necrosis.md",
     "Stories/Lore/Artefacts/Ring of Dagger Ice.md",
     "Stories/Lore/Artefacts/Remorhaz Cloak.md",
@@ -159,10 +173,6 @@
     "Stories/Lore/Artefacts/Metallurgist's Grip.md",
     "Stories/Lore/Artefacts/Inferno Engine.md",
     "Stories/Lore/Artefacts/Hunter's Cup.md",
-    "Stories/Lore/Artefacts/H'rethi Cloak of Shielding.md",
-    "Stories/Lore/Artefacts/Ghost Lantern.md",
-    "Stories/Lore/Artefacts/Death Locket.md",
-    "Stories/Lore/Artefacts/Cloak of Smoke and Cinder.md",
     "External/Attachments/Wavebreaker.png",
     "External/Attachments/Unstoppable Heart.png",
     "External/Attachments/The Oblivion Stone.jpg",
@@ -173,9 +183,6 @@
     "External/Attachments/Remorhaz Cloak.png",
     "External/Attachments/Pack Leader Helm.png",
     "External/Attachments/Necromancer's Guff.png",
-    "README.md",
-    "Templates/PC.md",
-    "Stories/Lore/Factions/The Myriad.md",
     "Stories/Campaigns/Whispers of the Matron/Session Notes",
     "Stories/Campaigns/Whispers of the Matron/Player Characters",
     "Stories/Campaigns/Whispers of the Matron",
