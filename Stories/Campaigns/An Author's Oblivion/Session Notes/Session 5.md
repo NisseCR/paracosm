@@ -153,8 +153,8 @@ Items can be acquired from the [[Forge of Creation]] dungeon-crawl, [[Malifera]]
 >[[Arev]], never before has a vision been granted to you whilst awake. Moreover, it was vivid - as if you were there in the moment. 
 >As your friends settle themselves shortly after the teleportation spell, you can't stop yourself from thinking about what you saw. Three names, engraved in a stone statue of a tree. A door barely held shut, and [[Mynark|The Pariah]] closing in on you whilst swarms of butterflies swept by. The images still linger within the mind.
 >
->[[Baern]], [[Thanatos|The Pilgrim]] is alive - he is bound to you by death and name. You have so many questions swirling through your mind. How is he alive? Why does he need you? What does he want?
->According to him, your newfound friends would be safe, as long as you abided his commands. You've done so for now, but is this truly a path your willing to take? And if not, what path will you take?
+>[[Baern]], [[Thanatos|The Pilgrim]] is alive - he is bound to you by death and name. You have so many questions swirling through your mind. How did he escape death? Why does he need you? And above all, what does he want?
+>Is this patron to be trusted? Who is to say. According to him, your newfound friends would be safe, as long as you abided his commands. You've done so for now, but is this truly a path your willing to take? And if not, what path will you take?
 >
 >[[eve]], whilst some of your friends choose to reminisce, you can't help but feel a surge of panic flow through you - not because of the past, not because of memories re-emerging, but due to where you stand... _here_ and _now_.
 >[[Mount Celestia]], a realm you've heard so many stories about. Heck, you have told plentiful stories about this place as well. But to actually be here, it almost frightens you. It begs the question: is the struggle of adventure worth the promise of a story to tell?
