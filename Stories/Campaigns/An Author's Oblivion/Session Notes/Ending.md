@@ -1,0 +1,16 @@
+- Top of the tower. Maybe not on the top of the tower.
+- Pact of sun and moon is re-invoked.
+- Dawn of a new chapter begins, rays of sun warm skin and meet the eyes.
+- Close eyes, feel the moment. Ravel in this new world, catered by _player_.
+- A wind blows. Whether it is real or just a phantom of the mind, you hear the melody of wind.
+	- As we hear the melody, we ....
+	- Does not matter whether it is real or not
+	- To us it is.
+- It reminds you of memories and moments full of joy, hope and love.
+- But above all, the melody carries a message.
+- Mineko thanks you, for having guided hear towards the top.
+- Wind thanks you,
+- Valnyr thanks you,
+- Mynark thanks you,
+- Astryn thanks you,
+- Above all, I thank you - for everything.

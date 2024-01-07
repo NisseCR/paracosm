@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md"
+                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md"
               }
             }
           }
@@ -147,32 +147,34 @@
   },
   "active": "e42d341bae9feff9",
   "lastOpenFiles": [
+    "Stories/Short-Stories/Abyssus.md",
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
+    "Ideas/The Valiant.md",
+    "Stories/Lore/Artefacts/Helm of Telepathy.md",
+    "External/Attachments/Lucidian Ocean.jpg",
+    "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
+    "Stories/Short-Stories",
+    "Stories/Untitled.md",
+    "Stories/Lore/Factions/Morns.md",
+    "Stories/Lore/Artefacts/Hunter's Cup.md",
+    "Stories/Lore/Artefacts/Potion of Water Breathing.md",
+    "Stories/Lore/Artefacts/Ghost Lantern.md",
+    "Stories/Lore/Artefacts/Necromancer's Guff.md",
+    "Stories/Lore/Artefacts/Unstoppable Heart.md",
+    "Stories/Lore/Artefacts/Stoneseed Amber.md",
+    "Stories/Lore/Artefacts/Ring of Dagger Ice.md",
+    "Stories/Lore/Artefacts/Metallurgist's Grip.md",
+    "Stories/Lore/Artefacts/Pack Leader Helm.md",
     "Stories/Lore/NPC's/Darius.md",
     "Stories/Lore/NPC's/Sting.md",
-    "Stories/Campaigns/Whispers of the Matron/Session Notes/Tomb of the Weaver.md",
     "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Shadar.md",
     "Stories/Lore/NPC's/The Weaver.md",
     "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Nogvurot.md",
-    "Stories/Lore/Artefacts/Ghost Lantern.md",
     "Stories/Lore/Artefacts/Shamisen of the Changing Wind.md",
     "Stories/Lore/NPC's/Mineko.md",
     "Stories/Atlas/Outer Planes/Mount Celestia/Mount Celestia.md",
     "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 5.md",
     "Stories/Lore/NPC's/Sorn.md",
-    "Stories/Lore/NPC's/Nebeus.md",
-    "Stories/Campaigns/An Author's Oblivion/Session Notes/Session 4.md",
-    "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire/Crispvale Thicket.md",
-    "Stories/Lore/Artefacts/Wavebreaker.md",
-    "Stories/Lore/Artefacts/Unstoppable Heart.md",
-    "Stories/Lore/Artefacts/Stoneseed Amber.md",
-    "Stories/Lore/Artefacts/Scroll of Necrosis.md",
-    "Stories/Lore/Artefacts/Ring of Dagger Ice.md",
-    "Stories/Lore/Artefacts/Remorhaz Cloak.md",
-    "Stories/Lore/Artefacts/Pack Leader Helm.md",
-    "Stories/Lore/Artefacts/Necromancer's Guff.md",
-    "Stories/Lore/Artefacts/Metallurgist's Grip.md",
-    "Stories/Lore/Artefacts/Inferno Engine.md",
-    "Stories/Lore/Artefacts/Hunter's Cup.md",
     "External/Attachments/Wavebreaker.png",
     "External/Attachments/Unstoppable Heart.png",
     "External/Attachments/The Oblivion Stone.jpg",
@@ -182,7 +184,6 @@
     "External/Attachments/Ring of Dagger Ice.png",
     "External/Attachments/Remorhaz Cloak.png",
     "External/Attachments/Pack Leader Helm.png",
-    "External/Attachments/Necromancer's Guff.png",
     "Stories/Campaigns/Whispers of the Matron/Session Notes",
     "Stories/Campaigns/Whispers of the Matron/Player Characters",
     "Stories/Campaigns/Whispers of the Matron",
@@ -191,7 +192,6 @@
     "Stories/Atlas/Prime/Exandria/Wildemount/Menagerie Coast",
     "Stories/Atlas/Prime/Exandria/Wildemount/Dwendalian Empire",
     "Stories/Atlas/Prime/Exandria/Wildemount",
-    "Stories/Atlas/Prime/Exandria/Underdark",
-    "Stories/Atlas/Prime/Exandria/Issylra"
+    "Stories/Atlas/Prime/Exandria/Underdark"
   ]
 }
