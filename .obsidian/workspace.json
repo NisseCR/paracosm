@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0947167d3b8f763",
+        "id": "2d5a21ac9b6ce7b6",
         "type": "tabs",
         "children": [
           {
-            "id": "e42d341bae9feff9",
+            "id": "d74fba6806fae8cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
+                "file": "Stories/Short-Stories/Abyssus.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
+                "file": "Stories/Short-Stories/Abyssus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
+                "file": "Stories/Short-Stories/Abyssus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md"
+                "file": "Stories/Short-Stories/Abyssus.md"
               }
             }
           }
@@ -145,10 +145,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e42d341bae9feff9",
+  "active": "d74fba6806fae8cb",
   "lastOpenFiles": [
+    "Stories/Campaigns/An Author's Oblivion/Session Notes/Epilogue.md",
     "Stories/Short-Stories/Abyssus.md",
-    "Stories/Campaigns/An Author's Oblivion/Session Notes/Ending.md",
     "Ideas/The Valiant.md",
     "Stories/Lore/Artefacts/Helm of Telepathy.md",
     "External/Attachments/Lucidian Ocean.jpg",
