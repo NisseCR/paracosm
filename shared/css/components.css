@@ -1,0 +1,207 @@
+/* shared/css/components.css */
+:root {
+    --title-color:   #e8dcc8;
+    --chapter-color: #a09080;
+    --body-color:    #d4c8b4;
+    --em-color:      #e8dcc8;
+    --rule-color:    rgba(180, 160, 130, 0.4);
+    --overlay-rgb:   10, 8, 6;
+}
+
+.chapter-label {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--chapter-color);
+    margin-bottom: 1.2rem;
+}
+
+#hero h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    font-weight: 600;
+    color: var(--title-color);
+    line-height: 1.15;
+    text-shadow: 0 2px 40px rgba(0,0,0,0.95);
+    max-width: 800px;
+}
+
+.text-column p {
+    font-size: 17px;
+    line-height: 1.95;
+    color: var(--body-color);
+    text-shadow: 0 1px 12px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6);
+    margin-bottom: 1.4em;
+}
+
+.text-column p:last-child { margin-bottom: 0; }
+
+.text-column em {
+    font-style: italic;
+    color: var(--em-color);
+}
+
+.text-column p:first-child::first-letter {
+    font-family: 'Cinzel', serif;
+    font-size: 3.6em;
+    font-weight: 600;
+    float: left;
+    line-height: 0.75;
+    margin: 0.08em 0.12em 0 0;
+    color: var(--title-color);
+}
+
+.rule {
+    width: 120px;
+    height: 1px;
+    background: var(--rule-color);
+    margin: 2.4rem auto;
+}
+
+.closing {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    color: var(--chapter-color);
+    text-align: center;
+    text-shadow: 0 1px 12px rgba(0,0,0,0.9);
+    margin-top: 2.4rem;
+}
+
+.fade-child {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.fade-child.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.chapter-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 3.5rem;
+}
+
+.chapter-btn {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--chapter-color);
+    text-decoration: none;
+    border: 1px solid rgba(180, 160, 130, 0.35);
+    padding: 0.55em 1.6em;
+    transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+    background: transparent;
+}
+
+.chapter-btn:hover {
+    color: var(--title-color);
+    border-color: rgba(232, 220, 200, 0.55);
+    background: rgba(180, 160, 130, 0.07);
+}
+
+.chapter-btn--ghost {
+    border-color: rgba(180, 160, 130, 0.18);
+    color: rgba(160, 144, 128, 0.6);
+    font-size: 10px;
+}
+
+.chapter-btn--ghost:hover {
+    color: var(--chapter-color);
+    border-color: rgba(180, 160, 130, 0.35);
+    background: transparent;
+}
+
+#audio-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--chapter-color);
+    background: transparent;
+    border: 1px solid rgba(180, 160, 130, 0.28);
+    padding: 0.5em 0.9em;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.6s ease, transform 0.6s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#audio-btn.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+#audio-btn:hover {
+    color: var(--title-color);
+    border-color: rgba(232, 220, 200, 0.45);
+}
+
+#audio-btn.muted {
+    color: rgba(160, 144, 128, 0.4);
+    border-color: rgba(180, 160, 130, 0.12);
+}
+
+#audio-icon {
+    font-size: 11px;
+    line-height: 1;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(197, 162, 96, 0.28);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(197, 162, 96, 0.55);
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(197, 162, 96, 0.28) transparent;
+}
+
+@keyframes fadeIn { to { opacity: 1; } }
+@keyframes bgFadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.tw-cursor {
+    display: inline-block;
+    width: 1px;
+    height: 0.85em;
+    background: currentColor;
+    margin-left: 2px;
+    vertical-align: middle;
+    animation: blink 0.9s step-end infinite;
+}
+
+.tw-cursor.done {
+    animation: fadeIn 0.3s ease forwards reverse;
+    opacity: 0;
+}

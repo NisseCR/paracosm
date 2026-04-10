@@ -1,0 +1,10 @@
+/* shared/css/base.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'IM Fell English', Georgia, serif;
+    background: #000;
+    overflow-x: hidden;
+}
