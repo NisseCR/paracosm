@@ -31,7 +31,7 @@ export function initStoryPage(storyAudio) {
     const showAudioHint = () => {
         if (audioHintEl.isConnected) return;
 
-        titleEl.appendChild(audioHintEl);
+        document.body.appendChild(audioHintEl);
 
         window.setTimeout(() => {
             audioHintEl.classList.add('visible');
