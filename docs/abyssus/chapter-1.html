@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prologue</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../shared/css/base.css">
+    <link rel="stylesheet" href="../../shared/css/layout.css">
+    <link rel="stylesheet" href="../../shared/css/components.css">
+    <link rel="stylesheet" href="story.css">
+</head>
+<body>
+<div id="bg-layer">
+    <div id="bg"></div>
+
+    <video class="bg-video" id="bg-video-snow" autoplay loop muted playsinline>
+        <source src="assets/video/Wind.webm" type="video/webm">
+    </video>
+
+    <video class="bg-video" id="bg-video-mountain" autoplay loop muted playsinline>
+        <source src="assets/video/Mountain.webm" type="video/webm">
+    </video>
+</div>
+
+<div id="bg-overlay"></div>
+
+<audio id="audio-ambient" loop>
+    <source src="assets/audio/Snow.ogg" type="audio/ogg">
+</audio>
+<audio id="audio-music" loop>
+    <source src="assets/audio/Homecoming.mp3" type="audio/mpeg">
+</audio>
+
+<button id="audio-btn" aria-label="Toggle audio">
+    <span id="audio-icon">♪</span>
+    <span id="audio-label">sound on</span>
+</button>
+
+<section id="hero">
+    <p class="chapter-label" id="chapter-label"></p>
+    <h1 id="hero-title"></h1>
+</section>
+
+<div id="spacer"></div>
+
+<section id="content">
+    <div class="text-column">
+        <p class="fade-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p class="fade-child">Sed ut perspiciatis unde omnis iste natus error sit voluptatem...</p>
+        <div class="rule fade-child"></div>
+        <p class="fade-child">At vero eos et accusamus et iusto odio dignissimos ducimus...</p>
+        <p class="closing fade-child">Your story begins now.</p>
+
+        <nav class="chapter-nav fade-child" aria-label="Chapter navigation">
+            <a href="chapter-1.html" class="chapter-btn">Chapter I</a>
+            <a href="index.html" class="chapter-btn chapter-btn--ghost">↩ Return</a>
+        </nav>
+    </div>
+</section>
+
+<script type="module" src="../../shared/js/story-page.js"></script>
+</body>
+</html>
