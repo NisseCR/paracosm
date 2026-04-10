@@ -1,7 +1,7 @@
-// shared/js/story-page.js
 import { typeInto } from './typewriter.js';
-import { initAudio } from './audio.js';
+import { initStoryAudio } from './audio.js';
 import { initStoryEffects } from './effects.js';
+import { STORY_AUDIO } from '../../abyssus/story.js';
 
 /**
  * Bootstraps a story page.
@@ -17,12 +17,7 @@ function initStoryPage() {
     const labelEl = document.getElementById('chapter-label');
     const titleEl = document.getElementById('hero-title');
 
-    const audioBtn = document.getElementById('audio-btn');
-    const audioLabelEl = document.getElementById('audio-label');
-    const audioAmbient = document.getElementById('audio-ambient');
-    const audioMusic = document.getElementById('audio-music');
-
-    if (!labelEl || !titleEl || !audioBtn || !audioLabelEl || !audioAmbient || !audioMusic) {
+    if (!labelEl || !titleEl) {
         return;
     }
 
@@ -39,12 +34,26 @@ function initStoryPage() {
         });
     }
 
-    initAudio({
-        audioBtn,
-        audioLabelEl,
-        audioAmbient,
-        audioMusic
+    const audio = initStoryAudio({
+        scenes: STORY_AUDIO.scenes,
+        blendWindowPx: STORY_AUDIO.blendWindowPx,
+        masterVolume: STORY_AUDIO.masterVolume,
+        musicCrossfade: STORY_AUDIO.musicCrossfade
     });
+
+    let audioUnlocked = false;
+
+    const unlockAudio = async () => {
+        if (audioUnlocked) return;
+        audioUnlocked = true;
+        await audio.unlock();
+        audio.unmute();
+    };
+
+    document.addEventListener('click', unlockAudio, { once: true });
+    document.addEventListener('keydown', unlockAudio, { once: true });
+    document.addEventListener('pointerdown', unlockAudio, { once: true });
+    document.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
 
     initStoryEffects({
         bgLayer,
