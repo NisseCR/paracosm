@@ -30,7 +30,7 @@ body {
   pointer-events: none;
 
   opacity: 0;
-  animation: bgFadeIn 8s ease-out forwards 2s;
+  animation: bgFadeIn 5s ease-out forwards 2s;
 }
 
 #bg {
