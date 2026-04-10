@@ -1,0 +1,215 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ══════════════════════════════════════════════════════════
+   ✏️  COLOURS
+══════════════════════════════════════════════════════════ */
+:root {
+  --title-color:    #e8dcc8;
+  --chapter-color:  #a09080;
+  --body-color:     #d4c8b4;
+  --em-color:       #e8dcc8;
+  --rule-color:     rgba(180, 160, 130, 0.4);
+  --overlay-rgb:    10, 8, 6;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'IM Fell English', Georgia, serif;
+  background: #000;
+  overflow-x: hidden;
+}
+
+/* ── Fixed background art ───────────────────────────────── */
+#bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+
+  /* ✏️  Replace with your own image */
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-color: #0a0806;
+}
+
+#bg-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background: rgba(var(--overlay-rgb), 0);
+  pointer-events: none;
+}
+
+/* ── Hero (title screen) ────────────────────────────────── */
+#hero {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  pointer-events: none;
+  transition: opacity 0.05s linear;
+}
+
+/* ✏️  Chapter label */
+.chapter-label {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--chapter-color);
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  animation: fadeIn 1.8s ease forwards 0.5s;
+}
+
+/* ✏️  Main title */
+#hero h1 {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-weight: 600;
+  color: var(--title-color);
+  line-height: 1.15;
+  text-shadow: 0 2px 40px rgba(0,0,0,0.95);
+  max-width: 800px;
+  opacity: 0;
+  animation: fadeIn 2s ease forwards 1s;
+}
+
+/* ✏️  Subtitle */
+.subtitle {
+  font-style: italic;
+  font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+  color: var(--chapter-color);
+  margin-top: 1rem;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.9);
+  opacity: 0;
+  animation: fadeIn 2s ease forwards 1.6s;
+}
+
+/* Scroll hint */
+#scroll-hint {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards 2.5s, bob 2s ease-in-out infinite 2.5s;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+#scroll-hint span {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--chapter-color);
+}
+
+#scroll-hint svg {
+  width: 18px; height: 18px;
+  stroke: var(--chapter-color);
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Spacer that pushes content below the initial viewport */
+#spacer {
+  height: 100vh;
+}
+
+/* ── Content section ────────────────────────────────────── */
+#content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem 12rem;
+}
+
+.text-column {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* ✏️  Body text paragraphs */
+.text-column p {
+  font-size: 17px;
+  line-height: 1.95;
+  color: var(--body-color);
+  text-shadow: 0 1px 12px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6);
+  margin-bottom: 1.4em;
+}
+
+.text-column p:last-child { margin-bottom: 0; }
+
+.text-column em {
+  font-style: italic;
+  color: var(--em-color);
+}
+
+/* Drop cap on the very first paragraph */
+.text-column p:first-child::first-letter {
+  font-family: 'Cinzel', serif;
+  font-size: 3.6em;
+  font-weight: 600;
+  float: left;
+  line-height: 0.75;
+  margin: 0.08em 0.12em 0 0;
+  color: var(--title-color);
+}
+
+/* ── Divider — a single thin rule ──────────────────────── */
+.rule {
+  width: 120px;
+  height: 1px;
+  background: var(--rule-color);
+  margin: 2.4rem auto;
+}
+
+/* ── Closing line ───────────────────────────────────────── */
+.closing {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--chapter-color);
+  text-align: center;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.9);
+  margin-top: 2.4rem;
+}
+
+/* ── Scroll-reveal: each element fades up when visible ─── */
+.fade-child {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.fade-child.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Keyframes ──────────────────────────────────────────── */
+@keyframes fadeIn { to { opacity: 1; } }
+
+@keyframes bob {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(7px); }
+}
+
+@media (max-width: 500px) {
+  #content { padding: 0 1.4rem 8rem; }
+}
