@@ -6,25 +6,97 @@ export function initAudio({
                               audioMusic,
                               startMuted = false,
                               ambientVolume = 0.55,
-                              musicVolume = 0.3
+                              musicVolume = 0.3,
+                              fadeDuration = 5000
                           }) {
     let audioUnlocked = false;
     let audioOn = !startMuted;
+    let fadeAnimationId = null;
+    let shouldFadeInOnUnlock = true;
 
-    audioAmbient.volume = ambientVolume;
-    audioMusic.volume = musicVolume;
+    audioAmbient.volume = 0;
+    audioMusic.volume = 0;
 
     audioBtn.classList.add('visible');
 
-    function startAudio() {
+    function setButtonState(isOn) {
+        audioBtn.classList.toggle('muted', !isOn);
+        audioLabelEl.textContent = isOn ? 'sound on' : 'sound off';
+    }
+
+    function stopFade() {
+        if (fadeAnimationId !== null) {
+            cancelAnimationFrame(fadeAnimationId);
+            fadeAnimationId = null;
+        }
+    }
+
+    function fadeTo(targetAmbientVolume, targetMusicVolume, shouldPauseOnEnd = false, onComplete) {
+        stopFade();
+
+        const startTime = performance.now();
+        const startAmbientVolume = audioAmbient.volume;
+        const startMusicVolume = audioMusic.volume;
+
+        function tick(now) {
+            const progress = Math.min((now - startTime) / fadeDuration, 1);
+
+            audioAmbient.volume = startAmbientVolume + (targetAmbientVolume - startAmbientVolume) * progress;
+            audioMusic.volume = startMusicVolume + (targetMusicVolume - startMusicVolume) * progress;
+
+            if (progress < 1) {
+                fadeAnimationId = requestAnimationFrame(tick);
+                return;
+            }
+
+            fadeAnimationId = null;
+
+            if (shouldPauseOnEnd) {
+                audioAmbient.pause();
+                audioMusic.pause();
+            }
+
+            if (typeof onComplete === 'function') {
+                onComplete();
+            }
+        }
+
+        fadeAnimationId = requestAnimationFrame(tick);
+    }
+
+    function startAudio(shouldFade = false) {
+        if (shouldFade) {
+            audioAmbient.volume = 0;
+            audioMusic.volume = 0;
+        } else {
+            audioAmbient.volume = ambientVolume;
+            audioMusic.volume = musicVolume;
+        }
+
         audioAmbient.play().catch(() => {});
         audioMusic.play().catch(() => {});
+
+        if (shouldFade) {
+            fadeTo(ambientVolume, musicVolume);
+        }
+    }
+
+    function stopAudio() {
+        audioAmbient.volume = 0;
+        audioMusic.volume = 0;
+        audioAmbient.pause();
+        audioMusic.pause();
     }
 
     function unlockAudio() {
         if (audioUnlocked) return;
         audioUnlocked = true;
-        startAudio();
+
+        if (audioOn) {
+            setButtonState(true);
+            startAudio(shouldFadeInOnUnlock);
+            shouldFadeInOnUnlock = false;
+        }
     }
 
     audioBtn.addEventListener('click', () => {
@@ -34,15 +106,13 @@ export function initAudio({
         }
 
         audioOn = !audioOn;
+
         if (audioOn) {
-            startAudio();
-            audioBtn.classList.remove('muted');
-            audioLabelEl.textContent = 'sound on';
+            setButtonState(true);
+            startAudio(false);
         } else {
-            audioAmbient.pause();
-            audioMusic.pause();
-            audioBtn.classList.add('muted');
-            audioLabelEl.textContent = 'sound off';
+            setButtonState(false);
+            stopAudio();
         }
     });
 
