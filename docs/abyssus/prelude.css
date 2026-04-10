@@ -46,6 +46,7 @@ body {
 #bg-video-snow {
   opacity: 0.4;
   mix-blend-mode: screen;
+  transform: scaleX(-1);
 }
 
 #bg-overlay {
