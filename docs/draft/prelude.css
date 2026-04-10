@@ -27,22 +27,25 @@ body {
   z-index: 0;
 
   /* ✏️  Replace with your own image */
-  background-image: url('background.jpg');
+  background-image: url('assets/background.jpg');
   background-size: cover;
   background-position: center center;
   background-color: #0a0806;
 }
 
-#bg-video {
+.bg-video {
   position: fixed;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;     /* fills the frame, same as background-size: cover */
   z-index: 1;            /* above #bg, below #bg-overlay */
-  opacity: 0.7;         /* tune this — lower = more subtle */
-  mix-blend-mode: screen; /* optional: try 'screen', 'overlay', or 'normal' */
   pointer-events: none;
+}
+
+#bg-video-snow {
+  opacity: 0.4;
+  mix-blend-mode: screen;
 }
 
 #bg-overlay {
@@ -102,39 +105,6 @@ body {
   text-shadow: 0 2px 20px rgba(0,0,0,0.9);
   opacity: 0;
   animation: fadeIn 2s ease forwards 1.6s;
-}
-
-/* Scroll hint */
-#scroll-hint {
-  position: absolute;
-  bottom: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  opacity: 0;
-  animation: fadeIn 1.5s ease forwards 2.5s, bob 2s ease-in-out infinite 2.5s;
-  pointer-events: none;
-  transition: opacity 0.5s ease;
-}
-
-#scroll-hint span {
-  font-family: 'Cinzel', serif;
-  font-size: 10px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--chapter-color);
-}
-
-#scroll-hint svg {
-  width: 18px; height: 18px;
-  stroke: var(--chapter-color);
-  fill: none;
-  stroke-width: 1.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
 }
 
 /* Spacer that pushes content below the initial viewport */
