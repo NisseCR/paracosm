@@ -1,27 +1,38 @@
 // shared/js/typewriter.js
+
 export function makeCursor() {
-    const c = document.createElement('span');
-    c.className = 'tw-cursor';
-    return c;
+    const cursor = document.createElement('span');
+    cursor.className = 'tw-cursor';
+    return cursor;
 }
 
+/**
+ * Types text into an element one character at a time.
+ */
 export function typeInto(el, text, speed, onDone) {
+    if (!el) return;
+
     el.textContent = '';
     const cursor = makeCursor();
     el.appendChild(cursor);
 
-    let i = 0;
+    let index = 0;
     const tick = setInterval(() => {
-        el.insertBefore(document.createTextNode(text[i]), cursor);
-        i++;
-
-        if (i >= text.length) {
-            clearInterval(tick);
-            setTimeout(() => {
-                cursor.classList.add('done');
-                cursor.addEventListener('animationend', () => cursor.remove(), { once: true });
-                if (onDone) onDone();
-            }, 500);
+        if (index < text.length) {
+            el.insertBefore(document.createTextNode(text[index]), cursor);
+            index += 1;
+            return;
         }
+
+        clearInterval(tick);
+
+        window.setTimeout(() => {
+            cursor.classList.add('done');
+            cursor.addEventListener('animationend', () => cursor.remove(), { once: true });
+
+            if (typeof onDone === 'function') {
+                onDone();
+            }
+        }, 500);
     }, speed);
 }
