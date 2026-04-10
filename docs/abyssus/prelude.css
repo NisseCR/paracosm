@@ -30,7 +30,7 @@ body {
   pointer-events: none;
 
   opacity: 0;
-  animation: bgFadeIn 3s ease-out forwards 0.2s;
+  animation: bgFadeIn 8s ease-out forwards 2s;
 }
 
 #bg {
@@ -98,7 +98,7 @@ body {
   color: var(--chapter-color);
   margin-bottom: 1.2rem;
   opacity: 0;
-  animation: fadeIn 1.8s ease forwards 0.5s;
+  animation: fadeIn 3s ease forwards 0.5s;
 }
 
 /* ✏️  Main title */
@@ -111,7 +111,7 @@ body {
   text-shadow: 0 2px 40px rgba(0,0,0,0.95);
   max-width: 800px;
   opacity: 0;
-  animation: fadeIn 2s ease forwards 1s;
+  animation: fadeIn 3s ease forwards 0.7s;
 }
 
 /* ✏️  Subtitle */
