@@ -5,7 +5,7 @@
  *
  * How it works:
  * - HTML paragraphs/blocks are marked with `data-audio-step="sceneId"`.
- * - `story.js` maps each `sceneId` to ambient tracks and music.
+ * - `story-config.js` maps each `sceneId` to ambient tracks and music.
  * - When a marker is reached, the controller switches scenes.
  * - Ambience fades out/in together.
  * - Music fades out first, then the next music fades in on a later update.

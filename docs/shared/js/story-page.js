@@ -1,14 +1,13 @@
 import { typeInto } from './typewriter.js';
 import { initStoryAudio } from './audio.js';
 import { initStoryEffects } from './effects.js';
-import { STORY_AUDIO } from '../../abyssus/story.js';
 
 /**
  * Bootstraps a story page.
- * Reads page-specific text from <body data-*> attributes so the same script
- * can power multiple chapters without duplication.
+ * The story-specific audio config is passed in by the page module, so this
+ * shared script can be reused by multiple stories.
  */
-function initStoryPage() {
+export function initStoryPage(storyAudio) {
     const bgLayer = document.getElementById('bg-layer');
     const overlay = document.getElementById('bg-overlay');
     const hero = document.getElementById('hero');
@@ -24,28 +23,55 @@ function initStoryPage() {
     const chapterLabel = document.body.dataset.chapterLabel ?? '';
     const heroTitle = document.body.dataset.heroTitle ?? '';
 
+    const audioHintEl = document.createElement('span');
+    audioHintEl.className = 'audio-hint';
+    audioHintEl.setAttribute('aria-hidden', 'true');
+    audioHintEl.innerHTML = '<span class="audio-hint__icon">♪</span><span class="audio-hint__text">tap for audio</span>';
+
+    const showAudioHint = () => {
+        if (audioHintEl.isConnected) return;
+
+        titleEl.appendChild(audioHintEl);
+
+        window.setTimeout(() => {
+            audioHintEl.classList.add('visible');
+        }, 20);
+    };
+
+    const hideAudioHint = () => {
+        if (!audioHintEl.isConnected) return;
+
+        audioHintEl.classList.remove('visible');
+        audioHintEl.addEventListener('transitionend', () => audioHintEl.remove(), { once: true });
+
+        window.setTimeout(() => {
+            audioHintEl.remove();
+        }, 800);
+    };
+
     if (chapterLabel) {
         typeInto(labelEl, chapterLabel, 55, () => {
             if (!heroTitle) return;
 
             window.setTimeout(() => {
-                typeInto(titleEl, heroTitle, 90);
+                typeInto(titleEl, heroTitle, 90, showAudioHint);
             }, 380);
         });
     }
 
     const audio = initStoryAudio({
-        scenes: STORY_AUDIO.scenes,
-        fadeInDurationMs: STORY_AUDIO.fadeInDurationMs,
-        ambienceTransitionDurationMs: STORY_AUDIO.ambienceTransitionDurationMs,
-        musicFadeOutDurationMs: STORY_AUDIO.musicFadeOutDurationMs,
-        musicFadeInDurationMs: STORY_AUDIO.musicFadeInDurationMs,
-        masterVolume: STORY_AUDIO.masterVolume
+        scenes: storyAudio.scenes,
+        fadeInDurationMs: storyAudio.fadeInDurationMs,
+        ambienceTransitionDurationMs: storyAudio.ambienceTransitionDurationMs,
+        musicFadeOutDurationMs: storyAudio.musicFadeOutDurationMs,
+        musicFadeInDurationMs: storyAudio.musicFadeInDurationMs,
+        masterVolume: storyAudio.masterVolume
     });
 
     const unlockAudio = async () => {
         await audio.unlock();
         audio.unmute();
+        hideAudioHint();
     };
 
     document.addEventListener('click', unlockAudio, { once: true });
@@ -60,5 +86,3 @@ function initStoryPage() {
         fadeEls
     });
 }
-
-initStoryPage();
