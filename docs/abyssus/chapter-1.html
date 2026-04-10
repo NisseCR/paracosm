@@ -36,11 +36,6 @@
     <source src="assets/audio/Homecoming.mp3" type="audio/mpeg">
 </audio>
 
-<button id="audio-btn" aria-label="Toggle audio">
-    <span id="audio-icon">♪</span>
-    <span id="audio-label">sound on</span>
-</button>
-
 <section id="hero">
     <p class="chapter-label" id="chapter-label"></p>
     <h1 id="hero-title"></h1>
@@ -63,6 +58,8 @@
     </div>
 </section>
 
-<script type="module" src="../shared/js/story-page.js"></script>
+<button id="start-story-hint" type="button" aria-label="Start story">Begin</button>
+
+<script type="module" src="story-init.js"></script>
 </body>
 </html>

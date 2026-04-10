@@ -1,18 +1,18 @@
 import { typeInto } from './typewriter.js';
 import { initStoryAudio } from './audio.js';
 import { initStoryEffects } from './effects.js';
-import { STORY_AUDIO } from '../../abyssus/story.js';
 
 /**
  * Bootstraps a story page.
- * Reads page-specific text from <body data-*> attributes so the same script
- * can power multiple chapters without duplication.
+ * The story-specific audio config is passed in by the page module, so this
+ * shared script can be reused by multiple stories.
  */
-function initStoryPage() {
+export function initStoryPage(storyAudio) {
     const bgLayer = document.getElementById('bg-layer');
     const overlay = document.getElementById('bg-overlay');
     const hero = document.getElementById('hero');
     const fadeEls = document.querySelectorAll('.fade-child');
+    const startStoryHint = document.getElementById('start-story-hint');
 
     const labelEl = document.getElementById('chapter-label');
     const titleEl = document.getElementById('hero-title');
@@ -35,23 +35,33 @@ function initStoryPage() {
     }
 
     const audio = initStoryAudio({
-        scenes: STORY_AUDIO.scenes,
-        fadeInDurationMs: STORY_AUDIO.fadeInDurationMs,
-        ambienceTransitionDurationMs: STORY_AUDIO.ambienceTransitionDurationMs,
-        musicFadeOutDurationMs: STORY_AUDIO.musicFadeOutDurationMs,
-        musicFadeInDurationMs: STORY_AUDIO.musicFadeInDurationMs,
-        masterVolume: STORY_AUDIO.masterVolume
+        scenes: storyAudio.scenes,
+        fadeInDurationMs: storyAudio.fadeInDurationMs,
+        ambienceTransitionDurationMs: storyAudio.ambienceTransitionDurationMs,
+        musicFadeOutDurationMs: storyAudio.musicFadeOutDurationMs,
+        musicFadeInDurationMs: storyAudio.musicFadeInDurationMs,
+        masterVolume: storyAudio.masterVolume
     });
+
+    const dismissStartStoryHint = () => {
+        if (!startStoryHint) return;
+        startStoryHint.classList.add('is-hidden');
+    };
 
     const unlockAudio = async () => {
         await audio.unlock();
         audio.unmute();
+        dismissStartStoryHint();
     };
 
     document.addEventListener('click', unlockAudio, { once: true });
     document.addEventListener('keydown', unlockAudio, { once: true });
     document.addEventListener('pointerdown', unlockAudio, { once: true });
     document.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
+
+    if (startStoryHint) {
+        startStoryHint.addEventListener('click', unlockAudio, { once: true });
+    }
 
     initStoryEffects({
         bgLayer,
@@ -60,5 +70,3 @@ function initStoryPage() {
         fadeEls
     });
 }
-
-initStoryPage();
