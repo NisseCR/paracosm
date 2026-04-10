@@ -184,6 +184,30 @@ body {
   transform: translateY(0);
 }
 
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 162, 96, 0.28);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 162, 96, 0.55);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(197, 162, 96, 0.28) transparent;
+}
+
 /* ── Keyframes ──────────────────────────────────────────── */
 @keyframes fadeIn { to { opacity: 1; } }
 
