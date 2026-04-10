@@ -28,7 +28,6 @@ export function typeInto(el, text, speed, onDone) {
 
         window.setTimeout(() => {
             cursor.classList.add('done');
-            cursor.addEventListener('animationend', () => cursor.remove(), { once: true });
 
             if (typeof onDone === 'function') {
                 onDone();

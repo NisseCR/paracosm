@@ -47,13 +47,16 @@
     white-space: nowrap;
     opacity: 0;
     text-shadow: 0 1px 12px rgba(0,0,0,0.65);
-    transition: opacity 0.8s ease, transform 0.8s ease, color 0.3s ease;
+    transition: opacity 0.8s ease, transform 0.8s ease, color 0.3s ease, text-shadow 0.3s ease, filter 0.3s ease;
     pointer-events: none;
 }
 
 .audio-hint.visible {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
+    color: rgba(232, 220, 200, 0.92);
+    text-shadow: 0 0 18px rgba(232, 220, 200, 0.18), 0 1px 12px rgba(0, 0, 0, 0.65);
+    filter: brightness(1.08);
 }
 
 .audio-hint__icon {
@@ -238,9 +241,11 @@
     margin-left: 2px;
     vertical-align: middle;
     animation: blink 0.9s step-end infinite;
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 .tw-cursor.done {
-    animation: fadeIn 0.3s ease forwards reverse;
     opacity: 0;
+    animation: none;
 }
