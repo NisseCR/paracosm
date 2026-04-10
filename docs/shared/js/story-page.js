@@ -12,7 +12,6 @@ export function initStoryPage(storyAudio) {
     const overlay = document.getElementById('bg-overlay');
     const hero = document.getElementById('hero');
     const fadeEls = document.querySelectorAll('.fade-child');
-    const startStoryHint = document.getElementById('start-story-hint');
 
     const labelEl = document.getElementById('chapter-label');
     const titleEl = document.getElementById('hero-title');
@@ -43,25 +42,15 @@ export function initStoryPage(storyAudio) {
         masterVolume: storyAudio.masterVolume
     });
 
-    const dismissStartStoryHint = () => {
-        if (!startStoryHint) return;
-        startStoryHint.classList.add('is-hidden');
-    };
-
     const unlockAudio = async () => {
         await audio.unlock();
         audio.unmute();
-        dismissStartStoryHint();
     };
 
     document.addEventListener('click', unlockAudio, { once: true });
     document.addEventListener('keydown', unlockAudio, { once: true });
     document.addEventListener('pointerdown', unlockAudio, { once: true });
     document.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
-
-    if (startStoryHint) {
-        startStoryHint.addEventListener('click', unlockAudio, { once: true });
-    }
 
     initStoryEffects({
         bgLayer,
