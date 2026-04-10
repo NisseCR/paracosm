@@ -4,10 +4,9 @@ import { initAudio } from './audio.js';
 import { initStoryEffects } from './effects.js';
 
 /**
- * Bootstraps a story page by wiring up:
- * - the typewriter header
- * - the audio toggle
- * - scroll-driven visual effects
+ * Bootstraps a story page.
+ * Reads page-specific text from <body data-*> attributes so the same script
+ * can power multiple chapters without duplication.
  */
 function initStoryPage() {
     const bgLayer = document.getElementById('bg-layer');

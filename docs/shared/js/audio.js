@@ -3,8 +3,8 @@
 /**
  * Initialises the story audio toggle.
  *
- * The audio starts locked by browser policy and is unlocked on the first
- * interaction. When enabled, ambient and music tracks can fade in smoothly.
+ * The browser requires a user gesture before playback can begin, so the audio
+ * is "unlocked" on the first click/keydown/pointer interaction.
  */
 export function initAudio({
                               audioBtn,
@@ -97,16 +97,16 @@ export function initAudio({
         if (audioUnlocked) return;
         audioUnlocked = true;
 
+        setButtonState(audioOn);
+
         if (audioOn) {
-            setButtonState(true);
             startAudio(shouldFadeInOnUnlock);
             shouldFadeInOnUnlock = false;
-        } else {
-            setButtonState(false);
         }
     }
 
     audioBtn.classList.add('visible');
+    setButtonState(audioOn);
 
     audioBtn.addEventListener('click', () => {
         if (!audioUnlocked) {
