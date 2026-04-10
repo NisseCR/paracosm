@@ -33,10 +33,22 @@ body {
   background-color: #0a0806;
 }
 
+#bg-video {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* fills the frame, same as background-size: cover */
+  z-index: 1;            /* above #bg, below #bg-overlay */
+  opacity: 0.7;         /* tune this — lower = more subtle */
+  mix-blend-mode: screen; /* optional: try 'screen', 'overlay', or 'normal' */
+  pointer-events: none;
+}
+
 #bg-overlay {
   position: fixed;
   inset: 0;
-  z-index: 1;
+  z-index: 2;
   background: rgba(var(--overlay-rgb), 0);
   pointer-events: none;
 }
