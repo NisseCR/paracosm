@@ -18,28 +18,43 @@
 <div id="bg-layer">
   <div id="bg"></div>
 
+  <video class="bg-video" id="bg-video-snow" autoplay loop muted playsinline>
+    <source src="assets/Wind.webm" type="video/webm">
+  </video>
+
   <video class="bg-video" id="bg-video-mountain" autoplay loop muted playsinline>
     <source src="assets/Mountain.webm" type="video/webm">
   </video>
 
-  <video class="bg-video" id="bg-video-snow" autoplay loop muted playsinline>
-    <source src="assets/Wind.webm" type="video/webm">
-  </video>
 </div>
 
 <div id="bg-overlay"></div>
 
+<!-- ── Audio ─────────────────────────────────────────────── -->
+<audio id="audio-ambient" loop>
+  <source src="assets/Snow.ogg" type="audio/ogg">
+</audio>
+<audio id="audio-music" loop>
+  <source src="assets/Homecoming.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ── Audio toggle button ───────────────────────────────── -->
+<button id="audio-btn" aria-label="Toggle audio">
+  <span id="audio-icon">♪</span>
+  <span id="audio-label">sound on</span>
+</button>
+
 <!-- ── Hero ─────────────────────────────────────────────── -->
 <section id="hero">
 
-  <!-- ✏️  Chapter / session label -->
-  <p class="chapter-label">Prologue · Abyssus</p>
+  <!-- Chapter / session label — text injected by typewriter -->
+  <p class="chapter-label" id="chapter-label"></p>
 
-  <!-- ✏️  Title -->
-  <h1>Falling Colour</h1>
+  <!-- Title — text injected by typewriter -->
+  <h1 id="hero-title"></h1>
 
-  <!-- ✏️  Subtitle (delete this line if you don't want one) -->
-  <!--    <p class="subtitle">What matters more, the dream or the dreamer?</p>-->
+  <!-- Subtitle -->
+  <!-- <p class="subtitle">What matters more, the dream or the dreamer?</p>-->
 
 </section>
 
@@ -49,15 +64,6 @@
 <!-- ── Text content ──────────────────────────────────────── -->
 <section id="content">
   <div class="text-column">
-
-    <!--
-    ════════════════════════════════════════════════════════
-    ✏️  BODY TEXT
-    Each element with class="fade-child" appears one by one
-    as you scroll. Add or remove <p> blocks freely.
-    Use <em>text</em> for italic emphasis.
-    ════════════════════════════════════════════════════════
-    -->
 
     <p class="fade-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -70,6 +76,12 @@
 
     <!-- ✏️  Closing line -->
     <p class="closing fade-child">Your story begins now.</p>
+
+    <!-- ── Chapter navigation ────────────────────────────── -->
+    <nav class="chapter-nav fade-child" aria-label="Chapter navigation">
+      <a href="chapter1.html" class="chapter-btn">Chapter I</a>
+      <a href="index.html"    class="chapter-btn chapter-btn--ghost">↩ Return</a>
+    </nav>
 
   </div>
 </section>
