@@ -49,6 +49,13 @@ body {
   transform: scaleX(-1);
 }
 
+#bg-video-mountain {
+  opacity: 1;
+  mix-blend-mode: normal;
+  filter: brightness(30%) blur(2px);
+  transform: scale(1.1);
+}
+
 #bg-overlay {
   position: fixed;
   inset: 0;
