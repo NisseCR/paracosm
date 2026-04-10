@@ -14,6 +14,7 @@
     text-transform: uppercase;
     color: var(--chapter-color);
     margin-bottom: 1.2rem;
+    min-height: 1em;
 }
 
 #hero h1 {
@@ -25,14 +26,16 @@
     line-height: 1.15;
     text-shadow: 0 2px 40px rgba(0,0,0,0.95);
     max-width: 800px;
+    min-height: 2.4em;
 }
 
 .audio-hint {
-    position: fixed;
+    position: absolute;
     left: 50%;
-    top: 75vh;
+    bottom: 3rem;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5em;
     transform: translateX(-50%) translateY(8px);
     padding: 0;
