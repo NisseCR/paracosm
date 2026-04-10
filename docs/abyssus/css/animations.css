@@ -1,0 +1,25 @@
+.tw-cursor {
+    animation: blink 1s step-end infinite;
+}
+
+.tw-cursor.done {
+    animation: fadeOut 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
