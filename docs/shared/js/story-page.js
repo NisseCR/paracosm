@@ -36,16 +36,14 @@ function initStoryPage() {
 
     const audio = initStoryAudio({
         scenes: STORY_AUDIO.scenes,
-        blendWindowPx: STORY_AUDIO.blendWindowPx,
-        masterVolume: STORY_AUDIO.masterVolume,
-        musicCrossfade: STORY_AUDIO.musicCrossfade
+        fadeInDurationMs: STORY_AUDIO.fadeInDurationMs,
+        ambienceTransitionDurationMs: STORY_AUDIO.ambienceTransitionDurationMs,
+        musicFadeOutDurationMs: STORY_AUDIO.musicFadeOutDurationMs,
+        musicFadeInDurationMs: STORY_AUDIO.musicFadeInDurationMs,
+        masterVolume: STORY_AUDIO.masterVolume
     });
 
-    let audioUnlocked = false;
-
     const unlockAudio = async () => {
-        if (audioUnlocked) return;
-        audioUnlocked = true;
         await audio.unlock();
         audio.unmute();
     };
