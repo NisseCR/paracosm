@@ -23,12 +23,38 @@ export function initStoryPage(storyAudio) {
     const chapterLabel = document.body.dataset.chapterLabel ?? '';
     const heroTitle = document.body.dataset.heroTitle ?? '';
 
+    const audioHintEl = document.createElement('span');
+    audioHintEl.className = 'audio-hint';
+    audioHintEl.setAttribute('aria-hidden', 'true');
+    audioHintEl.innerHTML = '<span class="audio-hint__icon">♪</span><span class="audio-hint__text">tap for audio</span>';
+
+    const showAudioHint = () => {
+        if (audioHintEl.isConnected) return;
+
+        titleEl.appendChild(audioHintEl);
+
+        window.setTimeout(() => {
+            audioHintEl.classList.add('visible');
+        }, 20);
+    };
+
+    const hideAudioHint = () => {
+        if (!audioHintEl.isConnected) return;
+
+        audioHintEl.classList.remove('visible');
+        audioHintEl.addEventListener('transitionend', () => audioHintEl.remove(), { once: true });
+
+        window.setTimeout(() => {
+            audioHintEl.remove();
+        }, 800);
+    };
+
     if (chapterLabel) {
         typeInto(labelEl, chapterLabel, 55, () => {
             if (!heroTitle) return;
 
             window.setTimeout(() => {
-                typeInto(titleEl, heroTitle, 90);
+                typeInto(titleEl, heroTitle, 90, showAudioHint);
             }, 380);
         });
     }
@@ -45,6 +71,7 @@ export function initStoryPage(storyAudio) {
     const unlockAudio = async () => {
         await audio.unlock();
         audio.unmute();
+        hideAudioHint();
     };
 
     document.addEventListener('click', unlockAudio, { once: true });
