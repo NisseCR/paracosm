@@ -1,4 +1,11 @@
 // shared/js/audio.js
+
+/**
+ * Initialises the story audio toggle.
+ *
+ * The audio starts locked by browser policy and is unlocked on the first
+ * interaction. When enabled, ambient and music tracks can fade in smoothly.
+ */
 export function initAudio({
                               audioBtn,
                               audioLabelEl,
@@ -14,10 +21,10 @@ export function initAudio({
     let fadeAnimationId = null;
     let shouldFadeInOnUnlock = true;
 
-    audioAmbient.volume = 0;
-    audioMusic.volume = 0;
-
-    audioBtn.classList.add('visible');
+    function setVolumes(ambient, music) {
+        audioAmbient.volume = ambient;
+        audioMusic.volume = music;
+    }
 
     function setButtonState(isOn) {
         audioBtn.classList.toggle('muted', !isOn);
@@ -66,11 +73,9 @@ export function initAudio({
 
     function startAudio(shouldFade = false) {
         if (shouldFade) {
-            audioAmbient.volume = 0;
-            audioMusic.volume = 0;
+            setVolumes(0, 0);
         } else {
-            audioAmbient.volume = ambientVolume;
-            audioMusic.volume = musicVolume;
+            setVolumes(ambientVolume, musicVolume);
         }
 
         audioAmbient.play().catch(() => {});
@@ -82,8 +87,8 @@ export function initAudio({
     }
 
     function stopAudio() {
-        audioAmbient.volume = 0;
-        audioMusic.volume = 0;
+        stopFade();
+        setVolumes(0, 0);
         audioAmbient.pause();
         audioMusic.pause();
     }
@@ -96,8 +101,12 @@ export function initAudio({
             setButtonState(true);
             startAudio(shouldFadeInOnUnlock);
             shouldFadeInOnUnlock = false;
+        } else {
+            setButtonState(false);
         }
     }
+
+    audioBtn.classList.add('visible');
 
     audioBtn.addEventListener('click', () => {
         if (!audioUnlocked) {

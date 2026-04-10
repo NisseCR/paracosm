@@ -1,4 +1,8 @@
 // shared/js/effects.js
+
+/**
+ * Initialises scroll-based visual effects for a story page.
+ */
 export function initStoryEffects({
                                      bgLayer,
                                      overlay,
@@ -12,23 +16,30 @@ export function initStoryEffects({
                                      revealAt = 0.88,
                                      heroFadeEnd = 0.3
                                  }) {
+    if (!bgLayer || !overlay || !hero) {
+        return;
+    }
+
+    const clamp01 = value => Math.max(0, Math.min(1, value));
+
     bgLayer.addEventListener('animationend', () => {
         bgReady = true;
     }, { once: true });
 
     function onScroll() {
         const sy = window.scrollY;
-        const vh = window.innerHeight;
+        const vh = window.innerHeight || 1;
+        const scrollRatio = sy / vh;
 
-        const p = Math.max(0, Math.min(1, (sy / vh - fadeStart) / (fadeEnd - fadeStart)));
+        const backgroundProgress = clamp01((scrollRatio - fadeStart) / (fadeEnd - fadeStart));
         if (bgReady) {
-            bgLayer.style.opacity = (1 - p * (1 - bgMin)).toFixed(3);
+            bgLayer.style.opacity = (1 - backgroundProgress * (1 - bgMin)).toFixed(3);
         }
 
-        overlay.style.background = `rgba(var(--overlay-rgb), ${(p * overlayMax).toFixed(3)})`;
+        overlay.style.background = `rgba(var(--overlay-rgb), ${(backgroundProgress * overlayMax).toFixed(3)})`;
 
-        const heroP = Math.max(0, Math.min(1, (sy / vh) / heroFadeEnd));
-        hero.style.opacity = (1 - heroP).toFixed(3);
+        const heroProgress = clamp01(scrollRatio / heroFadeEnd);
+        hero.style.opacity = (1 - heroProgress).toFixed(3);
 
         fadeEls.forEach(el => {
             if (el.getBoundingClientRect().top < vh * revealAt) {

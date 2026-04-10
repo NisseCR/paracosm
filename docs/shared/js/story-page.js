@@ -3,35 +3,56 @@ import { typeInto } from './typewriter.js';
 import { initAudio } from './audio.js';
 import { initStoryEffects } from './effects.js';
 
-const bgLayer = document.getElementById('bg-layer');
-const overlay = document.getElementById('bg-overlay');
-const hero = document.getElementById('hero');
-const fadeEls = document.querySelectorAll('.fade-child');
+/**
+ * Bootstraps a story page by wiring up:
+ * - the typewriter header
+ * - the audio toggle
+ * - scroll-driven visual effects
+ */
+function initStoryPage() {
+    const bgLayer = document.getElementById('bg-layer');
+    const overlay = document.getElementById('bg-overlay');
+    const hero = document.getElementById('hero');
+    const fadeEls = document.querySelectorAll('.fade-child');
 
-const labelEl = document.getElementById('chapter-label');
-const titleEl = document.getElementById('hero-title');
+    const labelEl = document.getElementById('chapter-label');
+    const titleEl = document.getElementById('hero-title');
 
-const audioBtn = document.getElementById('audio-btn');
-const audioLabelEl = document.getElementById('audio-label');
-const audioAmbient = document.getElementById('audio-ambient');
-const audioMusic = document.getElementById('audio-music');
+    const audioBtn = document.getElementById('audio-btn');
+    const audioLabelEl = document.getElementById('audio-label');
+    const audioAmbient = document.getElementById('audio-ambient');
+    const audioMusic = document.getElementById('audio-music');
 
-typeInto(labelEl, 'Prologue · Abyssus', 55, () => {
-    setTimeout(() => {
-        typeInto(titleEl, 'Falling Colour', 90);
-    }, 380);
-});
+    if (!labelEl || !titleEl || !audioBtn || !audioLabelEl || !audioAmbient || !audioMusic) {
+        return;
+    }
 
-initAudio({
-    audioBtn,
-    audioLabelEl,
-    audioAmbient,
-    audioMusic
-});
+    const chapterLabel = document.body.dataset.chapterLabel ?? '';
+    const heroTitle = document.body.dataset.heroTitle ?? '';
 
-initStoryEffects({
-    bgLayer,
-    overlay,
-    hero,
-    fadeEls
-});
+    if (chapterLabel) {
+        typeInto(labelEl, chapterLabel, 55, () => {
+            if (!heroTitle) return;
+
+            window.setTimeout(() => {
+                typeInto(titleEl, heroTitle, 90);
+            }, 380);
+        });
+    }
+
+    initAudio({
+        audioBtn,
+        audioLabelEl,
+        audioAmbient,
+        audioMusic
+    });
+
+    initStoryEffects({
+        bgLayer,
+        overlay,
+        hero,
+        fadeEls
+    });
+}
+
+initStoryPage();
