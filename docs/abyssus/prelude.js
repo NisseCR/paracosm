@@ -21,22 +21,29 @@ const OVERLAY_MAX = 0.78;
 const REVEAL_AT   = 0.88;
 const HERO_FADE_END = 0.30;
 
-const bg       = document.getElementById('bg');
+const bgLayer  = document.getElementById('bg-layer');
 const overlay  = document.getElementById('bg-overlay');
 const hero     = document.getElementById('hero');
 const fadeEls  = document.querySelectorAll('.fade-child');
+
+/* Let the CSS fade-in animation finish before the scroll handler
+   takes over opacity control on #bg-layer.                       */
+let bgReady = false;
+bgLayer.addEventListener('animationend', () => { bgReady = true; }, { once: true });
 
 function onScroll() {
   const sy = window.scrollY;
   const vh = window.innerHeight;
 
-  /* Dim background */
+  /* Dim background — only after the initial fade-in animation completes */
   const p = Math.max(0, Math.min(1,
-    (sy / vh - FADE_START) / (FADE_END - FADE_START)
+      (sy / vh - FADE_START) / (FADE_END - FADE_START)
   ));
-  bg.style.opacity = (1 - p * (1 - BG_MIN)).toFixed(3);
+  if (bgReady) {
+    bgLayer.style.opacity = (1 - p * (1 - BG_MIN)).toFixed(3);
+  }
   overlay.style.background =
-    `rgba(var(--overlay-rgb), ${(p * OVERLAY_MAX).toFixed(3)})`;
+      `rgba(var(--overlay-rgb), ${(p * OVERLAY_MAX).toFixed(3)})`;
 
   /* Fade out hero title */
   const heroP = Math.max(0, Math.min(1, (sy / vh) / HERO_FADE_END));

@@ -21,10 +21,21 @@ body {
 }
 
 /* ── Fixed background art ───────────────────────────────── */
-#bg {
+
+/* Container for all background layers — animates as one unit */
+#bg-layer {
   position: fixed;
   inset: 0;
   z-index: 0;
+  pointer-events: none;
+
+  opacity: 0;
+  animation: bgFadeIn 3s ease-out forwards 0.2s;
+}
+
+#bg {
+  position: absolute;
+  inset: 0;
 
   /* ✏️  Replace with your own image */
   background-image: url('assets/background.jpg');
@@ -34,12 +45,11 @@ body {
 }
 
 .bg-video {
-  position: fixed;
+  position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;     /* fills the frame, same as background-size: cover */
-  z-index: 1;            /* above #bg, below #bg-overlay */
+  object-fit: cover;
   pointer-events: none;
 }
 
@@ -53,13 +63,13 @@ body {
   opacity: 1;
   mix-blend-mode: normal;
   filter: brightness(30%) blur(2px);
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 #bg-overlay {
   position: fixed;
   inset: 0;
-  z-index: 2;
+  z-index: 1;
   background: rgba(var(--overlay-rgb), 0);
   pointer-events: none;
 }
@@ -218,6 +228,12 @@ body {
 
 /* ── Keyframes ──────────────────────────────────────────── */
 @keyframes fadeIn { to { opacity: 1; } }
+
+/* ── Background layer fade-in from black on page load ────── */
+@keyframes bgFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 
 @keyframes bob {
   0%, 100% { transform: translateX(-50%) translateY(0); }
