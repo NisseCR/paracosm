@@ -41,6 +41,10 @@ module.exports = {
                 ambience: [
                     { src: assetUrl("/shared/assets/audio/Watchtower.ogg"), gain: 1.0 }
                 ],
+                music: {
+                    src: assetUrl("/shared/assets/audio/Pandemonium.mp3"),
+                    gain: 0.05
+                }
             }
         }
     }

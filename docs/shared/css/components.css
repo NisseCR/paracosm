@@ -77,27 +77,45 @@
     display: inline-block;
 }
 
+.text-column {
+    max-width: 68ch;
+    margin: 0 auto;
+}
+
 .text-column p {
-    font-size: 17px;
+    font-size: clamp(18px, 1.15vw, 20px);
     line-height: 1.95;
     color: var(--body-color);
     text-shadow: 0 1px 12px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6);
-    margin-bottom: 1.4em;
+    margin-bottom: 1.5em;
     text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
+    letter-spacing: 0.01em;
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "liga" 1, "kern" 1, "clig" 1;
 }
 
-.text-column p:last-child { margin-bottom: 0; }
+.text-column p + p {
+    text-indent: 1.6em;
+}
+
+.text-column p:last-child {
+    margin-bottom: 0;
+}
 
 .text-column em {
     font-style: italic;
     color: var(--em-color);
 }
 
+.text-column p:first-child {
+    text-indent: 0;
+}
+
 .text-column p:first-child::first-letter {
     font-family: 'Cinzel', serif;
-    font-size: 3.6em;
+    font-size: 4.2em;
     font-weight: 600;
     float: left;
     line-height: 0.75;
@@ -108,8 +126,10 @@
 .rule {
     width: 120px;
     height: 1px;
-    background: var(--rule-color);
+    background: rgba(180, 160, 130, 0.18);
     margin: 2.4rem auto;
+    box-shadow: 0 0 10px rgba(180, 160, 130, 0.05);
+    opacity: 0.9;
 }
 
 .closing {
@@ -139,26 +159,28 @@
     justify-content: center;
     gap: 1.6rem;
     margin-top: 3.5rem;
+    padding-top: 1.8rem;
+    border-top: 1px solid rgba(180, 160, 130, 0.18);
     text-align: center;
 }
 
 .chapter-btn,
 .chapter-btn--placeholder {
     font-family: 'Cinzel', serif;
-    font-size: 11px;
-    letter-spacing: 0.25em;
+    font-size: 13px;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
     text-decoration: none;
     border: 0;
-    padding: 0;
+    padding: 0.65em 0.95em;
     background: transparent;
-    width: 6.5em;
+    min-width: 7.5em;
     box-sizing: border-box;
     text-align: center;
     white-space: nowrap;
     display: inline-block;
-    line-height: 1;
-    transition: color 0.3s ease, opacity 0.3s ease;
+    line-height: 1.1;
+    transition: color 0.3s ease, opacity 0.3s ease, transform 0.3s ease, letter-spacing 0.3s ease;
 }
 
 .chapter-btn {
@@ -167,6 +189,8 @@
 
 .chapter-btn:hover {
     color: var(--title-color);
+    transform: translateY(-1px);
+    letter-spacing: 0.24em;
 }
 
 .chapter-btn--placeholder {
