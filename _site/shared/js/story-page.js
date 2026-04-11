@@ -23,6 +23,10 @@ export function initStoryPage(storyAudio) {
     const chapterLabel = document.body.dataset.chapterLabel ?? '';
     const heroTitle = document.body.dataset.heroTitle ?? '';
 
+    const revealTitle = () => {
+        titleEl.classList.remove('hero-title--hidden');
+    };
+
     const audioHintEl = document.createElement('span');
     audioHintEl.className = 'audio-hint';
     audioHintEl.setAttribute('aria-hidden', 'true');
@@ -87,6 +91,7 @@ export function initStoryPage(storyAudio) {
             if (!heroTitle) return;
 
             window.setTimeout(() => {
+                revealTitle();
                 typeInto(titleEl, heroTitle, 90, showAudioHint);
             }, 380);
         });

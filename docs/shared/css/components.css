@@ -29,6 +29,10 @@
     min-height: 2.4em;
 }
 
+.hero-title--hidden {
+    visibility: hidden;
+}
+
 .audio-hint {
     position: absolute;
     left: 50%;
