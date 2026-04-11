@@ -4,12 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="{{ '/shared/css/base.css' | url }}">
   <link rel="stylesheet" href="{{ '/shared/css/home.css' | url }}">
 </head>
-<body>
-  <main>
-    {{ content | safe }}
+<body{% if backgroundImage %} style="--home-bg-image: url('{{ backgroundImage | url }}');"{% endif %}>
+  <main class="home-shell">
+    <section class="home-panel">
+      {{ content | safe }}
+    </section>
   </main>
 </body>
 </html>

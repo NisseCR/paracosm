@@ -4,22 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paracosm</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/shared/css/base.css">
   <link rel="stylesheet" href="/shared/css/home.css">
 </head>
-<body>
-  <main>
-    
+<body style="--home-bg-image: url('/shared/assets/images/statues.jpg');">
+  <main class="home-shell">
+    <section class="home-panel">
+      
 <h1>Paracosm</h1>
-<p>A collection of interactive story worlds.</p>
+<p class="subtitle">A collection of interactive story worlds.</p>
 
-<ul class="story-list">
+<nav aria-label="Stories">
   
-    <li>
-      <a href="/stories/abyssus/">Abyssus</a>
-    </li>
+    <a class="chapter-link" href="/stories/abyssus/chapters/prologue/">
+      <span class="label">Abyssus</span>
+      <span class="meta">Begin reading</span>
+      <span class="arrow">→</span>
+    </a>
   
-</ul>
+</nav>
+    </section>
   </main>
 </body>
 </html>
