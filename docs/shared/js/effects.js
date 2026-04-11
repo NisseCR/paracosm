@@ -12,7 +12,7 @@ export function initStoryEffects({
                                      fadeStart = 0.25,
                                      fadeEnd = 0.8,
                                      bgMin = 0.15,
-                                     overlayMax = 0.78,
+                                     overlayMax = 0.88,
                                      revealAt = 0.88,
                                      heroFadeEnd = 0.3
                                  }) {
