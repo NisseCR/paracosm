@@ -52,16 +52,18 @@ export function initStoryEffects({
     onScroll();
 }
 
-const progressFill = document.getElementById('scroll-progress-fill');
+export function initScrollProgress() {
+    const progressFill = document.getElementById('scroll-progress-fill');
 
-function updateScrollProgress() {
-  const scrollTop = window.scrollY;
-  const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-  const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+    function updateScrollProgress() {
+        const scrollTop = window.scrollY;
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
 
-  progressFill.style.width = `${progress}%`;
+        progressFill.style.width = `${progress}%`;
+    }
+
+    window.addEventListener('scroll', updateScrollProgress, { passive: true });
+    window.addEventListener('resize', updateScrollProgress);
+    updateScrollProgress();
 }
-
-window.addEventListener('scroll', updateScrollProgress, { passive: true });
-window.addEventListener('resize', updateScrollProgress);
-updateScrollProgress();
