@@ -356,6 +356,17 @@ export class MarkerAudioDirector {
         next.music.gain.gain.linearRampToValueAtTime(next.music.targetGain, now + duration);
     }
 
+    fadeOutAll(durationMs = 2000) {
+        if (!this.audioContext || !this.masterGain) return;
+
+        const now = this.audioContext.currentTime;
+        const end = now + (durationMs / 1000);
+
+        this.masterGain.gain.cancelScheduledValues(now);
+        this.masterGain.gain.setValueAtTime(this.masterGain.gain.value, now);
+        this.masterGain.gain.linearRampToValueAtTime(0, end);
+    }
+
     mute() {
         if (this.masterGain) {
             this.masterGain.gain.value = 0;

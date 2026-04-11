@@ -32,6 +32,20 @@
     pointer-events: none;
 }
 
+#page-transition-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 2000ms ease;
+}
+
+#page-transition-overlay.visible {
+    opacity: 1;
+}
+
 #hero {
     position: relative;
     z-index: 2;

@@ -28,6 +28,39 @@ export function initStoryPage(storyAudio) {
     audioHintEl.setAttribute('aria-hidden', 'true');
     audioHintEl.innerHTML = '<span class="audio-hint__icon">♪</span><span class="audio-hint__text">tap for audio</span>';
 
+    const pageOverlay = document.createElement('div');
+    pageOverlay.id = 'page-transition-overlay';
+    document.body.appendChild(pageOverlay);
+
+    const fadeOutAndNavigate = async (targetUrl) => {
+        if (!targetUrl) return;
+
+        const fadeDurationMs = 2000;
+
+        if (typeof audio?.fadeOutAll === 'function') {
+            audio.fadeOutAll(fadeDurationMs);
+        } else if (typeof audio?.mute === 'function') {
+            audio.mute();
+        }
+
+        pageOverlay.classList.add('visible');
+
+        window.setTimeout(() => {
+            window.location.href = targetUrl;
+        }, fadeDurationMs);
+    };
+
+    document.addEventListener('click', (event) => {
+        const link = event.target.closest('a.chapter-btn');
+        if (!link) return;
+
+        const href = link.getAttribute('href');
+        if (!href || href.startsWith('#')) return;
+
+        event.preventDefault();
+        fadeOutAndNavigate(href);
+    });
+
     const showAudioHint = () => {
         if (audioHintEl.isConnected) return;
 
