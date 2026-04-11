@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abyssus — Chapter 1</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/shared/css/base.css">
+  <link rel="stylesheet" href="/shared/css/layout.css">
+  <link rel="stylesheet" href="/shared/css/components.css">
+  <link rel="stylesheet" href="/stories/abyssus/story.css">
+</head>
+<body class="chapter-1-page"
+  data-chapter-label="Chapter 1 · Abyssus"
+  data-hero-title="...">
+
+  <div id="scroll-progress" aria-hidden="true">
+    <div id="scroll-progress-fill"></div>
+  </div>
+
+  <div id="bg-layer">
+    <div id="bg"></div>
+
+    
+      
+        <video class="bg-video" id="bg-video-snow" autoplay loop muted playsinline>
+          <source src="/stories/abyssus/assets/video/Wind.webm" type="video/webm">
+        </video>
+      
+        <video class="bg-video" id="bg-video-mountain" autoplay loop muted playsinline>
+          <source src="/stories/abyssus/assets/video/Mountain.webm" type="video/webm">
+        </video>
+      
+    
+  </div>
+
+  <div id="bg-overlay"></div>
+
+  <section id="hero">
+    <p class="chapter-label" id="chapter-label">Chapter 1 · Abyssus</p>
+    <h1 id="hero-title">...</h1>
+  </section>
+
+  <div id="spacer"></div>
+
+  <section id="content">
+    <div class="text-column">
+      <p class="fade-child" data-audio-step="intro">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+<p class="fade-child">
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+<div class="rule fade-child"></div>
+<p class="fade-child" data-audio-step="shore">
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<p class="fade-child">
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p class="fade-child">
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+</p>
+<div class="rule fade-child"></div>
+<p class="fade-child" data-audio-step="ship">
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+</p>
+<p class="fade-child">
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+</p>
+
+      
+      <nav class="chapter-nav fade-child" aria-label="Chapter navigation">
+        
+          <a href="/stories/abyssus/chapters/prologue/" class="chapter-btn">&lt; Previous</a>
+        
+
+        
+          <span class="chapter-btn--placeholder" aria-hidden="true">Next &gt;</span>
+        
+      </nav>
+      
+    </div>
+  </section>
+
+  <script id="story-audio-config" type="application/json">
+    {"fadeInDurationMs":5000,"ambienceTransitionDurationMs":10000,"musicFadeOutDurationMs":5000,"musicFadeInDurationMs":5000,"masterVolume":1,"scenes":{"intro":{"ambience":[{"src":"/shared/assets/audio/Snow.ogg","gain":0.8}],"music":{"src":"/shared/assets/audio/Homecoming.mp3","gain":0.6}},"shore":{"ambience":[{"src":"/shared/assets/audio/Rain.ogg","gain":0.1}],"music":{"src":"/shared/assets/audio/Pandemonium.mp3","gain":0.1}},"ship":{"ambience":[{"src":"/shared/assets/audio/Ship.ogg","gain":0.4}],"music":{"src":"/shared/assets/audio/Witcher.mp3","gain":0.2}}}}
+  </script>
+
+  <script type="module" src="/stories/abyssus/story-init.js"></script>
+</body>
+</html>
