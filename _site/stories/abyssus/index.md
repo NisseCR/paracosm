@@ -7,4 +7,4 @@ storyBase: /stories/abyssus/
 
 # Abyssus
 
-[Start reading →](/stories/abyssus/chapters/prologue/)
+[Start reading →]({{ storyBase | url }}chapters/prologue/)
