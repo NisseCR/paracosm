@@ -1,6 +1,10 @@
 /* docs/abyssus/story.css */
-#bg {
-    background-image: url('assets/images/background.jpg');
+.prologue-page #bg {
+    background-image: url('assets/images/gate.jpg');
+}
+
+.chapter-1-page #bg {
+    background-image: url('assets/images/ship.jpg');
 }
 
 #bg-video-snow {

@@ -27,6 +27,16 @@ export const STORY_AUDIO = {
                 src: 'assets/audio/Pandemonium.mp3',
                 gain: 0.2
             }
+        },
+
+        ship: {
+            ambience: [
+                { src: 'assets/audio/Ship.ogg', gain: 0.4 }
+            ],
+            music: {
+                src: 'assets/audio/Witcher.mp3',
+                gain: 0.4
+            }
         }
     }
 };
