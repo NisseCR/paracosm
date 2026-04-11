@@ -17,6 +17,11 @@
     min-height: 1em;
 }
 
+.chapter-label--hidden,
+.hero-title--hidden {
+    visibility: hidden;
+}
+
 #hero h1 {
     position: relative;
     font-family: 'Cinzel', serif;
@@ -27,10 +32,6 @@
     text-shadow: 0 2px 40px rgba(0,0,0,0.95);
     max-width: 800px;
     min-height: 2.4em;
-}
-
-.hero-title--hidden {
-    visibility: hidden;
 }
 
 .audio-hint {

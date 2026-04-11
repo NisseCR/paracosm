@@ -23,6 +23,10 @@ export function initStoryPage(storyAudio) {
     const chapterLabel = document.body.dataset.chapterLabel ?? '';
     const heroTitle = document.body.dataset.heroTitle ?? '';
 
+    const revealLabel = () => {
+        labelEl.classList.remove('chapter-label--hidden');
+    };
+
     const revealTitle = () => {
         titleEl.classList.remove('hero-title--hidden');
     };
@@ -87,6 +91,7 @@ export function initStoryPage(storyAudio) {
     };
 
     if (chapterLabel) {
+        revealLabel();
         typeInto(labelEl, chapterLabel, 55, () => {
             if (!heroTitle) return;
 
