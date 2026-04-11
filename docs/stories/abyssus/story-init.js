@@ -1,4 +1,4 @@
-import { initStoryPage } from '/shared/js/story-page.js';
+import { initStoryPage } from '../../shared/js/story-page.js';
 
 function readStoryAudioConfig() {
   const el = document.getElementById('story-audio-config');

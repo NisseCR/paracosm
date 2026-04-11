@@ -8,28 +8,28 @@
     "scenes": {
       "intro": {
         "ambience": [
-          { "src": "/stories/abyssus/assets/audio/Snow.ogg", "gain": 0.8 }
+          { "src": "/shared/assets/audio/Snow.ogg", "gain": 0.8 }
         ],
         "music": {
-          "src": "/stories/abyssus/assets/audio/Homecoming.mp3",
+          "src": "/shared/assets/audio/Homecoming.mp3",
           "gain": 0.6
         }
       },
       "shore": {
         "ambience": [
-          { "src": "/stories/abyssus/assets/audio/Rain.ogg", "gain": 0.1 }
+          { "src": "/shared/assets/audio/Rain.ogg", "gain": 0.1 }
         ],
         "music": {
-          "src": "/stories/abyssus/assets/audio/Pandemonium.mp3",
+          "src": "/shared/assets/audio/Pandemonium.mp3",
           "gain": 0.1
         }
       },
       "ship": {
         "ambience": [
-          { "src": "/stories/abyssus/assets/audio/Ship.ogg", "gain": 0.4 }
+          { "src": "/shared/assets/audio/Ship.ogg", "gain": 0.4 }
         ],
         "music": {
-          "src": "/stories/abyssus/assets/audio/Witcher.mp3",
+          "src": "/shared/assets/audio/Witcher.mp3",
           "gain": 0.2 }
       }
     }

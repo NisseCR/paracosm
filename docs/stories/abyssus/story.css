@@ -1,9 +1,9 @@
 .prologue-page #bg {
-    background-image: url('./assets/images/gate.jpg');
+    background-image: url('../../shared/assets/images/gate.jpg');
 }
 
 .chapter-1-page #bg {
-    background-image: url('./assets/images/ship.jpg');
+    background-image: url('../../shared/assets/images/ship.jpg');
 }
 
 #bg-video-snow {
