@@ -1,6 +1,17 @@
 /* shared/css/base.css */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* Hide default scrollbar */
+html {
+  scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+body {
+  overflow-x: hidden;
+}
+
 html { scroll-behavior: smooth; }
 
 body {
