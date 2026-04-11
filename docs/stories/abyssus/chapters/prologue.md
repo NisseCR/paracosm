@@ -7,10 +7,10 @@ bodyClass: prologue-page
 storyBase: /stories/abyssus/
 bgVideos:
   - id: bg-video-snow
-    src: /stories/abyssus/assets/video/Wind.webm
+    src: /shared/assets/video/Wind.webm
     type: video/webm
   - id: bg-video-mountain
-    src: /stories/abyssus/assets/video/Mountain.webm
+    src: /shared/assets/video/Mountain.webm
     type: video/webm
 nav:
   previous: null
