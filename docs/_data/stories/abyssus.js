@@ -36,6 +36,11 @@ module.exports = {
                     src: assetUrl("/shared/assets/audio/Witcher.mp3"),
                     gain: 0.2
                 }
+            },
+            creepy: {
+                ambience: [
+                    { src: assetUrl("/shared/assets/audio/Watchtower.ogg"), gain: 1.0 }
+                ],
             }
         }
     }

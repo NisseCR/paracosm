@@ -23,7 +23,7 @@ nav:
   next: null
 ---
 
-<p class="fade-child" data-audio-step="intro">
+<p class="fade-child" data-audio-step="ship">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 </p>
 
@@ -33,7 +33,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <div class="rule fade-child"></div>
 
-<p class="fade-child" data-audio-step="shore">
+<p class="fade-child" data-audio-step="ship">
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 
