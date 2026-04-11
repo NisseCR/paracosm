@@ -78,6 +78,9 @@
     color: var(--body-color);
     text-shadow: 0 1px 12px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6);
     margin-bottom: 1.4em;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
 }
 
 .text-column p:last-child { margin-bottom: 0; }
@@ -129,39 +132,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.2rem;
+    gap: 1.6rem;
     margin-top: 3.5rem;
+    text-align: center;
 }
 
-.chapter-btn {
+.chapter-btn,
+.chapter-btn--placeholder {
     font-family: 'Cinzel', serif;
     font-size: 11px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: var(--chapter-color);
     text-decoration: none;
-    border: 1px solid rgba(180, 160, 130, 0.35);
-    padding: 0.55em 1.6em;
-    transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+    border: 0;
+    padding: 0;
     background: transparent;
+    width: 6.5em;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 1;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.chapter-btn {
+    color: var(--chapter-color);
 }
 
 .chapter-btn:hover {
     color: var(--title-color);
-    border-color: rgba(232, 220, 200, 0.55);
-    background: rgba(180, 160, 130, 0.07);
 }
 
-.chapter-btn--ghost {
-    border-color: rgba(180, 160, 130, 0.18);
-    color: rgba(160, 144, 128, 0.6);
-    font-size: 10px;
-}
-
-.chapter-btn--ghost:hover {
-    color: var(--chapter-color);
-    border-color: rgba(180, 160, 130, 0.35);
-    background: transparent;
+.chapter-btn--placeholder {
+    color: rgba(160, 144, 128, 0.35);
+    opacity: 1;
+    pointer-events: none;
+    user-select: none;
+    cursor: default;
 }
 
 #audio-btn {
