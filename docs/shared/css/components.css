@@ -264,7 +264,7 @@
 /* Custom progress bar */
 #scroll-progress {
     position: fixed;
-    bottom: 0; /* change to bottom: 0 if you prefer it there */
+    top: 0; /* change to bottom: 0 if you prefer it there */
     left: 0;
     width: 100%;
     height: 4px;
