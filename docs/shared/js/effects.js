@@ -12,7 +12,7 @@ export function initStoryEffects({
                                      fadeStart = 0.25,
                                      fadeEnd = 0.8,
                                      bgMin = 0.15,
-                                     overlayMax = 0.78,
+                                     overlayMax = 0.88,
                                      revealAt = 0.88,
                                      heroFadeEnd = 0.3
                                  }) {
@@ -50,4 +50,20 @@ export function initStoryEffects({
 
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
+}
+
+export function initScrollProgress() {
+    const progressFill = document.getElementById('scroll-progress-fill');
+
+    function updateScrollProgress() {
+        const scrollTop = window.scrollY;
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+
+        progressFill.style.width = `${progress}%`;
+    }
+
+    window.addEventListener('scroll', updateScrollProgress, { passive: true });
+    window.addEventListener('resize', updateScrollProgress);
+    updateScrollProgress();
 }

@@ -2,9 +2,9 @@ export const STORY_AUDIO = {
     fadeInDurationMs: 5000,
 
     // Separate fade timings for ambience and music.
-    ambienceTransitionDurationMs: 5000,
-    musicFadeOutDurationMs: 3500,
-    musicFadeInDurationMs: 3500,
+    ambienceTransitionDurationMs: 10000,
+    musicFadeOutDurationMs: 5000,
+    musicFadeInDurationMs: 5000,
 
     masterVolume: 1,
 
@@ -15,7 +15,7 @@ export const STORY_AUDIO = {
             ],
             music: {
                 src: 'assets/audio/Homecoming.mp3',
-                gain: 0.8
+                gain: 0.6
             }
         },
 
@@ -25,7 +25,7 @@ export const STORY_AUDIO = {
             ],
             music: {
                 src: 'assets/audio/Pandemonium.mp3',
-                gain: 0.2
+                gain: 0.1
             }
         },
 
@@ -35,7 +35,7 @@ export const STORY_AUDIO = {
             ],
             music: {
                 src: 'assets/audio/Witcher.mp3',
-                gain: 0.4
+                gain: 0.2
             }
         }
     }
