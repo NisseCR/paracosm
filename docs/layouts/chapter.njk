@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/shared/css/base.css' | url }}">
+  <link rel="stylesheet" href="{{ '/shared/css/layout.css' | url }}">
+  <link rel="stylesheet" href="{{ '/shared/css/components.css' | url }}">
+  <link rel="stylesheet" href="{{ (storyBase ~ 'story.css') | url }}">
+</head>
+<body class="{{ bodyClass }}"
+  data-chapter-label="{{ chapterLabel }}"
+  data-hero-title="{{ heroTitle }}">
+
+  <div id="scroll-progress" aria-hidden="true">
+    <div id="scroll-progress-fill"></div>
+  </div>
+
+  <div id="bg-layer">
+    <div id="bg"></div>
+
+    {% if bgVideos %}
+      {% for video in bgVideos %}
+        <video class="bg-video" id="{{ video.id }}" autoplay loop muted playsinline>
+          <source src="{{ video.src | url }}" type="{{ video.type | default('video/webm') }}">
+        </video>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <div id="bg-overlay"></div>
+
+  <section id="hero">
+    <p class="chapter-label" id="chapter-label">{{ chapterLabel }}</p>
+    <h1 id="hero-title">{{ heroTitle }}</h1>
+  </section>
+
+  <div id="spacer"></div>
+
+  <section id="content">
+    <div class="text-column">
+      {{ content | safe }}
+
+      {% if nav %}
+      <nav class="chapter-nav fade-child" aria-label="Chapter navigation">
+        {% if nav.previous %}
+          <a href="{{ nav.previous.url | url }}" class="chapter-btn">&lt; {{ nav.previous.label }}</a>
+        {% else %}
+          <span class="chapter-btn--placeholder" aria-hidden="true">&lt; Previous</span>
+        {% endif %}
+
+        {% if nav.next %}
+          <a href="{{ nav.next.url | url }}" class="chapter-btn">Next &gt;</a>
+        {% else %}
+          <span class="chapter-btn--placeholder" aria-hidden="true">Next &gt;</span>
+        {% endif %}
+      </nav>
+      {% endif %}
+    </div>
+  </section>
+
+  <script type="module" src="{{ (storyBase ~ 'story-init.js') | url }}"></script>
+</body>
+</html>

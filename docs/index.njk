@@ -1,0 +1,15 @@
+---
+layout: home.njk
+title: Paracosm
+---
+
+<h1>Paracosm</h1>
+<p>A collection of interactive story worlds.</p>
+
+<ul class="story-list">
+  {% for story in stories %}
+    <li>
+      <a href="{{ story.url | url }}">{{ story.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
