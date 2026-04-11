@@ -1,4 +1,18 @@
-import { initStoryPage } from '../../shared/js/story-page.js';
-import { STORY_AUDIO } from './story-config.js';
+import { initStoryPage } from '/shared/js/story-page.js';
 
-initStoryPage(STORY_AUDIO);
+function readStoryAudioConfig() {
+  const el = document.getElementById('story-audio-config');
+  if (!el) return {};
+
+  try {
+    return JSON.parse(el.textContent || '{}');
+  } catch (error) {
+    console.error('Failed to parse story audio config:', error);
+    return {};
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const storyAudio = readStoryAudioConfig();
+  initStoryPage(storyAudio);
+});

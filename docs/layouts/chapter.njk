@@ -65,6 +65,10 @@
     </div>
   </section>
 
+  <script id="story-audio-config" type="application/json">
+    {{ stories.abyssus.audio | dump | safe }}
+  </script>
+
   <script type="module" src="{{ (storyBase ~ 'story-init.js') | url }}"></script>
 </body>
 </html>
