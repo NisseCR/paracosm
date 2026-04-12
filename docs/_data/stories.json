@@ -3,5 +3,10 @@
     "title": "Abyssus",
     "slug": "abyssus",
     "startUrl": "/stories/abyssus/chapters/prologue/"
+  },
+  {
+    "title": "Lullaby",
+    "slug": "lullaby",
+    "startUrl": "/stories/lullaby/chapters/prologue/"
   }
 ]

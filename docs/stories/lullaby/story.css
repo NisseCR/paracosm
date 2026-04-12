@@ -1,0 +1,9 @@
+.prologue-page #bg {
+    background-image: url('../../shared/assets/images/precipice.jpg');
+}
+
+#bg-video-snow {
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    transform: scaleX(-1);
+}

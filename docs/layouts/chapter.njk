@@ -65,8 +65,9 @@
     </div>
   </section>
 
+  {% set storySlug = storyBase | replace('/stories/', '') | replace('/', '') %}
   <script id="story-audio-config" type="application/json">
-    {{ stories.abyssus.audio | dump | safe }}
+    {{ stories[storySlug].audio | dump | safe }}
   </script>
 
   <script type="module" src="{{ (storyBase ~ 'story-init.js') | url }}"></script>
