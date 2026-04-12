@@ -83,8 +83,9 @@
 }
 
 .text-column p {
+    font-family: inherit;
     font-size: clamp(18px, 1.15vw, 20px);
-    line-height: 1.95;
+    line-height: 1.65;
     color: var(--body-color);
     text-shadow: 0 1px 12px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6);
     margin-bottom: 1.5em;
@@ -109,11 +110,11 @@
     color: var(--em-color);
 }
 
-.text-column p:first-child {
+.text-column p:first-of-type {
     text-indent: 0;
 }
 
-.text-column p:first-child::first-letter {
+.text-column p:first-of-type::first-letter {
     font-family: 'Cinzel', serif;
     font-size: 4.2em;
     font-weight: 600;

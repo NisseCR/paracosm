@@ -29,6 +29,16 @@ module.exports = function (eleventyConfig) {
     return `<div class="rule fade-child" aria-hidden="true"></div>`;
   });
 
+  eleventyConfig.amendLibrary("md", (md) => {
+    const defaultRender = md.renderer.rules.paragraph_open || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
+
+    md.renderer.rules.paragraph_open = (tokens, idx, options, env, self) => {
+      const token = tokens[idx];
+      token.attrJoin("class", "fade-child");
+      return defaultRender(tokens, idx, options, env, self);
+    };
+  });
+
   return {
     dir: {
       input: "docs",
