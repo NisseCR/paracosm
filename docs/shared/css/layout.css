@@ -2,8 +2,6 @@
 #bg-layer {
     position: fixed;
     inset: 0;
-    width: 100vw;
-    height: 100svh;
     z-index: 0;
     pointer-events: none;
     opacity: 0;
@@ -30,8 +28,6 @@
 #bg-overlay {
     position: fixed;
     inset: 0;
-    width: 100vw;
-    height: 100svh;
     z-index: 1;
     pointer-events: none;
 }
@@ -106,7 +102,7 @@
 #hero {
     position: relative;
     z-index: 2;
-    min-height: 100svh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
