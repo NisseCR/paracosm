@@ -3,7 +3,7 @@
 }
 
 .chapter-1-page #bg {
-    background-image: url('../../shared/assets/images/deck.jpg');
+    background-image: url('../../shared/assets/images/storm-at-sea.jpg');
 }
 
 #bg-video-wind {
@@ -16,4 +16,14 @@
     opacity: 1;
     mix-blend-mode: normal;
     filter: brightness(25%) blur(2px);
+}
+
+#bg-video-lens {
+    opacity: 1;
+    mix-blend-mode: normal;
+}
+
+#bg-video-snow {
+    opacity: 0.8;
+    mix-blend-mode: screen;
 }

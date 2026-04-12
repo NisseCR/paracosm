@@ -2,18 +2,18 @@
 layout: chapter.njk
 storySlug: abyssus
 chapterSlug: chapter-1
-title: Abyssus — Chapter 1
-chapterLabel: Chapter 1 · Abyssus
-heroTitle: ...
+title: Abyssus
+chapterLabel: Prologue · Abyssus
+heroTitle: The Valiant
 bodyClass: chapter-1-page
 storyBase: /stories/abyssus/
 
 bgVideos:
-  - id: bg-video-wind
-    src: /shared/assets/video/wind.webm
+  - id: bg-video-snow
+    src: /shared/assets/video/snow.webm
     type: video/webm
-  - id: bg-video-mountain
-    src: /shared/assets/video/mountain.webm
+  - id: bg-video-lens
+    src: /shared/assets/video/lens-cold.webm
     type: video/webm
     
 audio:

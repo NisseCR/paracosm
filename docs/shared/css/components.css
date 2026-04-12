@@ -144,13 +144,11 @@
 
 .fade-child {
     opacity: 0;
-    transform: translateY(16px);
-    transition: opacity 0.9s ease, transform 0.9s ease;
+    transition: opacity 0.9s ease;
 }
 
 .fade-child.visible {
     opacity: 1;
-    transform: translateY(0);
 }
 
 .chapter-nav {

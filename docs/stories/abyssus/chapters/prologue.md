@@ -1,6 +1,6 @@
 ---
 layout: chapter.njk
-title: Abyssus — Prologue
+title: Abyssus
 chapterLabel: Prologue · Abyssus
 heroTitle: Falling Colour
 bodyClass: prologue-page
