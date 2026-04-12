@@ -97,7 +97,7 @@ export function initScrollHint() {
         }
     };
 
-    showTimer = window.setTimeout(show, 500);
+    showTimer = window.setTimeout(show, 0);
 
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('touchmove', onScroll, { passive: true });
