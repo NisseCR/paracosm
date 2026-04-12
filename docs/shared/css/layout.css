@@ -48,20 +48,41 @@
     animation: scrollHintFloat 1.7s ease-in-out infinite;
 }
 
-.scroll-hint__arrow {
-    display: inline-flex;
+.scroll-hint__stack {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 2.2rem;
-    height: 2.2rem;
-    border: 1px solid rgba(255, 255, 255, 0.55);
-    border-radius: 999px;
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 1.2rem;
-    line-height: 1;
-    background: rgba(0, 0, 0, 0.14);
-    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.18);
-    backdrop-filter: blur(2px);
+    gap: 0.01rem;
+}
+
+.scroll-hint__arrow {
+    display: block;
+    width: 4.3rem;
+    height: 0.92rem;
+    color: rgba(193, 166, 125, 0.72);
+    opacity: 1;
+}
+
+.scroll-hint__arrow svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.scroll-hint__arrow path {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.05;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.scroll-hint__arrow--mid {
+    color: rgba(193, 166, 125, 0.44);
+}
+
+.scroll-hint__arrow--low {
+    color: rgba(193, 166, 125, 0.22);
 }
 
 #page-transition-overlay {
@@ -118,4 +139,5 @@
     #content { padding: 0 1.4rem 8rem; }
     #audio-btn { bottom: 1.4rem; right: 1.4rem; }
     #scroll-hint { bottom: 1.2rem; }
+    .scroll-hint__arrow { width: 3.8rem; }
 }

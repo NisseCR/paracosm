@@ -77,7 +77,9 @@ export function initStoryPage(storyAudio) {
         window.setTimeout(() => {
             audioHintEl.classList.add('visible');
         }, 20);
-    };
+
+            initScrollHint();
+        };
 
     const hideAudioHint = () => {
         if (!audioHintEl.isConnected) return;
@@ -128,6 +130,5 @@ export function initStoryPage(storyAudio) {
         fadeEls
     });
 
-    initScrollHint();
     initScrollProgress()
 }
