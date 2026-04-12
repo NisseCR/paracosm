@@ -4,6 +4,8 @@ module.exports = function (eleventyConfig) {
 
   const baseUrl = (process.env.BASE_URL || "").replace(/\/$/, "");
 
+eleventyConfig.addGlobalData("baseUrl", baseUrl);
+
   eleventyConfig.addFilter("url", function (path) {
     if (!path) return path;
     if (path.startsWith("http://") || path.startsWith("https://") || path.startsWith("//")) {

@@ -36,7 +36,6 @@ export class MarkerAudioDirector {
         this.musicFadeInDurationMs = musicFadeInDurationMs;
 
         this.masterVolume = masterVolume;
-
         this.baseUrl = (window.__BASE_URL__ || '').replace(/\/$/, '');
 
         this.audioContext = null;

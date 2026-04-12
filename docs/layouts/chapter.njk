@@ -69,6 +69,10 @@
     {{ audio | dump | safe }}
   </script>
 
+  <script>
+    window.__BASE_URL__ = "{{ baseUrl }}";
+  </script>
+
   <script type="module" src="{{ (storyBase ~ 'story-init.js') | url }}"></script>
 </body>
 </html>
