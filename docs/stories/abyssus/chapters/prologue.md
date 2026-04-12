@@ -5,6 +5,7 @@ chapterLabel: Prologue · Abyssus
 heroTitle: Falling Colour
 bodyClass: prologue-page
 storyBase: /stories/abyssus/
+
 bgVideos:
   - id: bg-video-snow
     src: /shared/assets/video/Wind.webm
@@ -12,6 +13,28 @@ bgVideos:
   - id: bg-video-mountain
     src: /shared/assets/video/Mountain.webm
     type: video/webm
+    
+audio:
+  fadeInDurationMs: 5000
+  ambienceTransitionDurationMs: 10000
+  musicFadeOutDurationMs: 5000
+  musicFadeInDurationMs: 5000
+  scenes:
+    intro:
+      ambience:
+        - src: /shared/assets/audio/Snow.ogg
+          gain: 0.8
+      music:
+        src: /shared/assets/audio/Homecoming.mp3
+        gain: 0.6
+    creepy:
+      ambience:
+        - src: /shared/assets/audio/Watchtower.ogg
+          gain: 1
+      music:
+        src: /shared/assets/audio/Pandemonium.mp3
+        gain: 0.05
+        
 nav:
   previous: null
   next:

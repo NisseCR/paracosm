@@ -107,8 +107,7 @@ export function initStoryPage(storyAudio) {
         fadeInDurationMs: storyAudio.fadeInDurationMs,
         ambienceTransitionDurationMs: storyAudio.ambienceTransitionDurationMs,
         musicFadeOutDurationMs: storyAudio.musicFadeOutDurationMs,
-        musicFadeInDurationMs: storyAudio.musicFadeInDurationMs,
-        masterVolume: storyAudio.masterVolume
+        musicFadeInDurationMs: storyAudio.musicFadeInDurationMs
     });
 
     const unlockAudio = async () => {

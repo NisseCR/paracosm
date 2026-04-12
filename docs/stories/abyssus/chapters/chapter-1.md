@@ -15,6 +15,20 @@ bgVideos:
   - id: bg-video-mountain
     src: /shared/assets/video/Mountain.webm
     type: video/webm
+    
+audio:
+  fadeInDurationMs: 5000
+  ambienceTransitionDurationMs: 10000
+  musicFadeOutDurationMs: 5000
+  musicFadeInDurationMs: 5000
+  scenes:
+    ship:
+      ambience:
+        - src: /shared/assets/audio/Ship.ogg
+          gain: 0.6
+      music:
+        src: /shared/assets/audio/Witcher.mp3
+        gain: 0.4
 
 nav:
   previous:
