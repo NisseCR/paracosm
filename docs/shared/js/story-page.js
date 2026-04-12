@@ -11,7 +11,7 @@ export function initStoryPage(storyAudio) {
     const bgLayer = document.getElementById('bg-layer');
     const overlay = document.getElementById('bg-overlay');
     const hero = document.getElementById('hero');
-    const fadeEls = document.querySelectorAll('.fade-child');
+    const fadeEls = document.querySelectorAll('.text-column p, .fade-child, .rule, .story-audio-marker, .story-scene-break');
 
     const labelEl = document.getElementById('chapter-label');
     const titleEl = document.getElementById('hero-title');
@@ -78,8 +78,8 @@ export function initStoryPage(storyAudio) {
             audioHintEl.classList.add('visible');
         }, 20);
 
-            initScrollHint();
-        };
+        initScrollHint();
+    };
 
     const hideAudioHint = () => {
         if (!audioHintEl.isConnected) return;

@@ -132,6 +132,14 @@
     opacity: 0.9;
 }
 
+.story-audio-marker {
+    width: 100%;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .closing {
     font-family: 'Cinzel', serif;
     font-size: 12px;
