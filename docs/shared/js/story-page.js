@@ -1,6 +1,6 @@
 import { typeInto } from './typewriter.js';
 import { initStoryAudio } from './audio.js';
-import {initScrollProgress, initStoryEffects} from './effects.js';
+import {initScrollProgress, initStoryEffects, initScrollHint} from './effects.js';
 
 /**
  * Bootstraps a story page.
@@ -128,5 +128,6 @@ export function initStoryPage(storyAudio) {
         fadeEls
     });
 
+    initScrollHint();
     initScrollProgress()
 }

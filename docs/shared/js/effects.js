@@ -67,3 +67,36 @@ export function initScrollProgress() {
     window.addEventListener('resize', updateScrollProgress);
     updateScrollProgress();
 }
+
+export function initScrollHint() {
+    const hintEl = document.getElementById('scroll-hint');
+    if (!hintEl) return;
+
+    let shown = false;
+    let dismissed = false;
+    let showTimer = null;
+
+    const show = () => {
+        if (shown || dismissed) return;
+        shown = true;
+        hintEl.classList.add('visible');
+    };
+
+    const hide = () => {
+        if (dismissed) return;
+        dismissed = true;
+        window.clearTimeout(showTimer);
+        hintEl.classList.remove('visible');
+    };
+
+    const onScroll = () => {
+        if (window.scrollY > 10) {
+            hide();
+        }
+    };
+
+    showTimer = window.setTimeout(show, 3000);
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('touchmove', onScroll, { passive: true });
+}
