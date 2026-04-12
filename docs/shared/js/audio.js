@@ -37,6 +37,8 @@ export class MarkerAudioDirector {
 
         this.masterVolume = masterVolume;
 
+        this.baseUrl = (window.__BASE_URL__ || '').replace(/\/$/, '');
+
         this.audioContext = null;
         this.masterGain = null;
 
@@ -106,6 +108,27 @@ export class MarkerAudioDirector {
     }
 
     /**
+     * Converts a root-relative asset path into a GitHub Pages-safe URL.
+     */
+    resolveAssetUrl(path) {
+        if (!path) return path;
+
+        if (
+            path.startsWith('http://') ||
+            path.startsWith('https://') ||
+            path.startsWith('//')
+        ) {
+            return path;
+        }
+
+        if (!path.startsWith('/')) {
+            return path;
+        }
+
+        return `${this.baseUrl}${path}`.replace(/\/{2,}/g, '/');
+    }
+
+    /**
      * Loads and decodes every unique audio file referenced by the scenes.
      * The decoded audio is stored as AudioBuffers and reused by all tracks.
      */
@@ -116,7 +139,7 @@ export class MarkerAudioDirector {
 
         for (const scene of Object.values(this.scenes)) {
             for (const ambient of scene.ambience || []) {
-                urls.add(ambient.src);
+                urls.add(this.resolveAssetUrl(ambient.src));
             }
 
             const musicSrc = this.getMusicSrc(scene.music);
@@ -162,7 +185,7 @@ export class MarkerAudioDirector {
 
     getMusicSrc(music) {
         const config = this.getMusicConfig(music);
-        return config ? config.src : null;
+        return config ? this.resolveAssetUrl(config.src) : null;
     }
 
     /**
@@ -177,9 +200,9 @@ export class MarkerAudioDirector {
         const scene = this.scenes[sceneId];
         if (!scene) return null;
 
-        const ambience = (scene.ambience || []).map((track) => this.createLoopingTrack(track.src));
+        const ambience = (scene.ambience || []).map((track) => this.createLoopingTrack(this.resolveAssetUrl(track.src)));
         const musicConfig = this.getMusicConfig(scene.music);
-        const music = musicConfig ? this.createLoopingTrack(musicConfig.src) : null;
+        const music = musicConfig ? this.createLoopingTrack(this.resolveAssetUrl(musicConfig.src)) : null;
 
         const node = {
             ambience: ambience.map((track, index) => ({
