@@ -27,8 +27,16 @@
 
     {% if bgVideos %}
       {% for video in bgVideos %}
-        <video class="bg-video" id="{{ video.id }}" autoplay loop muted playsinline preload="none">
-          <source src="{{ video.src | url }}" type="{{ video.type | default('video/webm') }}">
+        <video
+          class="bg-video"
+          id="{{ video.id }}"
+          autoplay
+          loop
+          muted
+          playsinline
+          preload="none"
+          data-src="{{ video.src | url }}"
+          data-type="{{ video.type | default('video/webm') }}">
         </video>
       {% endfor %}
     {% endif %}
@@ -79,6 +87,24 @@
       {% endif %}
     </div>
   </section>
+
+  <script>
+    (function () {
+      const isMobileLike = window.matchMedia('(max-width: 768px), (hover: none) and (pointer: coarse)').matches;
+
+      if (isMobileLike) return;
+
+      document.querySelectorAll('video.bg-video[data-src]').forEach((video) => {
+        if (video.getAttribute('src')) return;
+
+        const source = document.createElement('source');
+        source.src = video.dataset.src;
+        source.type = video.dataset.type || 'video/webm';
+        video.appendChild(source);
+        video.load();
+      });
+    })();
+  </script>
 
   <script id="chapter-audio-config" type="application/json">
     {{ audio | dump | safe }}
