@@ -26,9 +26,11 @@ export function initStoryEffects({
         bgReady = true;
     }, { once: true });
 
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || 1;
+
     function onScroll() {
         const sy = window.scrollY;
-        const vh = window.innerHeight || 1;
+        const vh = viewportHeight;
         const scrollRatio = sy / vh;
 
         const backgroundProgress = clamp01((scrollRatio - fadeStart) / (fadeEnd - fadeStart));
