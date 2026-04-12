@@ -9,11 +9,11 @@ bodyClass: chapter-1-page
 storyBase: /stories/abyssus/
 
 bgVideos:
-  - id: bg-video-snow
-    src: /shared/assets/video/Wind.webm
+  - id: bg-video-wind
+    src: /shared/assets/video/wind.webm
     type: video/webm
   - id: bg-video-mountain
-    src: /shared/assets/video/Mountain.webm
+    src: /shared/assets/video/mountain.webm
     type: video/webm
     
 audio:
@@ -24,10 +24,10 @@ audio:
   scenes:
     ship:
       ambience:
-        - src: /shared/assets/audio/Ship.ogg
+        - src: /shared/assets/audio/ambience/ship.ogg
           gain: 0.6
       music:
-        src: /shared/assets/audio/Witcher.mp3
+        src: /shared/assets/audio/music/witcher.mp3
         gain: 0.4
 
 nav:

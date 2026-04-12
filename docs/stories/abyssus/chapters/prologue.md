@@ -7,11 +7,11 @@ bodyClass: prologue-page
 storyBase: /stories/abyssus/
 
 bgVideos:
-  - id: bg-video-snow
-    src: /shared/assets/video/Wind.webm
+  - id: bg-video-wind
+    src: /shared/assets/video/wind.webm
     type: video/webm
   - id: bg-video-mountain
-    src: /shared/assets/video/Mountain.webm
+    src: /shared/assets/video/mountain.webm
     type: video/webm
     
 audio:
@@ -22,17 +22,17 @@ audio:
   scenes:
     intro:
       ambience:
-        - src: /shared/assets/audio/Snow.ogg
+        - src: /shared/assets/audio/ambience/snow.ogg
           gain: 0.8
       music:
-        src: /shared/assets/audio/Homecoming.mp3
+        src: /shared/assets/audio/music/homecoming.mp3
         gain: 0.6
     creepy:
       ambience:
-        - src: /shared/assets/audio/Watchtower.ogg
+        - src: /shared/assets/audio/ambience/watchtower.ogg
           gain: 1
       music:
-        src: /shared/assets/audio/Pandemonium.mp3
+        src: /shared/assets/audio/music/pandemonium.mp3
         gain: 0.05
         
 nav:

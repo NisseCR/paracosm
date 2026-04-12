@@ -6,7 +6,7 @@
             contrast(0.7);
 }
 
-#bg-video-snow {
+#bg-video-wind {
     opacity: 0.4;
     mix-blend-mode: screen;
     transform: scaleX(-1);

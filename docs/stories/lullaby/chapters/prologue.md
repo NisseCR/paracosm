@@ -6,8 +6,8 @@ heroTitle: Three
 bodyClass: prologue-page
 storyBase: /stories/lullaby/
 bgVideos:
-  - id: bg-video-snow
-    src: /shared/assets/video/Wind.webm
+  - id: bg-video-wind
+    src: /shared/assets/video/wind.webm
     type: video/webm
 audio:
   fadeInDurationMs: 5000
@@ -17,10 +17,10 @@ audio:
   scenes:
     three:
       ambience:
-        - src: /shared/assets/audio/Snow.ogg
+        - src: /shared/assets/audio/ambience/snow.ogg
           gain: 0.8
       music:
-        src: /shared/assets/audio/Three.mp3
+        src: /shared/assets/audio/music/three.mp3
         gain: 0.2
 nav:
   previous: null
