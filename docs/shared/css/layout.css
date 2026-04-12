@@ -141,3 +141,9 @@
     #scroll-hint { bottom: 1.2rem; }
     .scroll-hint__arrow { width: 3.8rem; }
 }
+
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
+    .bg-video {
+        display: none;
+    }
+}

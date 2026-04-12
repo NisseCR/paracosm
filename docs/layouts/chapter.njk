@@ -27,7 +27,7 @@
 
     {% if bgVideos %}
       {% for video in bgVideos %}
-        <video class="bg-video" id="{{ video.id }}" autoplay loop muted playsinline>
+        <video class="bg-video" id="{{ video.id }}" autoplay loop muted playsinline preload="none">
           <source src="{{ video.src | url }}" type="{{ video.type | default('video/webm') }}">
         </video>
       {% endfor %}
