@@ -34,7 +34,9 @@ nav:
   previous:
     label: Previous
     url: /stories/abyssus/chapters/prologue/
-  next: null
+  next:
+    label: Next
+    url: /stories/abyssus/chapters/chapter-2/
 ---
 
 {% audio "ship" %}

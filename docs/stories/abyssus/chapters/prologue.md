@@ -38,7 +38,7 @@ audio:
 nav:
   previous: null
   next:
-    label: Chapter 1
+    label: Next
     url: /stories/abyssus/chapters/chapter-1/
 ---
 
