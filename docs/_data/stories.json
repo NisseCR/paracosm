@@ -5,6 +5,11 @@
     "startUrl": "/stories/abyssus/chapters/prologue/"
   },
   {
+    "title": "Frea",
+    "slug": "frea",
+    "startUrl": "/stories/frea/chapters/lucius/"
+  },
+  {
     "title": "Lullaby",
     "slug": "lullaby",
     "startUrl": "/stories/lullaby/chapters/prologue/"

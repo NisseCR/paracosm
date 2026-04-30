@@ -78,7 +78,7 @@
 }
 
 .text-column {
-    max-width: 68ch;
+    max-width: 75ch;
     margin: 0 auto;
 }
 
@@ -91,13 +91,19 @@
     margin-bottom: 0;
     text-align: justify;
     text-justify: inter-word;
-    hyphens: auto;
+    hyphens: none;
+    overflow-wrap: normal;
+    word-break: normal;
     letter-spacing: 0.01em;
     font-variant-ligatures: common-ligatures;
     font-feature-settings: "liga" 1, "kern" 1, "clig" 1;
 }
 
 .text-column p + p {
+    text-indent: 1.6em;
+}
+
+.text-column p + .story-audio-marker + p {
     text-indent: 1.6em;
 }
 

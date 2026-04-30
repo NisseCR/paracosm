@@ -1,19 +1,14 @@
 ---
 layout: chapter.njk
-storySlug: abyssus
-chapterSlug: chapter-1
-title: Abyssus
-chapterLabel: Prologue · Abyssus
-heroTitle: The Valiant
-bodyClass: chapter-1-page
-storyBase: /stories/abyssus/
+title: Frea
+chapterLabel: Prologue · Frea
+heroTitle: Lucius
+bodyClass: lucius-page
+storyBase: /stories/frea/
 
 bgVideos:
-  - id: bg-video-snow
-    src: /shared/assets/video/snow.webm
-    type: video/webm
-  - id: bg-video-lens
-    src: /shared/assets/video/lens-cold.webm
+  - id: bg-video-wind
+    src: /shared/assets/video/wind.webm
     type: video/webm
     
 audio:
@@ -22,24 +17,19 @@ audio:
   musicFadeOutDurationMs: 5000
   musicFadeInDurationMs: 5000
   scenes:
-    ship:
+    nature:
       ambience:
-        - src: /shared/assets/audio/ambience/ship.ogg
-          gain: 0.4
-      music:
-        src: /shared/assets/audio/music/witcher.mp3
-        gain: 0.3
-
+        - src: /shared/assets/audio/ambience/snow.ogg
+          gain: 0.8
+        
 nav:
-  previous:
-    label: Previous
-    url: /stories/abyssus/chapters/prologue/
+  previous: null
   next:
     label: Next
-    url: /stories/abyssus/chapters/chapter-2/
+    url: /stories/frea/chapters/frea/
 ---
 
-{% audio "ship" %}
+{% audio "nature" %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

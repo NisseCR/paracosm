@@ -1,0 +1,17 @@
+.lucius-page #bg {
+    background-image: url('../../shared/assets/images/lower-netheril.jpg');
+}
+
+.frea-page #bg {
+    background-image: url('../../shared/assets/images/precipice.jpg');
+    filter:
+            brightness(0.5)
+            saturate(0.7)
+            contrast(0.7);
+}
+
+#bg-video-wind {
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    transform: scaleX(-1);
+}
